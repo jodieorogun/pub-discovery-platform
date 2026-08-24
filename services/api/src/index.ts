@@ -19,6 +19,7 @@ type LocalVenue = {
   address?: string | null;
   website?: string | null;
   phone?: string | null;
+  openingHours?: string | null;
   tags?: string[];
   area?: string | null;
 };
@@ -36,8 +37,8 @@ async function localVenueFallback(limit: number) {
       website: venue.website ?? null,
       phone: venue.phone ?? null,
       tags: { area: venue.area ?? '', features: (venue.tags ?? []).join(' ') },
-      openingHours: null,
-      hoursSource: 'none',
+      openingHours: venue.openingHours ?? null,
+      hoursSource: venue.openingHours ? 'osm' : 'none',
       hoursLastChecked: null,
       hoursConfidence: null,
       addressSource: 'openStreetMap',
