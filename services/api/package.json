@@ -1,0 +1,26 @@
+{
+  "name": "third-space-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/migrate.js && node dist/index.js",
+    "db:migrate": "tsx src/migrate.ts",
+    "db:import": "tsx src/import-osm.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "dotenv": "^17.0.0",
+    "fastify": "^5.0.0",
+    "pg": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^6.0.0"
+  }
+}

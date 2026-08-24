@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Third Space",
+    "slug": "third-space",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
+
