@@ -1,0 +1,8 @@
+{
+  "name": "pub-discovery-web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "python3 -m http.server 5173 --directory ."
+  }
+}

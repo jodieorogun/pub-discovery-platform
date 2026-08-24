@@ -31,7 +31,7 @@ else
   (cd "$ROOT_DIRECTORY/services/api" && npm run dev) & PIDS+=("$!")
 fi
 
-(cd "$ROOT_DIRECTORY/apps/mobile" && npm start) & PIDS+=("$!")
+(cd "$ROOT_DIRECTORY/apps/web" && npm start) & PIDS+=("$!")
 
 echo "Pub Discovery is running. Press Ctrl-C to stop all services."
 

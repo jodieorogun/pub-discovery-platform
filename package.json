@@ -5,6 +5,7 @@
   "scripts": {
     "install:all": "npm install --prefix services/api && npm install --prefix apps/mobile",
     "dev": "bash scripts/dev.sh",
+    "dev:mobile": "npm run dev --prefix apps/mobile",
     "typecheck": "npm run typecheck --prefix services/api && npm run typecheck --prefix apps/mobile",
     "build": "npm run build --prefix services/api"
   }

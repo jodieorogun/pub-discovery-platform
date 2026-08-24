@@ -4,11 +4,12 @@ One workspace for the London pub discovery app, its API, and the recommendation 
 
 ## Layout
 
-- `apps/mobile` — Expo / React Native client
+- `apps/web` — primary browser client
+- `apps/mobile` — paused Expo / React Native client for a later mobile phase
 - `services/api` — Fastify API and PostgreSQL integration
 - `services/recommendation-engine` — FastAPI recommendation service
 
-The mobile app talks only to the Fastify API. Fastify proxies `/recommendations` to the Python service, so the mobile app needs one backend URL.
+The web app talks only to the Fastify API. Fastify proxies `/recommendations` to the Python service, so the client needs one backend URL.
 
 ## Setup
 
@@ -37,10 +38,10 @@ npm run install:all
 cd services/api && npm run db:migrate && npm run db:import
 ```
 
-Run everything:
+Run the browser product and its services:
 
 ```bash
 npm run dev
 ```
 
-The API runs on port 3000, the recommendation engine on port 8000, and Expo starts its normal development server.
+The API runs on port 3000, the recommendation engine on port 8000, and the web app runs at `http://127.0.0.1:5173`. To run the paused Expo client separately, use `npm run dev:mobile`.
