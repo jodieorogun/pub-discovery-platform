@@ -15,7 +15,7 @@
       <a class="brand" href="#explore" data-route="explore"><span class="brand-mark">TS</span><span>Third Space</span></a>
       <nav class="main-nav" aria-label="Main navigation">
         <button class="nav-link active" data-route="explore">Explore</button>
-        <button class="nav-link" data-route="passport">My passport <span id="nav-visited-count" class="nav-count">0</span></button>
+        <button class="nav-link" data-route="passport">My passport <span id="nav-visited-count" class="nav-count">0</span></button><button class="nav-link" data-route="saved">Saved <span id="nav-saved-count" class="nav-count">0</span></button>
       </nav>
       <div class="header-actions"><span class="location-pill">⌖ London</span><button id="header-profile" class="avatar-button" aria-label="Open profile">TS</button></div>
     </header>
@@ -42,6 +42,8 @@
         <div class="progress-wrap"><div class="progress-label"><span>London pub passport</span><strong id="progress-label">0% complete</strong></div><div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div></div>
         <div class="section-heading passport-heading"><div><p class="eyebrow">YOUR STAMPS</p><h2>Places you’ve been</h2></div></div><div id="passport-list" class="pub-grid"></div>
       </section>
+
+      <section id="saved-view" class="view" hidden><div class="passport-hero saved-hero"><div><p class="eyebrow">YOUR SHORTLIST</p><h1>Places to<br><em>come back to.</em></h1><p class="hero-lede">The pubs you’ve saved for a future wander.</p></div></div><div class="section-heading passport-heading"><div><p class="eyebrow">SAVED PUBS</p><h2>Your shortlist</h2></div></div><div id="saved-list" class="pub-grid"></div></section>
     </main>
 
     <dialog id="detail-dialog" class="detail-dialog"><button id="close-detail" class="dialog-close" aria-label="Close">×</button><div id="detail-content"></div></dialog>
