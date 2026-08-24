@@ -55,7 +55,7 @@ export default function App() {
         return response.json() as Promise<{ pubs: Pub[] }>;
       })
       .then((data) => setPubs(data.pubs))
-      .catch((reason: Error) => setError(reason.message))
+      .catch((reason: Error) => setError(`Unable to reach the API at ${API_URL}. Check that the API is running and that this device can reach your computer.`))
       .finally(() => setLoading(false));
   }, []);
 

@@ -138,7 +138,7 @@ export function SearchScreen({ pubs, visitedIds, savedIds, recommendationApiUrl,
       const data = await response.json() as { recommendations: Recommendation[] };
       setRecommendations(data.recommendations);
     } catch (reason) {
-      setRecommendationError(reason instanceof Error ? reason.message : 'Recommendations unavailable');
+      setRecommendationError(`Unable to reach recommendations through ${recommendationApiUrl}. Check that the API and recommendation service are running.`);
       setRecommendations([]);
     } finally {
       setRecommendationLoading(false);
