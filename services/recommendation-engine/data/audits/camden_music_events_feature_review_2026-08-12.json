@@ -1,0 +1,123 @@
+[
+  {
+    "venueId": "osm-way-275292695",
+    "venueName": "The Harrison",
+    "feature": "hasLiveMusic",
+    "suggestedValue": true,
+    "evidenceUrl": "https://theharrisonpub.com/kings-cross-venue-gigs-live-music-comedy/",
+    "evidenceText": "The Harrison's venue hosts gigs most nights of the week and describes itself as a live-music venue.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly describes recurring live music."
+  },
+  {
+    "venueId": "osm-way-275292695",
+    "venueName": "The Harrison",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://theharrisonpub.com/kings-cross-venue-gigs-live-music-comedy/",
+    "evidenceText": "The venue hosts gigs most nights and also advertises spoken-word, comedy and cinema events.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly advertises recurring on-site events."
+  },
+  {
+    "venueId": "osm-node-26610587",
+    "venueName": "The Good Mixer",
+    "feature": "hasLiveMusic",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.thegoodmixer.co.uk/",
+    "evidenceText": "The official programme advertises bands every Thursday and Sunday.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly advertises recurring live bands."
+  },
+  {
+    "venueId": "osm-node-26610587",
+    "venueName": "The Good Mixer",
+    "feature": "hasDj",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.thegoodmixer.co.uk/",
+    "evidenceText": "The official programme advertises DJs every Friday and Saturday.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly advertises recurring DJs."
+  },
+  {
+    "venueId": "osm-node-26610587",
+    "venueName": "The Good Mixer",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.thegoodmixer.co.uk/",
+    "evidenceText": "The official page publishes an upcoming-events calendar for live music and DJs.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page contains a current on-site events programme."
+  },
+  {
+    "venueId": "osm-way-451480071",
+    "venueName": "The Camden Eye",
+    "feature": "hasDj",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.camdeneye.pub/about",
+    "evidenceText": "The official page advertises late-night DJs, DJ sets and recurring DJ parties.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly advertises recurring DJs."
+  },
+  {
+    "venueId": "osm-way-451480071",
+    "venueName": "The Camden Eye",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.camdeneye.pub/about",
+    "evidenceText": "The official page publishes What's On listings for recurring DJ and comedy events.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly lists recurring on-site events."
+  },
+  {
+    "venueId": "osm-node-10937912505",
+    "venueName": "Shuffleboard Bar London",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://shuffleboardbars.com/london/",
+    "evidenceText": "The official London venue page has an events programme and advertises a party atmosphere with a DJ.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly presents on-site events."
+  },
+  {
+    "venueId": "osm-node-293390260",
+    "venueName": "The Black Heart",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.ourblackheart.com/events",
+    "evidenceText": "The official events calendar lists recurring ticketed shows at The Black Heart in Camden throughout 2026.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The venue's official events calendar explicitly lists a continuing programme of on-site shows."
+  },
+  {
+    "venueId": "osm-way-929791965",
+    "venueName": "The Fiddler's Elbow",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.thefiddlerselbow.co.uk/whos-playing",
+    "evidenceText": "The official Who's Playing page publishes a current programme and states that the venue showcases live music seven nights a week.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The venue's official programme explicitly confirms recurring on-site events."
+  },
+  {
+    "venueId": "osm-way-847530472",
+    "venueName": "The Huntley",
+    "feature": "hostsEvents",
+    "suggestedValue": true,
+    "evidenceUrl": "https://studentsunionucl.org/eat-drink-shop/bars/huntley",
+    "evidenceText": "The official page directs visitors to The Huntley's What's On calendar and one-off events.",
+    "reviewedAt": "2026-08-12",
+    "reviewStatus": "approved",
+    "reviewReason": "The verified official venue page explicitly confirms an on-site event programme."
+  }
+]

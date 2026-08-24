@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-12",
+  "database": "data/local/westminster_camden_evidence.sqlite3",
+  "venues": 408,
+  "evidenceDocuments": 1771,
+  "measuredRequests": 25,
+  "startupMilliseconds": 1505.54,
+  "medianLatencyMilliseconds": 73.98,
+  "p95LatencyMilliseconds": 126.59,
+  "maximumLatencyMilliseconds": 127.85,
+  "peakResidentMemoryMb": 556.55,
+  "notes": [
+    "Canonical venues, evidence, vectors, FTS5, feedback and the review queue share one SQLite database.",
+    "Peak memory includes the local BGE embedding model runtime.",
+    "This is a local development baseline, not a production load test."
+  ]
+}

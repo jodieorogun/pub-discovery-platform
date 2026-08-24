@@ -1,0 +1,52 @@
+{
+  "evaluatedAt": "2026-08-12",
+  "suite": "grounded-rag-regression-300-v1",
+  "caseCount": 300,
+  "suiteSha256": "23a97b21d5ffef08e68c7b75d3830a93e93ee779274dbcfde9aebda9123a3023",
+  "intentParserVersion": "semantic-intents-v2",
+  "denseWeight": 0.9,
+  "cutoffMetrics": {
+    "precisionAt1": 0.8833,
+    "precisionAt3": 0.8811,
+    "precisionAt5": 0.88
+  },
+  "aggregate": {
+    "meanRecallAt5": 0.5943,
+    "hitRateAt5": 0.8867,
+    "meanReciprocalRank": 0.8842,
+    "meanNdcgAt5": 0.8328,
+    "meanReturnedResultsAt5": 2.3,
+    "perfectPrecisionAt5Cases": 263,
+    "zeroPrecisionAt5Cases": 34
+  },
+  "precisionAt5ByCategory": {
+    "positiveSingleFeature": 0.8889,
+    "negativeSingleFeature": 0.8111,
+    "positiveMultiConstraint": 0.9556,
+    "mixedRequiredAndExcluded": 0.8889,
+    "contradictions": 0.8667
+  },
+  "positivePrecisionAt5ByFeature": {
+    "acceptsReservations": 1.0,
+    "dogFriendly": 0.9286,
+    "hasDj": 0.9286,
+    "hasLiveMusic": 1.0,
+    "hasOutdoorSeating": 0.8571,
+    "servesFood": 1.0,
+    "showsSports": 0.9286,
+    "suitableForGroups": 0.8571,
+    "wheelchairAccessible": 0.5
+  },
+  "diagnosis": [
+    "Positive multi-constraint precision is strongest at 95.56%.",
+    "Explicit negative wording is the weakest category at 81.11%.",
+    "Positive wheelchair-access wording is the weakest feature at 50.00%.",
+    "Four of 30 contradiction cases returned results instead of abstaining."
+  ],
+  "policy": "Development regression only. Do not report this suite as an untouched holdout or independent generalisation estimate.",
+  "inputs": {
+    "datasetSha256": "967455dce4fc0f144746d28d37ac3c9da4fe9404ab6149f74a7d80c59c1d3f65",
+    "indexSha256": "35bc06d4b43d9e402ca5df12a0e8ce020c26a6781596c197b7813921fd7db81f",
+    "localReportSha256": "2a236d3b1a889776a85979742f54fff886a2640cfe9307a2a1800721fd7eb508"
+  }
+}

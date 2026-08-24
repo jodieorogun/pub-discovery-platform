@@ -1,0 +1,174 @@
+[
+  {
+    "rank": 1,
+    "venueId": "fsq-4b674306f964a52085442be3",
+    "name": "Westminster Arms",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.westminsterarms.co.uk/",
+    "corrections": ["website", "servesFood"]
+  },
+  {
+    "rank": 2,
+    "venueId": "fsq-4b5f40b5f964a5202ab029e3",
+    "name": "Two Chairmen",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/two-chairmen",
+    "corrections": ["website", "hasOutdoorSeating"]
+  },
+  {
+    "rank": 3,
+    "venueId": "fsq-4aeae4a0f964a52073bc21e3",
+    "name": "Sanctuary House",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.sanctuaryhousehotel.co.uk/",
+    "corrections": ["wheelchairAccessible", "acceptsReservations"]
+  },
+  {
+    "rank": 4,
+    "venueId": "fsq-4b4e0847f964a520f2de26e3",
+    "name": "Feathers",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thefeatherswestminsterlondon",
+    "corrections": ["website", "servesFood"]
+  },
+  {
+    "rank": 5,
+    "venueId": "fsq-4b1e910df964a520bd1b24e3",
+    "name": "Old Star",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/old-star",
+    "corrections": ["website", "hasOutdoorSeating", "showsSports"]
+  },
+  {
+    "rank": 6,
+    "venueId": "fsq-4ac518c5f964a520d4a420e3",
+    "name": "St. Stephen's Tavern",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.ststephenstavern.co.uk/",
+    "corrections": []
+  },
+  {
+    "rank": 7,
+    "venueId": "fsq-4ad61fd1f964a520330521e3",
+    "name": "The Red Lion, Parliament Street",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.redlionwestminster.co.uk/",
+    "corrections": ["acceptsReservations"]
+  },
+  {
+    "rank": 8,
+    "venueId": "fsq-4ac518bbf964a5202fa220e3",
+    "name": "Adam & Eve",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/adam-and-eve",
+    "corrections": [
+      "website",
+      "servesFood",
+      "showsSports",
+      "dogFriendly",
+      "acceptsReservations"
+    ]
+  },
+  {
+    "rank": 9,
+    "venueId": "fsq-4b17e356f964a52045c923e3",
+    "name": "Grafton Arms",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/grafton-arms",
+    "corrections": ["website", "servesFood"]
+  },
+  {
+    "rank": 10,
+    "venueId": "fsq-4b4b74d3f964a5206e9c26e3",
+    "name": "Speaker",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.pubsmiths.co.uk/speaker-victoria",
+    "corrections": ["website", "phone"]
+  },
+  {
+    "rank": 11,
+    "venueId": "fsq-4bc8964015a7ef3b8e617bda",
+    "name": "Buckingham Arms",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.buckinghamarms.com/",
+    "corrections": ["servesFood"]
+  },
+  {
+    "rank": 12,
+    "venueId": "fsq-4ac518bef964a520f9a220e3",
+    "name": "The Albert",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/albert",
+    "corrections": [
+      "servesFood",
+      "showsSports",
+      "hasLiveMusic",
+      "dogFriendly",
+      "acceptsReservations"
+    ]
+  },
+  {
+    "rank": 13,
+    "venueId": "fsq-4b21114bf964a5208f3624e3",
+    "name": "The Clarence",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.theclarencewhitehall.com/",
+    "corrections": ["acceptsReservations", "hasLiveMusic", "hasDj"]
+  },
+  {
+    "rank": 14,
+    "venueId": "fsq-618d37ec82095024932e3909",
+    "name": "Horse & Guardsman",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.mcmullens.co.uk/local-pub/horse-guardsman/",
+    "corrections": []
+  },
+  {
+    "rank": 15,
+    "venueId": "fsq-4ad12f23f964a52054dd20e3",
+    "name": "The Tattershall Castle",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.thetattershallcastle.co.uk/",
+    "corrections": ["servesFood", "suitableForGroups"]
+  },
+  {
+    "rank": 16,
+    "venueId": "fsq-4b1d6138f964a520b10f24e3",
+    "name": "White Horse & Bower",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.whitehorseandbower.co.uk/",
+    "corrections": ["address", "website", "servesFood", "hasLiveMusic"]
+  },
+  {
+    "rank": 17,
+    "venueId": "fsq-4b0e8c76f964a520615823e3",
+    "name": "The Barley Mow",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://barleymowhorseferryrd.co.uk/",
+    "corrections": ["website", "showsSports"]
+  },
+  {
+    "rank": 18,
+    "venueId": "fsq-4ad71ff0f964a520bd0821e3",
+    "name": "Marquis of Granby",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/themarquisofgranbywestminsterlondon",
+    "corrections": ["website", "servesFood", "hasOutdoorSeating"]
+  },
+  {
+    "rank": 19,
+    "venueId": "fsq-545bfbd6498eeac3dda21da0",
+    "name": "The Admiralty",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.admiraltytrafalgar.co.uk/",
+    "corrections": ["showsSports", "acceptsReservations", "suitableForGroups"]
+  },
+  {
+    "rank": 20,
+    "venueId": "fsq-4b0ec6f7f964a520e25a23e3",
+    "name": "Cask & Glass",
+    "auditStatus": "verified",
+    "evidenceUrl": "https://www.caskandglass.co.uk/",
+    "corrections": ["website", "servesFood", "hasOutdoorSeating"]
+  }
+]

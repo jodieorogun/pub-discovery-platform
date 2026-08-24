@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your private London pub diary.">
+    <title>My pub diary · London Pub Finder</title>
+    <link rel="stylesheet" href="/assets/app.css?v=6">
+    <script src="/assets/diary.js?v=1" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="London Pub Finder home"><span class="brand-mark">L</span><span>London Pub Finder</span></a>
+      <nav class="header-links" aria-label="Main navigation"><a href="/">Explore</a><a href="/diary" aria-current="page">My diary</a></nav>
+    </header>
+    <main class="diary-page">
+      <section class="diary-hero">
+        <p class="eyebrow">Private to you</p>
+        <h1>My pub diary</h1>
+        <p id="diary-subtitle" class="lede">Your visits, ratings, memories, and optional photos.</p>
+      </section>
+      <section id="diary-stats" class="diary-stats" hidden aria-label="Diary stats"></section>
+      <p id="diary-status" class="status" role="status">Loading your diary…</p>
+      <section id="diary-grid" class="diary-grid" aria-label="Visited pubs"></section>
+    </main>
+    <dialog id="entry-dialog" class="account-dialog diary-dialog">
+      <button id="close-entry" class="dialog-close" type="button" aria-label="Close">×</button>
+      <p class="eyebrow">Private memory</p>
+      <h2 id="entry-title">Edit diary entry</h2>
+      <form id="entry-form" class="account-form">
+        <label>Rating<select id="entry-rating"><option value="">Visited, not rated</option><option value="1">★</option><option value="2">★★</option><option value="3">★★★</option><option value="4">★★★★</option><option value="5">★★★★★</option></select></label>
+        <label>Private review<textarea id="entry-note" maxlength="2000" rows="6" placeholder="What made this visit memorable?"></textarea></label>
+        <label>Optional photo<input id="entry-photo" type="file" accept="image/jpeg,image/png,image/webp"></label>
+        <p class="privacy-note">Only your signed-in account can open this note or photo.</p>
+        <button type="submit">Save memory</button>
+        <p id="entry-message" class="account-message" role="status"></p>
+      </form>
+    </dialog>
+  </body>
+</html>

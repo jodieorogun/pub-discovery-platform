@@ -1,0 +1,35 @@
+{
+  "auditDate": "2026-08-13",
+  "scope": {
+    "venuesRequested": 408,
+    "websiteHostsChecked": 325,
+    "venuesSuccessfullyScanned": 108,
+    "pagesFetched": 764
+  },
+  "classification": {
+    "benchmark": "Full pint of draught Guinness",
+    "cheap": "price < GBP 4.00",
+    "moderate": "GBP 4.00 <= price <= GBP 7.00",
+    "expensive": "price > GBP 7.00"
+  },
+  "acceptedCandidates": 0,
+  "publishedPriceObservations": 0,
+  "rejectedCandidate": {
+    "venueId": "osm-way-172055438",
+    "venueName": "The Black Lion",
+    "observedPriceGbp": 6.2,
+    "evidenceUrl": "https://blacklionkilburn.co.uk/drink-menu/",
+    "reason": "The extracted menu window contained a 2/3-pint label for the preceding beer and did not explicitly prove that the Guinness price was for a full pint. The extractor was tightened and the pending item was removed."
+  },
+  "exclusions": [
+    "bottles and cans",
+    "half-pints and fractional pints",
+    "Guinness 0.0",
+    "multiple ambiguous nearby prices",
+    "Guinness mentions without an explicit GBP price",
+    "sites not verified as official",
+    "external pages other than menu PDFs linked directly by an official site",
+    "sites disallowed by robots.txt or unavailable over valid TLS"
+  ],
+  "outcome": "No price labels were published. Coverage remains 0 of 408 rather than accepting ambiguous evidence."
+}

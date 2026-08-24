@@ -1,0 +1,3552 @@
+[
+  {
+    "name": "showsSports-1",
+    "query": "a pub showing live football",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "showsSports-2",
+    "query": "somewhere to watch the match",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "showsSports-3",
+    "query": "pub with Sky Sports",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "showsSports-4",
+    "query": "where can we watch rugby",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "showsSports-5",
+    "query": "sports pub with TV screens",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "showsSports-6",
+    "query": "live sport this weekend",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "showsSports-7",
+    "query": "football and a pint",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    }
+  },
+  {
+    "name": "dogFriendly-1",
+    "query": "a dog-friendly pub",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "dogFriendly-2",
+    "query": "somewhere my dog is welcome",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "dogFriendly-3",
+    "query": "pub where I can bring a dog",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "dogFriendly-4",
+    "query": "welcoming pub for dogs",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "dogFriendly-5",
+    "query": "dog friendly drinks",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "dogFriendly-6",
+    "query": "pub for me and my puppy",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-1",
+    "query": "pub with live music",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-2",
+    "query": "somewhere with bands playing",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-3",
+    "query": "live acoustic music in a pub",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-4",
+    "query": "pub with regular music nights",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-5",
+    "query": "drinks with a live band",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-6",
+    "query": "weekend live music venue",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasLiveMusic-7",
+    "query": "pub with rock music",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-1",
+    "query": "pub for a large birthday group",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-2",
+    "query": "venue with private hire",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-3",
+    "query": "group booking for work drinks",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-4",
+    "query": "pub for a private party",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-5",
+    "query": "space for a celebration",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-6",
+    "query": "somewhere for a large gathering",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "suitableForGroups-7",
+    "query": "pub room hire",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    }
+  },
+  {
+    "name": "acceptsReservations-1",
+    "query": "pub where I can book a table",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "acceptsReservations-2",
+    "query": "table reservations for drinks",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "acceptsReservations-3",
+    "query": "bookable pub",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "acceptsReservations-4",
+    "query": "reserve a table at a pub",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "acceptsReservations-5",
+    "query": "pub accepting bookings",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "hasDj-1",
+    "query": "pub with a DJ",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    }
+  },
+  {
+    "name": "hasDj-2",
+    "query": "DJ night in a pub",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    }
+  },
+  {
+    "name": "hasDj-3",
+    "query": "weekend DJ sets",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    }
+  },
+  {
+    "name": "hasDj-4",
+    "query": "dance somewhere with live DJs",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    }
+  },
+  {
+    "name": "servesFood-1",
+    "query": "pub serving food",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "servesFood-2",
+    "query": "somewhere for pub lunch",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "servesFood-3",
+    "query": "pub with a dinner menu",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "servesFood-4",
+    "query": "Sunday food at a pub",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "servesFood-5",
+    "query": "gastropub meal",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "servesFood-6",
+    "query": "pub serving a seasonal menu",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "hasOutdoorSeating-1",
+    "query": "pub with a beer garden",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    }
+  },
+  {
+    "name": "hasOutdoorSeating-2",
+    "query": "outdoor pub seating",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    }
+  },
+  {
+    "name": "hasOutdoorSeating-3",
+    "query": "somewhere for drinks outside",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    }
+  },
+  {
+    "name": "hasOutdoorSeating-4",
+    "query": "pub terrace",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    }
+  },
+  {
+    "name": "hasOutdoorSeating-5",
+    "query": "outside tables at a pub",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    }
+  },
+  {
+    "name": "wheelchairAccessible-1",
+    "query": "wheelchair accessible pub",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "wheelchairAccessible-2",
+    "query": "pub with step-free access",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "wheelchairAccessible-3",
+    "query": "accessible pub entrance",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "wheelchairAccessible-4",
+    "query": "pub suitable for a wheelchair",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    }
+  },
+  {
+    "name": "sports-food",
+    "query": "pub with food where we can watch football",
+    "requiredAttributes": [
+      "showsSports",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football"
+      ],
+      [
+        "food",
+        "menu"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3
+    }
+  },
+  {
+    "name": "music-food",
+    "query": "pub dinner with live music",
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music"
+      ],
+      [
+        "food",
+        "menu"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    }
+  },
+  {
+    "name": "dog-food",
+    "query": "dog-friendly pub serving food",
+    "requiredAttributes": [
+      "dogFriendly",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog"
+      ],
+      [
+        "food",
+        "menu"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    }
+  },
+  {
+    "name": "group-booking",
+    "query": "book a pub space for a large group",
+    "requiredAttributes": [
+      "suitableForGroups",
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire"
+      ],
+      [
+        "book",
+        "reservation"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3
+    }
+  },
+  {
+    "name": "outdoor-food",
+    "query": "pub food with outdoor seating",
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden"
+      ],
+      [
+        "food",
+        "menu"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    }
+  },
+  {
+    "name": "cosy-traditional",
+    "query": "a cosy traditional pub with character",
+    "expectedEvidenceTermGroups": [
+      [
+        "cosy",
+        "cozy",
+        "character"
+      ],
+      [
+        "traditional",
+        "historic",
+        "heritage"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-4ba15675f964a520fead37e3": 2,
+      "fsq-4ac518baf964a520d6a120e3": 2
+    }
+  },
+  {
+    "name": "parliament-history",
+    "query": "a historic pub near Parliament",
+    "expectedEvidenceTermGroups": [
+      [
+        "historic",
+        "heritage"
+      ],
+      [
+        "parliament",
+        "westminster"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4b674306f964a52085442be3": 2
+    }
+  },
+  {
+    "name": "lively-celebration",
+    "query": "a lively place for birthday drinks and a celebration",
+    "expectedEvidenceTermGroups": [
+      [
+        "lively",
+        "atmosphere"
+      ],
+      [
+        "birthday",
+        "party",
+        "celebration"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4ad8db44f964a520561521e3": 2,
+      "fsq-4ac518bdf964a520e8a220e3": 2,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    }
+  },
+  {
+    "name": "historic-charm",
+    "query": "old London pub with history and charm",
+    "expectedEvidenceTermGroups": [
+      [
+        "historic",
+        "history",
+        "heritage"
+      ],
+      [
+        "charm",
+        "traditional"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 2,
+      "fsq-4b82eb42f964a52025ed30e3": 2
+    }
+  },
+  {
+    "name": "relaxed-character",
+    "query": "relaxed pub with character for a quiet catch-up",
+    "expectedEvidenceTermGroups": [
+      [
+        "relaxed",
+        "quiet"
+      ],
+      [
+        "character",
+        "charm"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-4ae5031df964a52001a021e3": 2,
+      "fsq-4ad8db44f964a520561521e3": 2,
+      "fsq-4ba15675f964a520fead37e3": 2
+    }
+  },
+  {
+    "name": "party-views",
+    "query": "celebration venue with views and party atmosphere",
+    "expectedEvidenceTermGroups": [
+      [
+        "party",
+        "celebration"
+      ],
+      [
+        "view",
+        "views"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 2,
+      "fsq-4b940d56f964a520606434e3": 2
+    }
+  },
+  {
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    },
+    "name": "showsSports-8",
+    "query": "pub screening the big game"
+  },
+  {
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    },
+    "name": "showsSports-9",
+    "query": "watch the Premier League in a pub"
+  },
+  {
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "sky sports",
+        "tnt sports"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4b719a70f964a5206e502de3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4bcdf67ecc8cd13ad679c3cf": 3
+    },
+    "name": "showsSports-10",
+    "query": "pub showing international football"
+  },
+  {
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    },
+    "name": "dogFriendly-7",
+    "query": "pet-friendly pub for drinks"
+  },
+  {
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    },
+    "name": "dogFriendly-8",
+    "query": "can dogs come into this pub"
+  },
+  {
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    },
+    "name": "dogFriendly-9",
+    "query": "pub welcoming four-legged friends"
+  },
+  {
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "dogs welcome",
+        "dog-friendly"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4b10216ef964a520a76923e3": 3,
+      "fsq-4bb22b27f964a5209cbf3ce3": 3,
+      "fsq-4b336e66f964a520611925e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3
+    },
+    "name": "dogFriendly-10",
+    "query": "drinks somewhere dogs are allowed"
+  },
+  {
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "hasLiveMusic-8",
+    "query": "pub hosting musicians"
+  },
+  {
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "hasLiveMusic-9",
+    "query": "music performance with drinks"
+  },
+  {
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "live band",
+        "acoustic music"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-500012b5e4b064f07ddb5abb": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4bdc684bfed22d7fad0458c9": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4ada5409f964a5205c2121e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "hasLiveMusic-10",
+    "query": "venue for live performers"
+  },
+  {
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    },
+    "name": "suitableForGroups-8",
+    "query": "office party pub venue"
+  },
+  {
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    },
+    "name": "suitableForGroups-9",
+    "query": "birthday gathering with private space"
+  },
+  {
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-5362a193498ead903dc3600d": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4ad20635f964a520e5de20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3
+    },
+    "name": "suitableForGroups-10",
+    "query": "pub that accommodates groups"
+  },
+  {
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "acceptsReservations-6",
+    "query": "make a pub table reservation"
+  },
+  {
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "acceptsReservations-7",
+    "query": "advance table booking at a pub"
+  },
+  {
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "acceptsReservations-8",
+    "query": "reserve seats for pub drinks"
+  },
+  {
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "acceptsReservations-9",
+    "query": "pub with online table booking"
+  },
+  {
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "book a table",
+        "reservation",
+        "table booking"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "acceptsReservations-10",
+    "query": "guaranteed booked table"
+  },
+  {
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "name": "hasDj-5",
+    "query": "pub playing dance music with a DJ"
+  },
+  {
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "name": "hasDj-6",
+    "query": "resident DJ at the weekend"
+  },
+  {
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "name": "hasDj-7",
+    "query": "disco and house DJ venue"
+  },
+  {
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "name": "hasDj-8",
+    "query": "late-night pub with DJs"
+  },
+  {
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "name": "hasDj-9",
+    "query": "DJ-led party night"
+  },
+  {
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "djs"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad12770f964a5201edd20e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "name": "hasDj-10",
+    "query": "pub hosting guest DJs"
+  },
+  {
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "servesFood-7",
+    "query": "British pub food"
+  },
+  {
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "servesFood-8",
+    "query": "pub with a main menu"
+  },
+  {
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "servesFood-9",
+    "query": "somewhere for food and pints"
+  },
+  {
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "menu",
+        "lunch",
+        "dinner"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518bef964a520fca220e3": 3,
+      "fsq-4ae5d12df964a52041a221e3": 3,
+      "fsq-4bc8964015a7ef3b8e617bda": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-566af633498eadbfb1b6ec53": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4bae7b0af964a520c0b73be3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4b54a325f964a52017c427e3": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 3,
+      "fsq-4c424d876c1a952116c8b96a": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4ac518bcf964a5207ea220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ae216c5f964a520978a21e3": 3,
+      "fsq-4ae70ae3f964a5201da821e3": 3,
+      "fsq-4ac518bcf964a52069a220e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-6408fc18173bc606cd5de71c": 3,
+      "fsq-4b4e0847f964a520f2de26e3": 3,
+      "fsq-4d6d2ef0125eb60c799c314e": 3,
+      "fsq-4b17e356f964a52045c923e3": 3,
+      "fsq-4c17674959cc2d7fda875287": 3,
+      "fsq-4acf3b84f964a520d0d220e3": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-4b2a956af964a520ceab24e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b92e328f964a520812434e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4ad4bf4af964a52007e920e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4ba15675f964a520fead37e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4baa7223f964a520eb6a3ae3": 3,
+      "fsq-4b1bad24f964a52093fc23e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-53eba251498ebe3ddeb8cb3b": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4aeae4a0f964a52073bc21e3": 3,
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4b3f6928f964a5207fa625e3": 3,
+      "fsq-4b309b42f964a52069fa24e3": 3,
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b82eb42f964a52025ed30e3": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b2d579bf964a520a6d424e3": 3,
+      "fsq-4de688cad4c09fc98b81b6f4": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3,
+      "fsq-5e2dcd9ef51f80000862c8e3": 3,
+      "fsq-4b674306f964a52085442be3": 3,
+      "fsq-4b882b32f964a52095e431e3": 3,
+      "fsq-4b1d6138f964a520b10f24e3": 3
+    },
+    "name": "servesFood-10",
+    "query": "pub kitchen serving meals"
+  },
+  {
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    },
+    "name": "hasOutdoorSeating-6",
+    "query": "pub garden for summer drinks"
+  },
+  {
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    },
+    "name": "hasOutdoorSeating-7",
+    "query": "drinks on a pub patio"
+  },
+  {
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    },
+    "name": "hasOutdoorSeating-8",
+    "query": "pub with an outdoor area"
+  },
+  {
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    },
+    "name": "hasOutdoorSeating-9",
+    "query": "sit outside with a pint"
+  },
+  {
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "beer garden",
+        "terrace",
+        "outside"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4ad5d9d6f964a520c10321e3": 3,
+      "fsq-4b0ec6f7f964a520e25a23e3": 3,
+      "fsq-4b09a2a4f964a520ba1a23e3": 3,
+      "fsq-4bd31b65caff9521a4fed3f0": 3,
+      "fsq-4ad785bbf964a520bf0b21e3": 3,
+      "fsq-4b1ee494f964a520292124e3": 3,
+      "fsq-4d274242b818a35d5ce1898a": 3,
+      "fsq-4b6469e3f964a52040b12ae3": 3,
+      "fsq-4ad8db44f964a520561521e3": 3,
+      "fsq-4b4a47e0f964a520218226e3": 3,
+      "fsq-61f2964d816705211feaf85a": 3,
+      "fsq-4aec40e1f964a520b0c521e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bef964a520f9a220e3": 3,
+      "fsq-4b0e8c76f964a520615823e3": 3,
+      "fsq-4aeca283f964a520b4c921e3": 3,
+      "fsq-4aeae724f964a52087bc21e3": 3,
+      "fsq-4be6b69fcf200f4787c8143c": 3,
+      "fsq-4b21114bf964a5208f3624e3": 3,
+      "fsq-4ad63a7ff964a520de0521e3": 3,
+      "fsq-4ace0aa4f964a5200bce20e3": 3,
+      "fsq-4ad771e0f964a5208f0a21e3": 3,
+      "fsq-4ec6a71393ad41338bd42c77": 3,
+      "fsq-4ac518bbf964a5203ca220e3": 3,
+      "fsq-4ad5c7c6f964a520770321e3": 3,
+      "fsq-4b6c7629f964a520133c2ce3": 3,
+      "fsq-67b87f61a642db05eba0efd6": 3,
+      "fsq-4b61dbc2f964a52082272ae3": 3,
+      "fsq-63ffa536e69c627f96ebda0b": 3,
+      "fsq-4adb7220f964a520912721e3": 3,
+      "fsq-4f19a7b3e4b088d4a00fcc4f": 3,
+      "fsq-4ad71ff0f964a520bd0821e3": 3,
+      "fsq-4b801f80f964a520375430e3": 3,
+      "fsq-4b8ffdbbf964a520986e33e3": 3,
+      "fsq-4b1e910df964a520bd1b24e3": 3,
+      "fsq-4b38d411f964a520d85025e3": 3,
+      "fsq-4ac518c3f964a5203ca420e3": 3,
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-4ac518bdf964a520e8a220e3": 3,
+      "fsq-4b4f5f27f964a520a80327e3": 3,
+      "fsq-4b54b837f964a520d2c827e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4bf1c0a43506ef3bfc6cbd22": 3,
+      "fsq-4ac518baf964a520d4a120e3": 3,
+      "fsq-4b5f40b5f964a5202ab029e3": 3,
+      "fsq-4adc4b7df964a520ab2b21e3": 3,
+      "fsq-4b530264f964a5207c8c27e3": 3,
+      "fsq-4ace2fc8f964a520edce20e3": 3,
+      "fsq-4ba3d87cf964a520e46538e3": 3,
+      "fsq-4c612e1ddb219c74e3c66473": 3,
+      "fsq-4ad4dc51f964a5204bfc20e3": 3,
+      "fsq-5967bd71ee71205b8f06589f": 3,
+      "fsq-4b06ca1ff964a52045f022e3": 3
+    },
+    "name": "hasOutdoorSeating-10",
+    "query": "open-air pub tables"
+  },
+  {
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "wheelchairAccessible-5",
+    "query": "step-free pub for drinks"
+  },
+  {
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "wheelchairAccessible-6",
+    "query": "accessible toilet and wheelchair access"
+  },
+  {
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "wheelchairAccessible-7",
+    "query": "pub without entrance steps"
+  },
+  {
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "wheelchairAccessible-8",
+    "query": "wheelchair-friendly venue"
+  },
+  {
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "wheelchairAccessible-9",
+    "query": "accessible facilities at a pub"
+  },
+  {
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "accessible"
+      ]
+    ],
+    "relevanceJudgments": {
+      "fsq-4aeae4a0f964a52073bc21e3": 3
+    },
+    "name": "wheelchairAccessible-10",
+    "query": "drinks venue with disabled access"
+  }
+]

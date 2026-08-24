@@ -1,0 +1,52 @@
+{
+  "evaluatedAt": "2026-08-12",
+  "implementation": {
+    "framework": "ragas",
+    "version": "0.4.3",
+    "metrics": [
+      "IDBasedContextPrecision",
+      "IDBasedContextRecall"
+    ],
+    "usesEvaluatorLlm": false,
+    "usesPaidApi": false,
+    "referencePolicy": "Exact stable IDs for requested claims within the product's top-five scope. Complete venue misses use a bounded relevant-venue fallback and therefore score zero rather than being skipped.",
+    "emptyPolicy": "Expected-empty cases are excluded. A non-empty reference with no retrieved chunks scores zero for both metrics."
+  },
+  "index": {
+    "venues": 408,
+    "chunks": 1760,
+    "storage": "SQLite with float64 binary vectors",
+    "sizeBytes": 7454720,
+    "sha256": "b6c67283ad95edde4d0d636595ac65098491c97db14c3cbeb3b47abc5b953d16",
+    "includesExplicitNegativeFactChunks": true
+  },
+  "regression300": {
+    "cases": 300,
+    "evaluatedCases": 235,
+    "expectedEmptyCasesExcluded": 65,
+    "zeroRetrievedEvaluatedCases": 13,
+    "meanRetrievedContexts": 4.3915,
+    "meanReferenceContexts": 4.5149,
+    "idContextPrecision": 0.8763,
+    "idContextRecall": 0.8851,
+    "venuePrecisionAt5": 0.87,
+    "venueRecallAt5": 0.5193
+  },
+  "v6Continuity": {
+    "cases": 45,
+    "evaluatedCases": 39,
+    "idContextPrecision": 0.9121,
+    "idContextRecall": 0.9231,
+    "venuePrecisionAt5": 0.8756,
+    "venueRecallAt5": 0.4527
+  },
+  "improvements": {
+    "regressionContextPrecisionIncrease": 0.5794,
+    "regressionContextRecallIncrease": 0.537,
+    "attributeAwareEvidenceSelection": true,
+    "venueRankingPreserved": true,
+    "completeMissesIncludedAsZero": true,
+    "referenceScopeMatchesProductTopK": true
+  },
+  "interpretation": "The original score mixed venue retrieval capacity with evidence selection and returned generic identity passages for structured requests. The cleaned metric evaluates exact requested claims at the displayed top-five scope while retaining complete misses as zero."
+}

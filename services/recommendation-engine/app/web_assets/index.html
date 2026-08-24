@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explainable pub recommendations for Westminster and Camden.">
+    <title>London Pub Finder</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="/assets/app.css?v=5">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="/assets/app.js?v=5" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="London Pub Finder home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>London Pub Finder</span>
+      </a>
+      <nav class="header-links" aria-label="Main navigation">
+        <a href="#feed">Explore</a>
+        <a href="/diary">My diary</a>
+        <a href="/review">Fact review</a>
+        <a class="developer-link" href="/docs">API</a>
+        <button id="account-button" class="account-button" type="button">Sign in</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="wrapped-stats" class="wrapped-stats" hidden aria-label="Your pub stats">
+        <div class="wrapped-intro">
+          <p class="eyebrow">Your week</p>
+          <p id="wrapped-message">Your pub story is getting started.</p>
+        </div>
+        <div class="stat"><strong id="week-stat">0</strong><span>visited this week</span></div>
+        <div class="stat"><strong id="london-stat">0%</strong><span>of London discovered</span></div>
+        <div class="stat"><strong id="rating-stat">—</strong><span>average rating</span></div>
+        <a href="/diary">Open diary →</a>
+      </section>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow">Camden + Westminster</p>
+          <h1 id="page-title">Discover pubs</h1>
+          <p class="lede">A local feed built from venue facts you can check.</p>
+        </div>
+
+        <form id="search-form" class="search-form">
+          <label class="visually-hidden" for="query">Search pubs</label>
+          <div class="search-row">
+            <input
+              id="query"
+              name="query"
+              type="search"
+              value="Camden pub with live music"
+              minlength="1"
+              maxlength="500"
+              autocomplete="off"
+              required
+            >
+            <button id="search-button" type="submit">Search</button>
+          </div>
+          <div class="suggestions" aria-label="Example searches">
+            <button type="button" data-query="Camden pub with live music">Live music</button>
+            <button type="button" data-query="Camden pub with a DJ">DJs</button>
+            <button type="button" data-query="Camden pub with regular events">Events</button>
+            <button type="button" data-query="step-free pub in Westminster">Step-free</button>
+          </div>
+          <details class="filters-panel">
+            <summary>Filters</summary>
+            <div class="filter-content">
+              <label>
+                Area
+                <select id="area-filter">
+                  <option value="">Any area</option>
+                  <option value="Camden">Camden</option>
+                  <option value="Westminster">Westminster</option>
+                </select>
+              </label>
+              <fieldset class="feature-controls">
+                <legend class="visually-hidden">Venue features</legend>
+                <label><input type="checkbox" value="food"> Food</label>
+                <label><input type="checkbox" value="live music"> Live music</label>
+                <label><input type="checkbox" value="a DJ"> DJ</label>
+                <label><input type="checkbox" value="regular events"> Events</label>
+                <label><input type="checkbox" value="step-free access"> Step-free</label>
+                <label><input type="checkbox" value="outdoor seating"> Outdoors</label>
+                <label><input type="checkbox" value="happy hour"> Happy hour</label>
+                <label><input type="checkbox" value="Sunday roast"> Sunday roast</label>
+                <label><input type="checkbox" value="vegan options"> Vegan options</label>
+                <label><input type="checkbox" value="quiz night"> Quiz night</label>
+                <label><input type="checkbox" value="accessible toilet"> Accessible toilet</label>
+              </fieldset>
+              <button id="apply-filters" type="button">Apply</button>
+            </div>
+          </details>
+        </form>
+      </section>
+
+      <section id="feed" class="results-section" aria-labelledby="results-title">
+        <div class="results-heading">
+          <h2 id="results-title">Your feed</h2>
+          <p id="result-summary" class="result-summary"></p>
+          <div class="view-switcher" aria-label="Results view">
+            <button id="list-view" type="button" aria-pressed="true">Feed</button>
+            <button id="map-view" type="button" aria-pressed="false">Map</button>
+          </div>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">
+          Loading local recommendations…
+        </p>
+        <div id="active-filters" class="active-filters" aria-label="Applied search filters"></div>
+        <div id="results" class="results" aria-live="polite"></div>
+        <div id="results-map" class="results-map" hidden aria-label="Interactive venue map"></div>
+        <div class="load-more-row">
+          <button id="load-more" type="button" hidden>Load 5 more pubs</button>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="account-dialog" class="account-dialog">
+      <button id="close-account" class="dialog-close" type="button" aria-label="Close">×</button>
+      <div id="signed-out-panel">
+        <p class="eyebrow">Your pub diary</p>
+        <h2>Make the feed yours</h2>
+        <p class="dialog-copy">Keep a visited list, rate pubs, and get recommendations that share the vibe of places you love.</p>
+        <div class="auth-tabs" role="tablist" aria-label="Account action">
+          <button id="login-tab" type="button" aria-pressed="true">Sign in</button>
+          <button id="register-tab" type="button" aria-pressed="false">Create account</button>
+        </div>
+        <form id="account-form" class="account-form">
+          <label id="name-field" hidden>Display name<input id="account-name" maxlength="50" autocomplete="name"></label>
+          <label>Email<input id="account-email" type="email" required autocomplete="email"></label>
+          <label>Password<input id="account-password" type="password" minlength="8" required autocomplete="current-password"></label>
+          <button id="account-submit" type="submit">Sign in</button>
+          <p id="account-message" class="account-message" role="status"></p>
+        </form>
+        <p class="privacy-note">This first version stays in your local SQLite database. Google sign-in can replace this form later.</p>
+      </div>
+      <div id="signed-in-panel" hidden>
+        <p class="eyebrow">Signed in</p>
+        <h2 id="account-greeting"></h2>
+        <p id="rating-summary" class="dialog-copy"></p>
+        <button id="logout-button" class="secondary-button" type="button">Sign out</button>
+      </div>
+    </dialog>
+
+    <footer>
+      <p>Venue data © Foursquare and <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p>
+      <p>Accounts, ratings, and feedback stay in this project's local SQLite database.</p>
+    </footer>
+  </body>
+</html>

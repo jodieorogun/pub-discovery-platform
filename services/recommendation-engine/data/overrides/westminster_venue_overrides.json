@@ -1,0 +1,161 @@
+[
+  {
+    "venueId": "fsq-4b674306f964a52085442be3",
+    "evidenceUrl": "https://www.westminsterarms.co.uk/",
+    "reason": "The official venue page confirms the pub and replaces the generic Shepherd Neame homepage.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.westminsterarms.co.uk/",
+    "servesFood": true
+  },
+  {
+    "venueId": "fsq-4b5f40b5f964a5202ab029e3",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/two-chairmen",
+    "reason": "The official venue page confirms the address, phone, food menu and beer garden.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/two-chairmen",
+    "hasOutdoorSeating": true
+  },
+  {
+    "venueId": "fsq-4b4e0847f964a520f2de26e3",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thefeatherswestminsterlondon",
+    "reason": "The official venue page replaces an obsolete pre-migration Nicholson's URL.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thefeatherswestminsterlondon",
+    "servesFood": true
+  },
+  {
+    "venueId": "fsq-4b1e910df964a520bd1b24e3",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/old-star",
+    "reason": "The official venue page replaces the generic chain homepage and confirms outside seating and live sport.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/old-star",
+    "hasOutdoorSeating": true,
+    "showsSports": true
+  },
+  {
+    "venueId": "fsq-4ac518bbf964a5202fa220e3",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/adam-and-eve",
+    "reason": "The official venue page replaces the generic Greene King homepage and confirms food, live sport, dog-friendly access and table bookings.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/adam-and-eve",
+    "servesFood": true,
+    "showsSports": true,
+    "dogFriendly": true,
+    "acceptsReservations": true
+  },
+  {
+    "venueId": "fsq-4b17e356f964a52045c923e3",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/grafton-arms",
+    "reason": "The official venue page replaces the generic Greene King homepage and confirms the pub restaurant.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/grafton-arms",
+    "servesFood": true
+  },
+  {
+    "venueId": "fsq-4b4b74d3f964a5206e9c26e3",
+    "evidenceUrl": "https://www.pubsmiths.co.uk/speaker-victoria",
+    "reason": "The current venue listing and corroborating CAMRA record replace an obsolete website and premium-rate phone number.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.pubsmiths.co.uk/speaker-victoria",
+    "phone": "+442072224589"
+  },
+  {
+    "venueId": "fsq-4b1d6138f964a520b10f24e3",
+    "evidenceUrl": "https://www.whitehorseandbower.co.uk/",
+    "reason": "The official venue page replaces the generic Shepherd Neame homepage and confirms number 86 and its food menu.",
+    "verifiedAt": "2026-08-08",
+    "address": "86 Horseferry Road",
+    "website": "https://www.whitehorseandbower.co.uk/",
+    "servesFood": true,
+    "hasLiveMusic": true
+  },
+  {
+    "venueId": "fsq-4b0e8c76f964a520615823e3",
+    "evidenceUrl": "https://barleymowhorseferryrd.co.uk/",
+    "reason": "The official venue website confirms The Barley Mow at 104 Horseferry Road; the FSQ Market Taverns URL is obsolete.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://barleymowhorseferryrd.co.uk/",
+    "showsSports": true
+  },
+  {
+    "venueId": "fsq-4ad71ff0f964a520bd0821e3",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/themarquisofgranbywestminsterlondon",
+    "reason": "The official venue page replaces an obsolete pre-migration Nicholson's URL and confirms food and outdoor seating.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/themarquisofgranbywestminsterlondon",
+    "servesFood": true,
+    "hasOutdoorSeating": true
+  },
+  {
+    "venueId": "fsq-545bfbd6498eeac3dda21da0",
+    "evidenceUrl": "https://www.admiraltytrafalgar.co.uk/",
+    "reason": "The official venue page confirms live sport, table bookings and private-hire spaces.",
+    "verifiedAt": "2026-08-08",
+    "showsSports": true,
+    "acceptsReservations": true,
+    "suitableForGroups": true
+  },
+  {
+    "venueId": "fsq-4aeae4a0f964a52073bc21e3",
+    "evidenceUrl": "https://www.sanctuaryhousehotel.co.uk/",
+    "reason": "The official venue page confirms step-free access and table bookings.",
+    "verifiedAt": "2026-08-08",
+    "wheelchairAccessible": true,
+    "acceptsReservations": true
+  },
+  {
+    "venueId": "fsq-4ad61fd1f964a520330521e3",
+    "evidenceUrl": "https://www.redlionwestminster.co.uk/",
+    "reason": "The official venue page offers table bookings.",
+    "verifiedAt": "2026-08-08",
+    "acceptsReservations": true
+  },
+  {
+    "venueId": "fsq-4bc8964015a7ef3b8e617bda",
+    "evidenceUrl": "https://www.buckinghamarms.com/food-and-drinks",
+    "reason": "The official food-and-drinks page publishes a main food menu.",
+    "verifiedAt": "2026-08-08",
+    "servesFood": true
+  },
+  {
+    "venueId": "fsq-4ac518bef964a520f9a220e3",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/albert",
+    "reason": "The official venue page confirms food, live sport, live music, dog-friendly access and table bookings.",
+    "verifiedAt": "2026-08-08",
+    "servesFood": true,
+    "showsSports": true,
+    "hasLiveMusic": true,
+    "dogFriendly": true,
+    "acceptsReservations": true
+  },
+  {
+    "venueId": "fsq-4b21114bf964a5208f3624e3",
+    "evidenceUrl": "https://www.theclarencewhitehall.com/",
+    "fieldEvidence": {
+      "hasLiveMusic": "https://www.theclarencewhitehall.com/private-hire/",
+      "hasDj": "https://www.theclarencewhitehall.com/private-hire/"
+    },
+    "reason": "The official site offers table bookings and explicitly says its licence does not permit live music or DJs.",
+    "verifiedAt": "2026-08-08",
+    "acceptsReservations": true,
+    "hasLiveMusic": false,
+    "hasDj": false
+  },
+  {
+    "venueId": "fsq-4ad12f23f964a52054dd20e3",
+    "evidenceUrl": "https://www.thetattershallcastle.co.uk/",
+    "reason": "The official venue page publishes food menus and private-hire options.",
+    "verifiedAt": "2026-08-08",
+    "servesFood": true,
+    "suitableForGroups": true
+  },
+  {
+    "venueId": "fsq-4b0ec6f7f964a520e25a23e3",
+    "evidenceUrl": "https://www.caskandglass.co.uk/",
+    "reason": "The official venue page replaces the generic Shepherd Neame homepage and confirms food and outside tables.",
+    "verifiedAt": "2026-08-08",
+    "website": "https://www.caskandglass.co.uk/",
+    "servesFood": true,
+    "hasOutdoorSeating": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "suite": "grounded-rag-holdout-v9-sealed",
+  "createdAt": "2026-08-12",
+  "caseCount": 24,
+  "status": "sealed-unrun",
+  "policy": "Do not run this suite during the current development cycle. Its checksum must be recorded before the first evaluation. Once results influence implementation, move it to archive/holdouts and create a new sealed suite.",
+  "queryFile": "holdout_v9.json",
+  "sha256": "77f1eb740b004f30c43277e312cab4002e6657e7816230d80afc58a2021d3795"
+}

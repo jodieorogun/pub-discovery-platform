@@ -1,0 +1,81 @@
+{
+  "measuredAt": "2026-08-10",
+  "headline": {
+    "dataset": "Westminster and Camden combined",
+    "evaluationSuite": "grounded-rag-holdout-v6-objective-final",
+    "caseCount": 45,
+    "meanPrecisionAtK": 0.8711,
+    "meanRecallAtK": 0.5753,
+    "hitRateAtK": 0.8889,
+    "meanReciprocalRank": 0.881,
+    "meanNdcgAtK": 0.8387,
+    "meanEvidenceTermCoverage": 0.9286,
+    "meanReturnedResultsAtK": 3.2889
+  },
+  "comparisons": {
+    "westminsterV6": {
+      "caseCount": 45,
+      "meanPrecisionAtK": 0.8756,
+      "meanRecallAtK": 0.6029,
+      "hitRateAtK": 0.9111,
+      "meanReciprocalRank": 0.8822,
+      "meanNdcgAtK": 0.8473,
+      "meanEvidenceTermCoverage": 0.9286,
+      "meanReturnedResultsAtK": 3.2667
+    },
+    "camdenStructuredSmokeSuite": {
+      "caseCount": 12,
+      "meanPrecisionAtK": 1.0,
+      "meanRecallAtK": 0.0963,
+      "hitRateAtK": 1.0,
+      "meanReciprocalRank": 1.0,
+      "meanNdcgAtK": 0.9678,
+      "meanEvidenceTermCoverage": null,
+      "meanReturnedResultsAtK": 4.6667,
+      "caveat": "Small data-backed suite; not a generalisation estimate. Recall is top-five recall against queries with many relevant venues."
+    }
+  },
+  "corpus": {
+    "venues": 408,
+    "westminsterVenues": 183,
+    "camdenVenues": 225,
+    "verifiedOfficialWebsites": 150,
+    "verifiedOfficialWebsiteCoverage": 0.3676,
+    "venuesWithGroundedPassages": 128,
+    "groundedPassageVenueCoverage": 0.3137,
+    "websitePassages": 835,
+    "indexChunks": 1629
+  },
+  "knownAttributeCoverage": {
+    "servesFood": { "count": 165, "ratio": 0.4044 },
+    "hasOutdoorSeating": { "count": 202, "ratio": 0.4951 },
+    "showsSports": { "count": 13, "ratio": 0.0319 },
+    "hasLiveMusic": { "count": 13, "ratio": 0.0319 },
+    "hasDj": { "count": 3, "ratio": 0.0074 },
+    "dogFriendly": { "count": 9, "ratio": 0.0221 },
+    "wheelchairAccessible": { "count": 1, "ratio": 0.0025 },
+    "acceptsReservations": { "count": 8, "ratio": 0.0196 },
+    "suitableForGroups": { "count": 8, "ratio": 0.0196 }
+  },
+  "qualityChecks": {
+    "testsPassed": 183,
+    "applicationCoverage": 0.9099,
+    "ruff": "passed",
+    "strictMypy": "passed",
+    "lockfileConsistency": "passed",
+    "jsonValidation": "passed",
+    "gitDiffCheck": "passed",
+    "warning": "One upstream Starlette TestClient deprecation warning recommends httpx2."
+  },
+  "interpretation": [
+    "The combined v6 suite is the representative headline; Camden's small smoke suite is narrower.",
+    "Verified attribute coverage is now the main constraint on useful recall.",
+    "Unknown attribute values are not counted as negative evidence."
+  ],
+  "sourceReports": [
+    "Historical generated reports removed after metrics were preserved in this audit",
+    "data/local/westminster_camden_venues_enriched.json",
+    "data/local/westminster_website_passages.json",
+    "data/local/camden_website_passages.json"
+  ]
+}

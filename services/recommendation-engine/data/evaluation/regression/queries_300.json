@@ -1,0 +1,3650 @@
+[
+  {
+    "name": "regression-300-positive-servesFood-1-1",
+    "query": "Pub that serves meals",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-1-2",
+    "query": "Find a Camden venue that serves meals",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-2-1",
+    "query": "Pub that offers cooked food",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-2-2",
+    "query": "Find a Camden venue that offers cooked food",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-3-1",
+    "query": "Pub that has a food menu",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-3-2",
+    "query": "Find a Camden venue that has a food menu",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-4-1",
+    "query": "Pub that provides dinner with drinks",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-4-2",
+    "query": "Find a Camden venue that provides dinner with drinks",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-5-1",
+    "query": "Pub that plates up pub food",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-5-2",
+    "query": "Find a Camden venue that plates up pub food",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-6-1",
+    "query": "Pub that has a working kitchen",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-6-2",
+    "query": "Find a Camden venue that has a working kitchen",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-7-1",
+    "query": "Pub that offers something substantial to eat",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-servesFood-7-2",
+    "query": "Find a Camden venue that offers something substantial to eat",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-1-1",
+    "query": "Pub that has outdoor seating",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-1-2",
+    "query": "Find a Camden venue that has outdoor seating",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-2-1",
+    "query": "Pub that offers tables in a beer garden",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-2-2",
+    "query": "Find a Camden venue that offers tables in a beer garden",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-3-1",
+    "query": "Pub that has a terrace for drinks",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-3-2",
+    "query": "Find a Camden venue that has a terrace for drinks",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-4-1",
+    "query": "Pub that provides seating outside",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-4-2",
+    "query": "Find a Camden venue that provides seating outside",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-5-1",
+    "query": "Pub that has tables in the open air",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-5-2",
+    "query": "Find a Camden venue that has tables in the open air",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-6-1",
+    "query": "Pub that offers a courtyard with seats",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-6-2",
+    "query": "Find a Camden venue that offers a courtyard with seats",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-7-1",
+    "query": "Pub that lets customers sit beyond the indoor area",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasOutdoorSeating-7-2",
+    "query": "Find a Camden venue that lets customers sit beyond the indoor area",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-1-1",
+    "query": "Pub that shows live sport",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-1-2",
+    "query": "Find a Camden venue that shows live sport",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-2-1",
+    "query": "Pub that screens football matches",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-2-2",
+    "query": "Find a Camden venue that screens football matches",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-3-1",
+    "query": "Pub that airs televised games",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-3-2",
+    "query": "Find a Camden venue that airs televised games",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-4-1",
+    "query": "Pub that has sports on its televisions",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-4-2",
+    "query": "Find a Camden venue that has sports on its televisions",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-5-1",
+    "query": "Pub that shows the championship live",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-5-2",
+    "query": "Find a Camden venue that shows the championship live",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-6-1",
+    "query": "Pub that carries tonight's sports feed",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-6-2",
+    "query": "Find a Camden venue that carries tonight's sports feed",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-7-1",
+    "query": "Pub that lets customers watch the match",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-showsSports-7-2",
+    "query": "Find a Camden venue that lets customers watch the match",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-1-1",
+    "query": "Pub that hosts live music",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-1-2",
+    "query": "Find a Camden venue that hosts live music",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-2-1",
+    "query": "Pub that puts on live bands",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-2-2",
+    "query": "Find a Camden venue that puts on live bands",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-3-1",
+    "query": "Pub that has musicians performing",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-3-2",
+    "query": "Find a Camden venue that has musicians performing",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-4-1",
+    "query": "Pub that offers live acoustic sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-4-2",
+    "query": "Find a Camden venue that offers live acoustic sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-5-1",
+    "query": "Pub that stages live gigs",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-5-2",
+    "query": "Find a Camden venue that stages live gigs",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-6-1",
+    "query": "Pub that has performers playing music in person",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-6-2",
+    "query": "Find a Camden venue that has performers playing music in person",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-7-1",
+    "query": "Pub that features live musical acts",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasLiveMusic-7-2",
+    "query": "Find a Camden venue that features live musical acts",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-1-1",
+    "query": "Pub that has a DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-1-2",
+    "query": "Find a Camden venue that has a DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-2-1",
+    "query": "Pub that hosts DJ nights",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-2-2",
+    "query": "Find a Camden venue that hosts DJ nights",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-3-1",
+    "query": "Pub that has DJs playing music",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-3-2",
+    "query": "Find a Camden venue that has DJs playing music",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-4-1",
+    "query": "Pub that offers a DJ-led evening",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-4-2",
+    "query": "Find a Camden venue that offers a DJ-led evening",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-5-1",
+    "query": "Pub that puts on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-5-2",
+    "query": "Find a Camden venue that puts on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-6-1",
+    "query": "Pub that features a resident DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-6-2",
+    "query": "Find a Camden venue that features a resident DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-7-1",
+    "query": "Pub that has a dance night with a DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-hasDj-7-2",
+    "query": "Find a Camden venue that has a dance night with a DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-1-1",
+    "query": "Pub that welcomes dogs",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-1-2",
+    "query": "Find a Camden venue that welcomes dogs",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-2-1",
+    "query": "Pub that is dog friendly",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-2-2",
+    "query": "Find a Camden venue that is dog friendly",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-3-1",
+    "query": "Pub that allows canine visitors",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-3-2",
+    "query": "Find a Camden venue that allows canine visitors",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-4-1",
+    "query": "Pub that lets customers bring a dog",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-4-2",
+    "query": "Find a Camden venue that lets customers bring a dog",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-5-1",
+    "query": "Pub that admits companion pets",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-5-2",
+    "query": "Find a Camden venue that admits companion pets",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-6-1",
+    "query": "Pub that welcomes a greyhound",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-6-2",
+    "query": "Find a Camden venue that welcomes a greyhound",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-7-1",
+    "query": "Pub that allows dogs inside the venue",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-dogFriendly-7-2",
+    "query": "Find a Camden venue that allows dogs inside the venue",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-1-1",
+    "query": "Pub that is wheelchair accessible",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-1-2",
+    "query": "Find a Camden venue that is wheelchair accessible",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-2-1",
+    "query": "Pub that has step-free access",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-2-2",
+    "query": "Find a Camden venue that has step-free access",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-3-1",
+    "query": "Pub that welcomes wheelchair users",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-3-2",
+    "query": "Find a Camden venue that welcomes wheelchair users",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-4-1",
+    "query": "Pub that has an accessible entrance",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-4-2",
+    "query": "Find a Camden venue that has an accessible entrance",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-5-1",
+    "query": "Pub that can be entered without steps",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-5-2",
+    "query": "Find a Camden venue that can be entered without steps",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-6-1",
+    "query": "Pub that provides wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-6-2",
+    "query": "Find a Camden venue that provides wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-7-1",
+    "query": "Pub that has a step-free way inside",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-wheelchairAccessible-7-2",
+    "query": "Find a Camden venue that has a step-free way inside",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-1-1",
+    "query": "Pub that accepts reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-1-2",
+    "query": "Find a Camden venue that accepts reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-2-1",
+    "query": "Pub that lets customers book a table",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-2-2",
+    "query": "Find a Camden venue that lets customers book a table",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-3-1",
+    "query": "Pub that takes advance bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-3-2",
+    "query": "Find a Camden venue that takes advance bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-4-1",
+    "query": "Pub that allows tables to be reserved",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-4-2",
+    "query": "Find a Camden venue that allows tables to be reserved",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-5-1",
+    "query": "Pub that can hold seats before arrival",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-5-2",
+    "query": "Find a Camden venue that can hold seats before arrival",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-6-1",
+    "query": "Pub that offers table reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-6-2",
+    "query": "Find a Camden venue that offers table reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-7-1",
+    "query": "Pub that confirms seating in advance",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-acceptsReservations-7-2",
+    "query": "Find a Camden venue that confirms seating in advance",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-1-1",
+    "query": "Pub that is suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-1-2",
+    "query": "Find a Camden venue that is suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-2-1",
+    "query": "Pub that accepts group bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-2-2",
+    "query": "Find a Camden venue that accepts group bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-3-1",
+    "query": "Pub that can host a large party",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-3-2",
+    "query": "Find a Camden venue that can host a large party",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-4-1",
+    "query": "Pub that has room for numerous coworkers",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-4-2",
+    "query": "Find a Camden venue that has room for numerous coworkers",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-5-1",
+    "query": "Pub that welcomes collective gatherings",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-5-2",
+    "query": "Find a Camden venue that welcomes collective gatherings",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-6-1",
+    "query": "Pub that can accommodate a group event",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-6-2",
+    "query": "Find a Camden venue that can accommodate a group event",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-7-1",
+    "query": "Pub that offers space for a party of friends",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-positive-suitableForGroups-7-2",
+    "query": "Find a Camden venue that offers space for a party of friends",
+    "topK": 5,
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-1-1",
+    "query": "Pub that does not serve food",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-1-2",
+    "query": "Find a Westminster venue that does not serve food",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-2-1",
+    "query": "Pub that has no food menu",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-2-2",
+    "query": "Find a Westminster venue that has no food menu",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-3-1",
+    "query": "Pub that offers drinks but no meals",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-3-2",
+    "query": "Find a Westminster venue that offers drinks but no meals",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-4-1",
+    "query": "Pub that does not provide anything to eat",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-servesFood-4-2",
+    "query": "Find a Westminster venue that does not provide anything to eat",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "servesFood"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-1-1",
+    "query": "Pub that has no outdoor seating",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-1-2",
+    "query": "Find a Westminster venue that has no outdoor seating",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-2-1",
+    "query": "Pub that keeps every customer table indoors",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-2-2",
+    "query": "Find a Westminster venue that keeps every customer table indoors",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-3-1",
+    "query": "Pub that does not have a beer garden",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-3-2",
+    "query": "Find a Westminster venue that does not have a beer garden",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-4-1",
+    "query": "Pub that offers no terrace or outside tables",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasOutdoorSeating-4-2",
+    "query": "Find a Westminster venue that offers no terrace or outside tables",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-1-1",
+    "query": "Pub that does not show sport",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-1-2",
+    "query": "Find a Westminster venue that does not show sport",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-2-1",
+    "query": "Pub that has no televised football",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-2-2",
+    "query": "Find a Westminster venue that has no televised football",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-3-1",
+    "query": "Pub that does not screen live matches",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-3-2",
+    "query": "Find a Westminster venue that does not screen live matches",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-4-1",
+    "query": "Pub that keeps sports off its televisions",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-showsSports-4-2",
+    "query": "Find a Westminster venue that keeps sports off its televisions",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-1-1",
+    "query": "Pub that does not host live music",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-1-2",
+    "query": "Find a Westminster venue that does not host live music",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-2-1",
+    "query": "Pub that has no live bands",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-2-2",
+    "query": "Find a Westminster venue that has no live bands",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-3-1",
+    "query": "Pub that does not stage live gigs",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-3-2",
+    "query": "Find a Westminster venue that does not stage live gigs",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-4-1",
+    "query": "Pub that offers no in-person musical performances",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasLiveMusic-4-2",
+    "query": "Find a Westminster venue that offers no in-person musical performances",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-1-1",
+    "query": "Pub that does not have a DJ",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-1-2",
+    "query": "Find a Westminster venue that does not have a DJ",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-2-1",
+    "query": "Pub that has no DJ nights",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-2-2",
+    "query": "Find a Westminster venue that has no DJ nights",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-3-1",
+    "query": "Pub that does not put on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-3-2",
+    "query": "Find a Westminster venue that does not put on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-4-1",
+    "query": "Pub that offers music without a DJ",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-hasDj-4-2",
+    "query": "Find a Westminster venue that offers music without a DJ",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-1-1",
+    "query": "Pub that does not allow dogs",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-1-2",
+    "query": "Find a Westminster venue that does not allow dogs",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-2-1",
+    "query": "Pub that is not dog friendly",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-2-2",
+    "query": "Find a Westminster venue that is not dog friendly",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-3-1",
+    "query": "Pub that admits no canine visitors",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-3-2",
+    "query": "Find a Westminster venue that admits no canine visitors",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-4-1",
+    "query": "Pub that does not let customers bring a dog",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-dogFriendly-4-2",
+    "query": "Find a Westminster venue that does not let customers bring a dog",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-1-1",
+    "query": "Pub that is not wheelchair accessible",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-1-2",
+    "query": "Find a Westminster venue that is not wheelchair accessible",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-2-1",
+    "query": "Pub that has no step-free access",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-2-2",
+    "query": "Find a Westminster venue that has no step-free access",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-3-1",
+    "query": "Pub that cannot be entered without steps",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-3-2",
+    "query": "Find a Westminster venue that cannot be entered without steps",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-4-1",
+    "query": "Pub that does not provide wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-wheelchairAccessible-4-2",
+    "query": "Find a Westminster venue that does not provide wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-1-1",
+    "query": "Pub that does not accept reservations",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-1-2",
+    "query": "Find a Westminster venue that does not accept reservations",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-2-1",
+    "query": "Pub that takes no table bookings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-2-2",
+    "query": "Find a Westminster venue that takes no table bookings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-3-1",
+    "query": "Pub that does not hold seats in advance",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-3-2",
+    "query": "Find a Westminster venue that does not hold seats in advance",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-4-1",
+    "query": "Pub that operates without advance reservations",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-acceptsReservations-4-2",
+    "query": "Find a Westminster venue that operates without advance reservations",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-1-1",
+    "query": "Pub that is not suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-1-2",
+    "query": "Find a Westminster venue that is not suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-2-1",
+    "query": "Pub that takes no group bookings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-2-2",
+    "query": "Find a Westminster venue that takes no group bookings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-3-1",
+    "query": "Pub that cannot accommodate a large party",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-3-2",
+    "query": "Find a Westminster venue that cannot accommodate a large party",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-4-1",
+    "query": "Pub that does not host collective gatherings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-negative-suitableForGroups-4-2",
+    "query": "Find a Westminster venue that does not host collective gatherings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-1",
+    "query": "Find a pub that offers cooked food and offers tables in a beer garden",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-2",
+    "query": "Find a pub that has a food menu and airs televised games",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-3",
+    "query": "Find a pub that provides dinner with drinks and offers live acoustic sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-4",
+    "query": "Find a pub that plates up pub food and puts on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-5",
+    "query": "Find a pub that has a working kitchen and welcomes a greyhound",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-6",
+    "query": "Find a pub that offers something substantial to eat and has a step-free way inside",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-7",
+    "query": "Find a pub that serves meals and accepts reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-8",
+    "query": "Find a pub that offers cooked food and accepts group bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-9",
+    "query": "Find a pub that has a terrace for drinks and airs televised games",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-10",
+    "query": "Find a pub that provides seating outside and offers live acoustic sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-11",
+    "query": "Find a pub that has tables in the open air and puts on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-12",
+    "query": "Find a pub that offers a courtyard with seats and welcomes a greyhound",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-13",
+    "query": "Find a pub that lets customers sit beyond the indoor area and has a step-free way inside",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-14",
+    "query": "Find a pub that has outdoor seating and accepts reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-15",
+    "query": "Find a pub that offers tables in a beer garden and accepts group bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-16",
+    "query": "Find a pub that airs televised games and has musicians performing",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports",
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-17",
+    "query": "Find a pub that has sports on its televisions and offers a DJ-led evening",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-18",
+    "query": "Find a pub that shows the championship live and admits companion pets",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-19",
+    "query": "Find a pub that carries tonight's sports feed and provides wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-20",
+    "query": "Find a pub that lets customers watch the match and confirms seating in advance",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-21",
+    "query": "Find a pub that shows live sport and is suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-22",
+    "query": "Find a pub that puts on live bands and hosts DJ nights",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-23",
+    "query": "Find a pub that has musicians performing and allows canine visitors",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-24",
+    "query": "Find a pub that offers live acoustic sets and has an accessible entrance",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-25",
+    "query": "Find a pub that stages live gigs and can hold seats before arrival",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-26",
+    "query": "Find a pub that has performers playing music in person and can accommodate a group event",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-27",
+    "query": "Find a pub that has a dance night with a DJ and allows dogs inside the venue",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-28",
+    "query": "Find a pub that has a DJ and is wheelchair accessible",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-29",
+    "query": "Find a pub that hosts DJ nights and lets customers book a table",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-30",
+    "query": "Find a pub that has DJs playing music and can host a large party",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasDj",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-31",
+    "query": "Find a pub that lets customers bring a dog and has an accessible entrance",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-32",
+    "query": "Find a pub that admits companion pets and can hold seats before arrival",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-33",
+    "query": "Find a pub that welcomes a greyhound and can accommodate a group event",
+    "topK": 5,
+    "requiredAttributes": [
+      "dogFriendly",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-34",
+    "query": "Find a pub that has a step-free way inside and confirms seating in advance",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-35",
+    "query": "Find a pub that is wheelchair accessible and is suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [
+      "wheelchairAccessible",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-36",
+    "query": "Find a pub that lets customers book a table and accepts group bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "acceptsReservations",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-37",
+    "query": "Find a pub that has a food menu, has a terrace for drinks and airs televised games",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "showsSports"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-38",
+    "query": "Find a pub that provides dinner with drinks, provides seating outside and offers live acoustic sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-39",
+    "query": "Find a pub that plates up pub food, has tables in the open air and puts on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-40",
+    "query": "Find a pub that has a working kitchen, offers a courtyard with seats and welcomes a greyhound",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-41",
+    "query": "Find a pub that offers something substantial to eat, lets customers sit beyond the indoor area and has a step-free way inside",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-42",
+    "query": "Find a pub that serves meals, has outdoor seating and accepts reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-43",
+    "query": "Find a pub that offers cooked food, offers tables in a beer garden and accepts group bookings",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasOutdoorSeating",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-44",
+    "query": "Find a pub that has a food menu, airs televised games and has musicians performing",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports",
+      "hasLiveMusic"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-45",
+    "query": "Find a pub that provides dinner with drinks, has sports on its televisions and offers a DJ-led evening",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-46",
+    "query": "Find a pub that plates up pub food, shows the championship live and admits companion pets",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-47",
+    "query": "Find a pub that has a working kitchen, carries tonight's sports feed and provides wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-48",
+    "query": "Find a pub that offers something substantial to eat, lets customers watch the match and confirms seating in advance",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-49",
+    "query": "Find a pub that serves meals, shows live sport and is suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "showsSports",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-50",
+    "query": "Find a pub that offers cooked food, puts on live bands and hosts DJ nights",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasLiveMusic",
+      "hasDj"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-51",
+    "query": "Find a pub that has a food menu, has musicians performing and allows canine visitors",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasLiveMusic",
+      "dogFriendly"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-52",
+    "query": "Find a pub that provides dinner with drinks, offers live acoustic sets and has an accessible entrance",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasLiveMusic",
+      "wheelchairAccessible"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-53",
+    "query": "Find a pub that plates up pub food, stages live gigs and can hold seats before arrival",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasLiveMusic",
+      "acceptsReservations"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-multi-positive-54",
+    "query": "Find a pub that has a working kitchen, has performers playing music in person and can accommodate a group event",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood",
+      "hasLiveMusic",
+      "suitableForGroups"
+    ],
+    "excludedAttributes": [],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-1",
+    "query": "Find a pub that offers cooked food but keeps every customer table indoors",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-2",
+    "query": "Find a pub that has a food menu but does not screen live matches",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-3",
+    "query": "Find a pub that provides dinner with drinks but offers no in-person musical performances",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-4",
+    "query": "Find a pub that plates up pub food but does not have a DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-5",
+    "query": "Find a pub that has a working kitchen but is not dog friendly",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-6",
+    "query": "Find a pub that offers something substantial to eat but cannot be entered without steps",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-7",
+    "query": "Find a pub that serves meals but operates without advance reservations",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-8",
+    "query": "Find a pub that offers cooked food but is not suitable for groups",
+    "topK": 5,
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-9",
+    "query": "Find a pub that has a terrace for drinks but has no televised football",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "showsSports"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-10",
+    "query": "Find a pub that provides seating outside but does not stage live gigs",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-11",
+    "query": "Find a pub that has tables in the open air but offers music without a DJ",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-12",
+    "query": "Find a pub that offers a courtyard with seats but does not allow dogs",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-13",
+    "query": "Find a pub that lets customers sit beyond the indoor area but has no step-free access",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-14",
+    "query": "Find a pub that has outdoor seating but does not hold seats in advance",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "acceptsReservations"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-15",
+    "query": "Find a pub that offers tables in a beer garden but does not host collective gatherings",
+    "topK": 5,
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "excludedAttributes": [
+      "suitableForGroups"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-16",
+    "query": "Find a pub that airs televised games but does not host live music",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-17",
+    "query": "Find a pub that has sports on its televisions but has no DJ nights",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [
+      "hasDj"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-mixed-18",
+    "query": "Find a pub that shows the championship live but admits no canine visitors",
+    "topK": 5,
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "excludedAttributes": [
+      "dogFriendly"
+    ],
+    "expectNoResults": false,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-1",
+    "query": "Find a pub that offers cooked food but has no food menu",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-2",
+    "query": "Find a pub that has a terrace for drinks but does not have a beer garden",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-3",
+    "query": "Find a pub that has sports on its televisions but keeps sports off its televisions",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-4",
+    "query": "Find a pub that stages live gigs but does not host live music",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-5",
+    "query": "Find a pub that features a resident DJ but has no DJ nights",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-6",
+    "query": "Find a pub that allows dogs inside the venue but admits no canine visitors",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-7",
+    "query": "Find a pub that is wheelchair accessible but does not provide wheelchair access",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-8",
+    "query": "Find a pub that lets customers book a table but does not accept reservations",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-9",
+    "query": "Find a pub that can host a large party but takes no group bookings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-10",
+    "query": "Find a pub that provides dinner with drinks but offers drinks but no meals",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-11",
+    "query": "Find a pub that has tables in the open air but offers no terrace or outside tables",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-12",
+    "query": "Find a pub that carries tonight's sports feed but does not show sport",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-13",
+    "query": "Find a pub that features live musical acts but has no live bands",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-14",
+    "query": "Find a pub that has a DJ but does not put on DJ sets",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-15",
+    "query": "Find a pub that is dog friendly but does not let customers bring a dog",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-16",
+    "query": "Find a pub that welcomes wheelchair users but is not wheelchair accessible",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-17",
+    "query": "Find a pub that allows tables to be reserved but takes no table bookings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-18",
+    "query": "Find a pub that welcomes collective gatherings but cannot accommodate a large party",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-19",
+    "query": "Find a pub that has a working kitchen but does not provide anything to eat",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-20",
+    "query": "Find a pub that lets customers sit beyond the indoor area but has no outdoor seating",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-21",
+    "query": "Find a pub that shows live sport but has no televised football",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-22",
+    "query": "Find a pub that puts on live bands but does not stage live gigs",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-23",
+    "query": "Find a pub that has DJs playing music but offers music without a DJ",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-24",
+    "query": "Find a pub that lets customers bring a dog but does not allow dogs",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-25",
+    "query": "Find a pub that can be entered without steps but has no step-free access",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-26",
+    "query": "Find a pub that offers table reservations but does not hold seats in advance",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-27",
+    "query": "Find a pub that offers space for a party of friends but does not host collective gatherings",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-28",
+    "query": "Find a pub that serves meals but does not serve food",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-29",
+    "query": "Find a pub that offers tables in a beer garden but keeps every customer table indoors",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  },
+  {
+    "name": "regression-300-contradiction-30",
+    "query": "Find a pub that airs televised games but does not screen live matches",
+    "topK": 5,
+    "requiredAttributes": [],
+    "excludedAttributes": [],
+    "expectNoResults": true,
+    "expectedEvidenceTermGroups": [],
+    "relevanceJudgments": {}
+  }
+]

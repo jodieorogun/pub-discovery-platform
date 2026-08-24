@@ -1,0 +1,1765 @@
+[
+  {
+    "name": "holdout-showsSports-1",
+    "query": "pub televising tonight's match",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-2",
+    "query": "somewhere to catch the footie",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-3",
+    "query": "bar broadcasting rugby",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-4",
+    "query": "big-screen soccer with pints",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-5",
+    "query": "Champions League on the telly",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-6",
+    "query": "Six Nations shown in a pub",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-7",
+    "query": "live match coverage over drinks",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-showsSports-8",
+    "query": "pub with the game on its screens",
+    "requiredAttributes": [
+      "showsSports"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-1",
+    "query": "proper Sunday roast at a pub",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-2",
+    "query": "somewhere to grab a bite with a pint",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-3",
+    "query": "pub serving supper",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-4",
+    "query": "bar snacks and meals",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-5",
+    "query": "eat at a pub before the theatre",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-6",
+    "query": "pub with a full dining menu",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-7",
+    "query": "kitchen open for evening service",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-servesFood-8",
+    "query": "burgers and beer in the same place",
+    "requiredAttributes": [
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-1",
+    "query": "sunny pub courtyard",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-2",
+    "query": "alfresco drinks at a pub",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-3",
+    "query": "tables in the fresh air",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-4",
+    "query": "pub with a rear garden",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-5",
+    "query": "sit on a terrace with a pint",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-6",
+    "query": "pavement tables outside a pub",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-7",
+    "query": "outside drinking area",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasOutdoorSeating-8",
+    "query": "open air seating for drinks",
+    "requiredAttributes": [
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-1",
+    "query": "acoustic gig at a pub",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-2",
+    "query": "pub with bands on stage",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-3",
+    "query": "singer-songwriter night with drinks",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-4",
+    "query": "jazz performance in a bar",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-5",
+    "query": "regular gigs at a pub",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-6",
+    "query": "open-mic music night",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-7",
+    "query": "musicians performing while we drink",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasLiveMusic-8",
+    "query": "small concert night in a pub",
+    "requiredAttributes": [
+      "hasLiveMusic"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-1",
+    "query": "pub with a disc jockey",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-2",
+    "query": "dancefloor and DJ booth",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-3",
+    "query": "club night with a guest selector",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-4",
+    "query": "D.J. playing after dinner",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-5",
+    "query": "house music DJ in a pub",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-6",
+    "query": "drinks beside the DJ booth",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-7",
+    "query": "late-night venue with decks",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-hasDj-8",
+    "query": "weekend party with a guest DJ",
+    "requiredAttributes": [
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-1",
+    "query": "can I take my hound to the pub",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-2",
+    "query": "pub where pets are permitted",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-3",
+    "query": "pooch-welcoming place for drinks",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-4",
+    "query": "canine-friendly local",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-5",
+    "query": "bring our labrador for a pint",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-6",
+    "query": "pub for my four-legged companion",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-7",
+    "query": "drinking spot that allows pets",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-dogFriendly-8",
+    "query": "pub offering water bowls for dogs",
+    "requiredAttributes": [
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-1",
+    "query": "pub with a level-access entrance",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-2",
+    "query": "no stairs at the doorway",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-3",
+    "query": "mobility-scooter access to a pub",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-4",
+    "query": "accessible for chair users",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-5",
+    "query": "disabled-friendly drinking venue",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-6",
+    "query": "stepfree pub entrance",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-7",
+    "query": "pub with level entry",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-wheelchairAccessible-8",
+    "query": "drinks venue with an accessible loo",
+    "requiredAttributes": [
+      "wheelchairAccessible"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-1",
+    "query": "can I prebook a pub table",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-2",
+    "query": "pub that will hold a table",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-3",
+    "query": "reserve pub seats in advance",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-4",
+    "query": "venue taking table bookings",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-5",
+    "query": "guarantee us a table for drinks",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-6",
+    "query": "pub with a booking form",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-7",
+    "query": "pre-arranged table at a bar",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-acceptsReservations-8",
+    "query": "secure seats before arriving",
+    "requiredAttributes": [
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-1",
+    "query": "team social for twenty people",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-2",
+    "query": "pub space for a hen party",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-3",
+    "query": "corporate drinks venue",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-4",
+    "query": "pub with a function room",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-5",
+    "query": "big family gathering at a pub",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-6",
+    "query": "large party welcome for drinks",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-7",
+    "query": "hire an upstairs room in a pub",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-suitableForGroups-8",
+    "query": "venue for a work leaving do",
+    "requiredAttributes": [
+      "suitableForGroups"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-sports-food",
+    "query": "football on television with a proper pub supper",
+    "requiredAttributes": [
+      "showsSports",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ],
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-dog-outdoor",
+    "query": "patio drinks where my pooch can join us",
+    "requiredAttributes": [
+      "dogFriendly",
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ],
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-music-booking",
+    "query": "reserve seats for an acoustic gig at a pub",
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ],
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-group-food",
+    "query": "feed a team of twenty at the pub",
+    "requiredAttributes": [
+      "suitableForGroups",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ],
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-access-booking",
+    "query": "prebook a level-access pub table",
+    "requiredAttributes": [
+      "wheelchairAccessible",
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ],
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-dj-food",
+    "query": "late DJ night with dinner beforehand",
+    "requiredAttributes": [
+      "hasDj",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ],
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-group-outdoor",
+    "query": "private party in a pub courtyard",
+    "requiredAttributes": [
+      "suitableForGroups",
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ],
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-dog-booking",
+    "query": "hold a table at a pet-welcoming pub",
+    "requiredAttributes": [
+      "dogFriendly",
+      "acceptsReservations"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ],
+      [
+        "booking",
+        "reservation",
+        "book a table",
+        "reserve"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-sports-outdoor",
+    "query": "watch rugby from the beer garden",
+    "requiredAttributes": [
+      "showsSports",
+      "hasOutdoorSeating"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "sport",
+        "football",
+        "rugby",
+        "match",
+        "game"
+      ],
+      [
+        "outdoor",
+        "garden",
+        "terrace",
+        "outside",
+        "patio",
+        "courtyard"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-music-dog",
+    "query": "live gig where pets are permitted",
+    "requiredAttributes": [
+      "hasLiveMusic",
+      "dogFriendly"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "live music",
+        "band",
+        "gig",
+        "musician",
+        "performance"
+      ],
+      [
+        "dog",
+        "pet",
+        "puppy",
+        "hound"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-access-food",
+    "query": "stepfree entrance and an evening meal",
+    "requiredAttributes": [
+      "wheelchairAccessible",
+      "servesFood"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "wheelchair",
+        "step-free",
+        "step free",
+        "accessible",
+        "level access"
+      ],
+      [
+        "food",
+        "lunch",
+        "dinner",
+        "menu",
+        "meal",
+        "kitchen"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-multi-group-dj",
+    "query": "function room with a DJ booth",
+    "requiredAttributes": [
+      "suitableForGroups",
+      "hasDj"
+    ],
+    "expectedEvidenceTermGroups": [
+      [
+        "group",
+        "private hire",
+        "party",
+        "room hire",
+        "function room"
+      ],
+      [
+        "dj",
+        "disc jockey",
+        "decks"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-negative-showsSports-1",
+    "query": "pub that does not show football",
+    "excludedAttributes": [
+      "showsSports"
+    ]
+  },
+  {
+    "name": "holdout-negative-showsSports-2",
+    "query": "drinks away from televised sport",
+    "excludedAttributes": [
+      "showsSports"
+    ]
+  },
+  {
+    "name": "holdout-negative-servesFood-1",
+    "query": "pub with no food",
+    "excludedAttributes": [
+      "servesFood"
+    ]
+  },
+  {
+    "name": "holdout-negative-servesFood-2",
+    "query": "drinks only, without meals",
+    "excludedAttributes": [
+      "servesFood"
+    ]
+  },
+  {
+    "name": "holdout-negative-hasOutdoorSeating-1",
+    "query": "no beer garden please",
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ]
+  },
+  {
+    "name": "holdout-negative-hasOutdoorSeating-2",
+    "query": "pub without outdoor seating",
+    "excludedAttributes": [
+      "hasOutdoorSeating"
+    ]
+  },
+  {
+    "name": "holdout-negative-hasLiveMusic-1",
+    "query": "quiet drinks with no live music",
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ]
+  },
+  {
+    "name": "holdout-negative-hasLiveMusic-2",
+    "query": "avoid a live band",
+    "excludedAttributes": [
+      "hasLiveMusic"
+    ]
+  },
+  {
+    "name": "holdout-negative-hasDj-1",
+    "query": "no DJ nights",
+    "excludedAttributes": [
+      "hasDj"
+    ]
+  },
+  {
+    "name": "holdout-negative-hasDj-2",
+    "query": "somewhere without DJs",
+    "excludedAttributes": [
+      "hasDj"
+    ]
+  },
+  {
+    "name": "holdout-negative-dogFriendly-1",
+    "query": "pub where dogs are not allowed",
+    "excludedAttributes": [
+      "dogFriendly"
+    ]
+  },
+  {
+    "name": "holdout-negative-dogFriendly-2",
+    "query": "no dog-friendly venues",
+    "excludedAttributes": [
+      "dogFriendly"
+    ]
+  },
+  {
+    "name": "holdout-negative-wheelchairAccessible-1",
+    "query": "pub with no step-free access",
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ]
+  },
+  {
+    "name": "holdout-negative-wheelchairAccessible-2",
+    "query": "not wheelchair accessible",
+    "excludedAttributes": [
+      "wheelchairAccessible"
+    ]
+  },
+  {
+    "name": "holdout-negative-acceptsReservations-1",
+    "query": "pub with no reservations",
+    "excludedAttributes": [
+      "acceptsReservations"
+    ]
+  },
+  {
+    "name": "holdout-negative-acceptsReservations-2",
+    "query": "drinks without a table booking",
+    "excludedAttributes": [
+      "acceptsReservations"
+    ]
+  },
+  {
+    "name": "holdout-negative-suitableForGroups-1",
+    "query": "no groups please",
+    "excludedAttributes": [
+      "suitableForGroups"
+    ]
+  },
+  {
+    "name": "holdout-negative-suitableForGroups-2",
+    "query": "avoid private hire venues",
+    "excludedAttributes": [
+      "suitableForGroups"
+    ]
+  },
+  {
+    "name": "holdout-contradiction-1",
+    "query": "step-free but not wheelchair accessible",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-2",
+    "query": "pub with food but no food",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-3",
+    "query": "with a DJ but avoid DJs",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-4",
+    "query": "dog-friendly but dogs are not allowed",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-5",
+    "query": "beer garden but no outdoor seating",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-6",
+    "query": "shows football but no sport",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-7",
+    "query": "live music but without bands playing",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-8",
+    "query": "bookable but no reservations",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-9",
+    "query": "private hire but no groups",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-contradiction-10",
+    "query": "cheap pub but not cheap",
+    "expectNoResults": true
+  },
+  {
+    "name": "holdout-subjective-1",
+    "query": "snug old-fashioned local with plenty of personality",
+    "relevanceJudgments": {
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-4ba15675f964a520fead37e3": 2,
+      "fsq-4ac518baf964a520d6a120e3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "cosy",
+        "cozy",
+        "character"
+      ],
+      [
+        "traditional",
+        "historic",
+        "heritage"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-2",
+    "query": "warm traditional boozer full of character",
+    "relevanceJudgments": {
+      "fsq-4ae5031df964a52001a021e3": 3,
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-4ba15675f964a520fead37e3": 2,
+      "fsq-4ac518baf964a520d6a120e3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "cosy",
+        "cozy",
+        "character"
+      ],
+      [
+        "traditional",
+        "historic",
+        "heritage"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-3",
+    "query": "heritage pub close to the Houses of Parliament",
+    "relevanceJudgments": {
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4b674306f964a52085442be3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "historic",
+        "heritage"
+      ],
+      [
+        "parliament",
+        "westminster"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-4",
+    "query": "old drinking spot around Westminster's political landmarks",
+    "relevanceJudgments": {
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ad61fd1f964a520330521e3": 3,
+      "fsq-4b674306f964a52085442be3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "historic",
+        "heritage"
+      ],
+      [
+        "parliament",
+        "westminster"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-5",
+    "query": "energetic birthday drinks with a festive feel",
+    "relevanceJudgments": {
+      "fsq-4b940d56f964a520606434e3": 3,
+      "fsq-4ad8db44f964a520561521e3": 2,
+      "fsq-4ac518bdf964a520e8a220e3": 2,
+      "fsq-4ad12f23f964a52054dd20e3": 3
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "lively",
+        "atmosphere"
+      ],
+      [
+        "birthday",
+        "party",
+        "celebration"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-6",
+    "query": "characterful old tavern steeped in London history",
+    "relevanceJudgments": {
+      "fsq-4ac518bbf964a5202fa220e3": 3,
+      "fsq-4ac518c5f964a520d4a420e3": 3,
+      "fsq-4ac518baf964a520d6a120e3": 2,
+      "fsq-4b82eb42f964a52025ed30e3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "historic",
+        "history",
+        "heritage"
+      ],
+      [
+        "charm",
+        "traditional"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-7",
+    "query": "easy-going character pub for a calm conversation",
+    "relevanceJudgments": {
+      "fsq-618d37ec82095024932e3909": 3,
+      "fsq-4ae5031df964a52001a021e3": 2,
+      "fsq-4ad8db44f964a520561521e3": 2,
+      "fsq-4ba15675f964a520fead37e3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "relaxed",
+        "quiet"
+      ],
+      [
+        "character",
+        "charm"
+      ]
+    ]
+  },
+  {
+    "name": "holdout-subjective-8",
+    "query": "party venue with a memorable outlook",
+    "relevanceJudgments": {
+      "fsq-4ad12f23f964a52054dd20e3": 3,
+      "fsq-545bfbd6498eeac3dda21da0": 2,
+      "fsq-4b940d56f964a520606434e3": 2
+    },
+    "expectedEvidenceTermGroups": [
+      [
+        "party",
+        "celebration"
+      ],
+      [
+        "view",
+        "views"
+      ]
+    ]
+  }
+]
+

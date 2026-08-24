@@ -1,0 +1,13 @@
+[
+  {
+    "osmElementId": "node/1000001",
+    "name": "Example Arms",
+    "latitude": 51.50335,
+    "longitude": -0.11472,
+    "address": "10 Example Street",
+    "postcode": "SE18XX",
+    "website": "https://example.invalid",
+    "phone": "020 7000 0000",
+    "categories": ["amenity=pub"]
+  }
+]

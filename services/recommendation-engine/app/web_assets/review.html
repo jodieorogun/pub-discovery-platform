@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Review venue facts · London Pub Finder</title>
+    <link rel="stylesheet" href="/assets/app.css?v=7">
+    <script src="/assets/review.js?v=4" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/"><span class="brand-mark">L</span><span>London Pub Finder</span></a>
+      <a class="api-link" href="/">Back to search</a>
+    </header>
+    <main class="review-main">
+      <section class="review-intro">
+        <p class="eyebrow">Human verification</p>
+        <h1>Review official-site facts.</h1>
+        <p class="lede">Approve only what the quoted official evidence explicitly proves. Decisions are stored locally and do not change canonical recommendations until the next audited rebuild.</p>
+      </section>
+      <p id="review-status" class="status" role="status">Loading review queue…</p>
+      <section id="review-queue" class="review-queue" aria-live="polite"></section>
+      <section class="missing-price-section" aria-labelledby="missing-price-title">
+        <p class="eyebrow">Price gaps</p>
+        <h2 id="missing-price-title">Add a price the scanner missed.</h2>
+        <p class="lede">Use the current price of one full pint of draught Guinness. Add the menu or ordering-page link so the observation stays traceable; the price band is calculated for you.</p>
+        <form id="missing-price-form" class="missing-price-form">
+          <label>Pub<select id="price-venue" required><option value="">Choose a pub</option></select></label>
+          <label>Guinness pint price (£)<input id="price-gbp" required type="number" min="2" max="15" step="0.01" placeholder="6.20"></label>
+          <label>Evidence URL<input id="price-url" required type="url" placeholder="https://pub.example/drinks-menu"></label>
+          <button type="submit">Save price</button>
+          <p id="price-form-status" class="status" role="status"></p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

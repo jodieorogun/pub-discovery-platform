@@ -1,0 +1,13 @@
+{
+  "suite": "grounded-rag-holdout-v8-negation-scope-objective",
+  "frozenAt": "2026-08-10",
+  "caseCount": 30,
+  "sha256": "b75018a2f6e802853a788b68b13e677eeb6aa5eeb01133c221ee8966ef4aab98",
+  "composition": {
+    "singleFeatureParaphrases": 18,
+    "multiConstraintQueries": 5,
+    "negativeQueries": 4,
+    "contradictions": 3
+  },
+  "policy": "Frozen before correcting positive-access scope and anchored global exclusions found on v7."
+}

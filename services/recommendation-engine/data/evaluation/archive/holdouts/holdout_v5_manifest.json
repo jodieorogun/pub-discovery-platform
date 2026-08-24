@@ -1,0 +1,13 @@
+{
+  "suite": "grounded-rag-holdout-v5-objective-final",
+  "frozenAt": "2026-08-10",
+  "caseCount": 72,
+  "sha256": "e98a3ac91c09f6151f77c1271ce49f675c812914fb20c9d698781af1e5ccb8b3",
+  "composition": {
+    "singleFeatureParaphrases": 45,
+    "multiConstraintQueries": 10,
+    "negativeQueries": 9,
+    "contradictions": 8
+  },
+  "policy": "This final objective suite was frozen before structural over-filtering and scope fixes identified from v4."
+}

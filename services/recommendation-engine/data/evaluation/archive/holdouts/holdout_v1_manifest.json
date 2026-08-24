@@ -1,0 +1,15 @@
+{
+  "suite": "grounded-rag-holdout-v1",
+  "frozenAt": "2026-08-10",
+  "caseCount": 120,
+  "sha256": "d23191c6672d2c882bd26e0552afdc29027e2b8f40ad499649295af6d6e6e179",
+  "composition": {
+    "singleFeatureParaphrases": 72,
+    "multiConstraintQueries": 12,
+    "negativeQueries": 18,
+    "contradictions": 10,
+    "subjectiveQueries": 8
+  },
+  "baselineAudit": "data/audits/westminster_rag_holdout_v1_baseline_2026-08-10.json",
+  "policy": "Do not tune parser phrases, ranking weights, or retrieval logic against this suite. Create a new versioned holdout before using failures for development."
+}

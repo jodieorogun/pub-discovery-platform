@@ -1,0 +1,13 @@
+{
+  "suite": "grounded-rag-holdout-v7-local-llm-objective",
+  "frozenAt": "2026-08-10",
+  "caseCount": 45,
+  "sha256": "131be58c276552f047bd1946a5e3874285e34ee24d2168f8bf38a38221a37fcd",
+  "composition": {
+    "singleFeatureParaphrases": 27,
+    "multiConstraintQueries": 8,
+    "negativeQueries": 5,
+    "contradictions": 5
+  },
+  "policy": "Frozen before correcting local-LLM prompt failures observed on v6."
+}

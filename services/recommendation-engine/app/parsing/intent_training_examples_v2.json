@@ -1,0 +1,1877 @@
+{
+  "version": "intent-examples-v2",
+  "sourceSuites": [
+    "development-101",
+    "holdout-v1",
+    "holdout-v2",
+    "holdout-v3"
+  ],
+  "exampleCount": 463,
+  "counts": {
+    "sports": 46,
+    "dogFriendly": 49,
+    "liveMusic": 46,
+    "groups": 49,
+    "reservations": 49,
+    "dj": 45,
+    "food": 55,
+    "outdoorSeating": 49,
+    "wheelchairAccess": 45,
+    "none": 30
+  },
+  "examples": [
+    {
+      "text": "a pub showing live football",
+      "feature": "sports"
+    },
+    {
+      "text": "somewhere to watch the match",
+      "feature": "sports"
+    },
+    {
+      "text": "pub with Sky Sports",
+      "feature": "sports"
+    },
+    {
+      "text": "where can we watch rugby",
+      "feature": "sports"
+    },
+    {
+      "text": "sports pub with TV screens",
+      "feature": "sports"
+    },
+    {
+      "text": "live sport this weekend",
+      "feature": "sports"
+    },
+    {
+      "text": "football and a pint",
+      "feature": "sports"
+    },
+    {
+      "text": "a dog-friendly pub",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "somewhere my dog is welcome",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub where I can bring a dog",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "welcoming pub for dogs",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "dog friendly drinks",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub for me and my puppy",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub with live music",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "somewhere with bands playing",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "live acoustic music in a pub",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub with regular music nights",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "drinks with a live band",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "weekend live music venue",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub with rock music",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub for a large birthday group",
+      "feature": "groups"
+    },
+    {
+      "text": "venue with private hire",
+      "feature": "groups"
+    },
+    {
+      "text": "group booking for work drinks",
+      "feature": "groups"
+    },
+    {
+      "text": "pub for a private party",
+      "feature": "groups"
+    },
+    {
+      "text": "space for a celebration",
+      "feature": "groups"
+    },
+    {
+      "text": "somewhere for a large gathering",
+      "feature": "groups"
+    },
+    {
+      "text": "pub room hire",
+      "feature": "groups"
+    },
+    {
+      "text": "pub where I can book a table",
+      "feature": "reservations"
+    },
+    {
+      "text": "table reservations for drinks",
+      "feature": "reservations"
+    },
+    {
+      "text": "bookable pub",
+      "feature": "reservations"
+    },
+    {
+      "text": "reserve a table at a pub",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub accepting bookings",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub with a DJ",
+      "feature": "dj"
+    },
+    {
+      "text": "DJ night in a pub",
+      "feature": "dj"
+    },
+    {
+      "text": "weekend DJ sets",
+      "feature": "dj"
+    },
+    {
+      "text": "dance somewhere with live DJs",
+      "feature": "dj"
+    },
+    {
+      "text": "pub serving food",
+      "feature": "food"
+    },
+    {
+      "text": "somewhere for pub lunch",
+      "feature": "food"
+    },
+    {
+      "text": "pub with a dinner menu",
+      "feature": "food"
+    },
+    {
+      "text": "Sunday food at a pub",
+      "feature": "food"
+    },
+    {
+      "text": "gastropub meal",
+      "feature": "food"
+    },
+    {
+      "text": "pub serving a seasonal menu",
+      "feature": "food"
+    },
+    {
+      "text": "pub with a beer garden",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "outdoor pub seating",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "somewhere for drinks outside",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub terrace",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "outside tables at a pub",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "wheelchair accessible pub",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub with step-free access",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "accessible pub entrance",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub suitable for a wheelchair",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub with food where we can watch football",
+      "feature": "sports"
+    },
+    {
+      "text": "pub with food where we can watch football",
+      "feature": "food"
+    },
+    {
+      "text": "pub dinner with live music",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub dinner with live music",
+      "feature": "food"
+    },
+    {
+      "text": "dog-friendly pub serving food",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "dog-friendly pub serving food",
+      "feature": "food"
+    },
+    {
+      "text": "book a pub space for a large group",
+      "feature": "groups"
+    },
+    {
+      "text": "book a pub space for a large group",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub food with outdoor seating",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub food with outdoor seating",
+      "feature": "food"
+    },
+    {
+      "text": "a cosy traditional pub with character",
+      "feature": "none"
+    },
+    {
+      "text": "a historic pub near Parliament",
+      "feature": "none"
+    },
+    {
+      "text": "a lively place for birthday drinks and a celebration",
+      "feature": "none"
+    },
+    {
+      "text": "old London pub with history and charm",
+      "feature": "none"
+    },
+    {
+      "text": "relaxed pub with character for a quiet catch-up",
+      "feature": "none"
+    },
+    {
+      "text": "celebration venue with views and party atmosphere",
+      "feature": "none"
+    },
+    {
+      "text": "pub screening the big game",
+      "feature": "sports"
+    },
+    {
+      "text": "watch the Premier League in a pub",
+      "feature": "sports"
+    },
+    {
+      "text": "pub showing international football",
+      "feature": "sports"
+    },
+    {
+      "text": "pet-friendly pub for drinks",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "can dogs come into this pub",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub welcoming four-legged friends",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "drinks somewhere dogs are allowed",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub hosting musicians",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "music performance with drinks",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "venue for live performers",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "office party pub venue",
+      "feature": "groups"
+    },
+    {
+      "text": "birthday gathering with private space",
+      "feature": "groups"
+    },
+    {
+      "text": "pub that accommodates groups",
+      "feature": "groups"
+    },
+    {
+      "text": "make a pub table reservation",
+      "feature": "reservations"
+    },
+    {
+      "text": "advance table booking at a pub",
+      "feature": "reservations"
+    },
+    {
+      "text": "reserve seats for pub drinks",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub with online table booking",
+      "feature": "reservations"
+    },
+    {
+      "text": "guaranteed booked table",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub playing dance music with a DJ",
+      "feature": "dj"
+    },
+    {
+      "text": "resident DJ at the weekend",
+      "feature": "dj"
+    },
+    {
+      "text": "disco and house DJ venue",
+      "feature": "dj"
+    },
+    {
+      "text": "late-night pub with DJs",
+      "feature": "dj"
+    },
+    {
+      "text": "DJ-led party night",
+      "feature": "dj"
+    },
+    {
+      "text": "pub hosting guest DJs",
+      "feature": "dj"
+    },
+    {
+      "text": "British pub food",
+      "feature": "food"
+    },
+    {
+      "text": "pub with a main menu",
+      "feature": "food"
+    },
+    {
+      "text": "somewhere for food and pints",
+      "feature": "food"
+    },
+    {
+      "text": "pub kitchen serving meals",
+      "feature": "food"
+    },
+    {
+      "text": "pub garden for summer drinks",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "drinks on a pub patio",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub with an outdoor area",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "sit outside with a pint",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "open-air pub tables",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "step-free pub for drinks",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "accessible toilet and wheelchair access",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub without entrance steps",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "wheelchair-friendly venue",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "accessible facilities at a pub",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "drinks venue with disabled access",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub televising tonight's match",
+      "feature": "sports"
+    },
+    {
+      "text": "somewhere to catch the footie",
+      "feature": "sports"
+    },
+    {
+      "text": "bar broadcasting rugby",
+      "feature": "sports"
+    },
+    {
+      "text": "big-screen soccer with pints",
+      "feature": "sports"
+    },
+    {
+      "text": "Champions League on the telly",
+      "feature": "sports"
+    },
+    {
+      "text": "Six Nations shown in a pub",
+      "feature": "sports"
+    },
+    {
+      "text": "live match coverage over drinks",
+      "feature": "sports"
+    },
+    {
+      "text": "pub with the game on its screens",
+      "feature": "sports"
+    },
+    {
+      "text": "proper Sunday roast at a pub",
+      "feature": "food"
+    },
+    {
+      "text": "somewhere to grab a bite with a pint",
+      "feature": "food"
+    },
+    {
+      "text": "pub serving supper",
+      "feature": "food"
+    },
+    {
+      "text": "bar snacks and meals",
+      "feature": "food"
+    },
+    {
+      "text": "eat at a pub before the theatre",
+      "feature": "food"
+    },
+    {
+      "text": "pub with a full dining menu",
+      "feature": "food"
+    },
+    {
+      "text": "kitchen open for evening service",
+      "feature": "food"
+    },
+    {
+      "text": "burgers and beer in the same place",
+      "feature": "food"
+    },
+    {
+      "text": "sunny pub courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "alfresco drinks at a pub",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "tables in the fresh air",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub with a rear garden",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "sit on a terrace with a pint",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pavement tables outside a pub",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "outside drinking area",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "open air seating for drinks",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "acoustic gig at a pub",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub with bands on stage",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "singer-songwriter night with drinks",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "jazz performance in a bar",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "regular gigs at a pub",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "open-mic music night",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "musicians performing while we drink",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "small concert night in a pub",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub with a disc jockey",
+      "feature": "dj"
+    },
+    {
+      "text": "dancefloor and DJ booth",
+      "feature": "dj"
+    },
+    {
+      "text": "club night with a guest selector",
+      "feature": "dj"
+    },
+    {
+      "text": "D.J. playing after dinner",
+      "feature": "dj"
+    },
+    {
+      "text": "house music DJ in a pub",
+      "feature": "dj"
+    },
+    {
+      "text": "drinks beside the DJ booth",
+      "feature": "dj"
+    },
+    {
+      "text": "late-night venue with decks",
+      "feature": "dj"
+    },
+    {
+      "text": "weekend party with a guest DJ",
+      "feature": "dj"
+    },
+    {
+      "text": "can I take my hound to the pub",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub where pets are permitted",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pooch-welcoming place for drinks",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "canine-friendly local",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "bring our labrador for a pint",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub for my four-legged companion",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "drinking spot that allows pets",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub offering water bowls for dogs",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub with a level-access entrance",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "no stairs at the doorway",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "mobility-scooter access to a pub",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "accessible for chair users",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "disabled-friendly drinking venue",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "stepfree pub entrance",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub with level entry",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "drinks venue with an accessible loo",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "can I prebook a pub table",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub that will hold a table",
+      "feature": "reservations"
+    },
+    {
+      "text": "reserve pub seats in advance",
+      "feature": "reservations"
+    },
+    {
+      "text": "venue taking table bookings",
+      "feature": "reservations"
+    },
+    {
+      "text": "guarantee us a table for drinks",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub with a booking form",
+      "feature": "reservations"
+    },
+    {
+      "text": "pre-arranged table at a bar",
+      "feature": "reservations"
+    },
+    {
+      "text": "secure seats before arriving",
+      "feature": "reservations"
+    },
+    {
+      "text": "team social for twenty people",
+      "feature": "groups"
+    },
+    {
+      "text": "pub space for a hen party",
+      "feature": "groups"
+    },
+    {
+      "text": "corporate drinks venue",
+      "feature": "groups"
+    },
+    {
+      "text": "pub with a function room",
+      "feature": "groups"
+    },
+    {
+      "text": "big family gathering at a pub",
+      "feature": "groups"
+    },
+    {
+      "text": "large party welcome for drinks",
+      "feature": "groups"
+    },
+    {
+      "text": "hire an upstairs room in a pub",
+      "feature": "groups"
+    },
+    {
+      "text": "venue for a work leaving do",
+      "feature": "groups"
+    },
+    {
+      "text": "football on television with a proper pub supper",
+      "feature": "sports"
+    },
+    {
+      "text": "football on television with a proper pub supper",
+      "feature": "food"
+    },
+    {
+      "text": "patio drinks where my pooch can join us",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "patio drinks where my pooch can join us",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "reserve seats for an acoustic gig at a pub",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "reserve seats for an acoustic gig at a pub",
+      "feature": "reservations"
+    },
+    {
+      "text": "feed a team of twenty at the pub",
+      "feature": "groups"
+    },
+    {
+      "text": "feed a team of twenty at the pub",
+      "feature": "food"
+    },
+    {
+      "text": "prebook a level-access pub table",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "prebook a level-access pub table",
+      "feature": "reservations"
+    },
+    {
+      "text": "late DJ night with dinner beforehand",
+      "feature": "dj"
+    },
+    {
+      "text": "late DJ night with dinner beforehand",
+      "feature": "food"
+    },
+    {
+      "text": "private party in a pub courtyard",
+      "feature": "groups"
+    },
+    {
+      "text": "private party in a pub courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "hold a table at a pet-welcoming pub",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "hold a table at a pet-welcoming pub",
+      "feature": "reservations"
+    },
+    {
+      "text": "watch rugby from the beer garden",
+      "feature": "sports"
+    },
+    {
+      "text": "watch rugby from the beer garden",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "live gig where pets are permitted",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "live gig where pets are permitted",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "stepfree entrance and an evening meal",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "stepfree entrance and an evening meal",
+      "feature": "food"
+    },
+    {
+      "text": "function room with a DJ booth",
+      "feature": "groups"
+    },
+    {
+      "text": "function room with a DJ booth",
+      "feature": "dj"
+    },
+    {
+      "text": "pub that does not show football",
+      "feature": "sports"
+    },
+    {
+      "text": "drinks away from televised sport",
+      "feature": "sports"
+    },
+    {
+      "text": "pub with no food",
+      "feature": "food"
+    },
+    {
+      "text": "drinks only, without meals",
+      "feature": "food"
+    },
+    {
+      "text": "no beer garden please",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub without outdoor seating",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "quiet drinks with no live music",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "avoid a live band",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "no DJ nights",
+      "feature": "dj"
+    },
+    {
+      "text": "somewhere without DJs",
+      "feature": "dj"
+    },
+    {
+      "text": "pub where dogs are not allowed",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "no dog-friendly venues",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub with no step-free access",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "not wheelchair accessible",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub with no reservations",
+      "feature": "reservations"
+    },
+    {
+      "text": "drinks without a table booking",
+      "feature": "reservations"
+    },
+    {
+      "text": "no groups please",
+      "feature": "groups"
+    },
+    {
+      "text": "avoid private hire venues",
+      "feature": "groups"
+    },
+    {
+      "text": "snug old-fashioned local with plenty of personality",
+      "feature": "none"
+    },
+    {
+      "text": "warm traditional boozer full of character",
+      "feature": "none"
+    },
+    {
+      "text": "heritage pub close to the Houses of Parliament",
+      "feature": "none"
+    },
+    {
+      "text": "old drinking spot around Westminster's political landmarks",
+      "feature": "none"
+    },
+    {
+      "text": "energetic birthday drinks with a festive feel",
+      "feature": "none"
+    },
+    {
+      "text": "characterful old tavern steeped in London history",
+      "feature": "none"
+    },
+    {
+      "text": "easy-going character pub for a calm conversation",
+      "feature": "none"
+    },
+    {
+      "text": "party venue with a memorable outlook",
+      "feature": "none"
+    },
+    {
+      "text": "where is the Arsenal game being broadcast",
+      "feature": "sports"
+    },
+    {
+      "text": "pub with cricket on the telly",
+      "feature": "sports"
+    },
+    {
+      "text": "catch the boxing over a pint",
+      "feature": "sports"
+    },
+    {
+      "text": "bar airing the tennis final",
+      "feature": "sports"
+    },
+    {
+      "text": "drinks while viewing the tournament",
+      "feature": "sports"
+    },
+    {
+      "text": "pub broadcasting the cup final",
+      "feature": "sports"
+    },
+    {
+      "text": "somewhere screening Formula One",
+      "feature": "sports"
+    },
+    {
+      "text": "place to see tonight's sporting fixture",
+      "feature": "sports"
+    },
+    {
+      "text": "pub doing a Sunday roast",
+      "feature": "food"
+    },
+    {
+      "text": "order something to eat with drinks",
+      "feature": "food"
+    },
+    {
+      "text": "tavern serving hot dishes",
+      "feature": "food"
+    },
+    {
+      "text": "pints alongside a bite to eat",
+      "feature": "food"
+    },
+    {
+      "text": "dining available at the local",
+      "feature": "food"
+    },
+    {
+      "text": "pub grub before a show",
+      "feature": "food"
+    },
+    {
+      "text": "somewhere with supper and ale",
+      "feature": "food"
+    },
+    {
+      "text": "bar where the chef is still cooking",
+      "feature": "food"
+    },
+    {
+      "text": "drinks in a courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub with seats under the sky",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "alfresco pint in the sunshine",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "tables on an exterior terrace",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "local with a back yard for customers",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "sit outdoors with our drinks",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "open-air drinking space",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub seats on the pavement",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "see a band perform at the pub",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "bar putting on acoustic acts",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pints during a jazz set",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "tavern with singers on stage",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "regular gig venue that serves drinks",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "hear musicians play live",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "folk performance in a local",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub hosting a small concert",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "dance to someone mixing records",
+      "feature": "dj"
+    },
+    {
+      "text": "pub with decks and a dance floor",
+      "feature": "dj"
+    },
+    {
+      "text": "late bar featuring a resident selector",
+      "feature": "dj"
+    },
+    {
+      "text": "electronic music mixed live",
+      "feature": "dj"
+    },
+    {
+      "text": "venue where a disc jockey performs",
+      "feature": "dj"
+    },
+    {
+      "text": "party with someone on the turntables",
+      "feature": "dj"
+    },
+    {
+      "text": "weekend record-spinning night",
+      "feature": "dj"
+    },
+    {
+      "text": "pub hosting a dance-music selector",
+      "feature": "dj"
+    },
+    {
+      "text": "local that admits canines",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "can my spaniel come inside",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pet-welcoming bar",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pint with our pooch beside us",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub allowing four-legged guests",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "somewhere friendly to hounds",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "take the terrier for drinks",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "venue where companion animals may enter",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "level doorway suitable for mobility aids",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub entrance with zero stairs",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "can a mobility chair get inside",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "bar with an accessible washroom",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "drinking venue suitable for disabled guests",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "flat entry into the pub",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "local reachable without using steps",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "accessible route from street to table",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "arrange a table before we arrive",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub accepting advance bookings",
+      "feature": "reservations"
+    },
+    {
+      "text": "can the venue save us seats",
+      "feature": "reservations"
+    },
+    {
+      "text": "schedule a table for later",
+      "feature": "reservations"
+    },
+    {
+      "text": "drinks with a table held in our name",
+      "feature": "reservations"
+    },
+    {
+      "text": "book ahead at the local",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub offering advance seating",
+      "feature": "reservations"
+    },
+    {
+      "text": "make sure a table is waiting",
+      "feature": "reservations"
+    },
+    {
+      "text": "venue for the entire department",
+      "feature": "groups"
+    },
+    {
+      "text": "pub able to host a big crowd",
+      "feature": "groups"
+    },
+    {
+      "text": "room for a team get-together",
+      "feature": "groups"
+    },
+    {
+      "text": "large birthday party venue",
+      "feature": "groups"
+    },
+    {
+      "text": "local suitable for twenty guests",
+      "feature": "groups"
+    },
+    {
+      "text": "company social in a private room",
+      "feature": "groups"
+    },
+    {
+      "text": "hire space for a reunion",
+      "feature": "groups"
+    },
+    {
+      "text": "pub accommodating a sizeable party",
+      "feature": "groups"
+    },
+    {
+      "text": "dinner while the boxing is broadcast",
+      "feature": "sports"
+    },
+    {
+      "text": "dinner while the boxing is broadcast",
+      "feature": "food"
+    },
+    {
+      "text": "open-air pints with our spaniel",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "open-air pints with our spaniel",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "hold seats for a live jazz set",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "hold seats for a live jazz set",
+      "feature": "reservations"
+    },
+    {
+      "text": "hot meals for a department social",
+      "feature": "groups"
+    },
+    {
+      "text": "hot meals for a department social",
+      "feature": "food"
+    },
+    {
+      "text": "arrange a table at a zero-stair venue",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "arrange a table at a zero-stair venue",
+      "feature": "reservations"
+    },
+    {
+      "text": "eat before dancing to a record selector",
+      "feature": "dj"
+    },
+    {
+      "text": "eat before dancing to a record selector",
+      "feature": "food"
+    },
+    {
+      "text": "company gathering in an exterior courtyard",
+      "feature": "groups"
+    },
+    {
+      "text": "company gathering in an exterior courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "save seats where our terrier may enter",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "save seats where our terrier may enter",
+      "feature": "reservations"
+    },
+    {
+      "text": "see the tennis final from an open-air table",
+      "feature": "sports"
+    },
+    {
+      "text": "see the tennis final from an open-air table",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "hear a band with my spaniel beside me",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "hear a band with my spaniel beside me",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "flat-entry pub serving hot dishes",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "flat-entry pub serving hot dishes",
+      "feature": "food"
+    },
+    {
+      "text": "big private party with someone mixing records",
+      "feature": "groups"
+    },
+    {
+      "text": "big private party with someone mixing records",
+      "feature": "dj"
+    },
+    {
+      "text": "pub where the match will not be televised",
+      "feature": "sports"
+    },
+    {
+      "text": "somewhere avoiding all sports coverage",
+      "feature": "sports"
+    },
+    {
+      "text": "drinks venue that does not serve meals",
+      "feature": "food"
+    },
+    {
+      "text": "no dining or snacks required",
+      "feature": "food"
+    },
+    {
+      "text": "indoor-only pub with no exterior tables",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "avoid anywhere with a garden",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "conversation without bands performing",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub that does not put on gigs",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "drinks without anyone mixing records",
+      "feature": "dj"
+    },
+    {
+      "text": "avoid venues with a disc jockey",
+      "feature": "dj"
+    },
+    {
+      "text": "canine-free pub",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "somewhere that does not admit pets",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "venue with no level-access route",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub that is not accessible to chair users",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "walk-in pub that takes no bookings",
+      "feature": "reservations"
+    },
+    {
+      "text": "somewhere that will not hold a table",
+      "feature": "reservations"
+    },
+    {
+      "text": "intimate venue that does not host large parties",
+      "feature": "groups"
+    },
+    {
+      "text": "avoid function-room pubs",
+      "feature": "groups"
+    },
+    {
+      "text": "intimate old-school tavern with a distinctive feel",
+      "feature": "none"
+    },
+    {
+      "text": "comfortable classic local packed with personality",
+      "feature": "none"
+    },
+    {
+      "text": "centuries-old pub around the parliamentary quarter",
+      "feature": "none"
+    },
+    {
+      "text": "heritage drinking place by Westminster politics",
+      "feature": "none"
+    },
+    {
+      "text": "buzzing spot for cheerful anniversary drinks",
+      "feature": "none"
+    },
+    {
+      "text": "atmospheric London tavern with stories from the past",
+      "feature": "none"
+    },
+    {
+      "text": "laid-back distinctive local for an unhurried chat",
+      "feature": "none"
+    },
+    {
+      "text": "festive drinks venue overlooking something special",
+      "feature": "none"
+    },
+    {
+      "text": "alehouse airing the derby",
+      "feature": "sports"
+    },
+    {
+      "text": "see athletics coverage over drinks",
+      "feature": "sports"
+    },
+    {
+      "text": "pub television tuned to the race",
+      "feature": "sports"
+    },
+    {
+      "text": "view the championship bout at a bar",
+      "feature": "sports"
+    },
+    {
+      "text": "local carrying live scores and fixtures",
+      "feature": "sports"
+    },
+    {
+      "text": "pints during the televised final",
+      "feature": "sports"
+    },
+    {
+      "text": "watch competitive action on pub screens",
+      "feature": "sports"
+    },
+    {
+      "text": "get a plate of grub with ale",
+      "feature": "food"
+    },
+    {
+      "text": "pub offering cooked fare",
+      "feature": "food"
+    },
+    {
+      "text": "have a full plate before drinks",
+      "feature": "food"
+    },
+    {
+      "text": "local preparing dishes all day",
+      "feature": "food"
+    },
+    {
+      "text": "bar with something edible available",
+      "feature": "food"
+    },
+    {
+      "text": "order from the kitchen at the pub",
+      "feature": "food"
+    },
+    {
+      "text": "tavern providing a roast dinner",
+      "feature": "food"
+    },
+    {
+      "text": "beer in the pub's yard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "external tables for customers",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "drink on a rooftop terrace",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "seating beyond the pub doors",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "sunlit patio for an afternoon pint",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "customer benches outdoors",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "pub with an enclosed courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "instrumentalists playing in the bar",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "see an acoustic act over drinks",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "pub staging a rock band",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "live vocals at the local",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "evening of performed jazz",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "tavern presenting regular concerts",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "hear a singer perform on stage",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "night with a person spinning vinyl",
+      "feature": "dj"
+    },
+    {
+      "text": "bar with turntables in use",
+      "feature": "dj"
+    },
+    {
+      "text": "dance event led by a music selector",
+      "feature": "dj"
+    },
+    {
+      "text": "someone mixing tracks at the pub",
+      "feature": "dj"
+    },
+    {
+      "text": "resident on the decks after dark",
+      "feature": "dj"
+    },
+    {
+      "text": "record-spinner for the party",
+      "feature": "dj"
+    },
+    {
+      "text": "late venue featuring a club-style set",
+      "feature": "dj"
+    },
+    {
+      "text": "bring a beagle into the local",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "animals welcomed beside their owners",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "pub permitting a pet inside",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "drinks with my canine companion",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "hound-admitting alehouse",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "take our puppy to the bar",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "local happy to host a dog",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "continuous flat route into the venue",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "doorway usable by a chair user",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "no change of level at the entrance",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "step-less access from the pavement",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "pub adapted for mobility needs",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "accessible WC and entry route",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "wheel user can reach the bar",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "venue lets us plan seating ahead",
+      "feature": "reservations"
+    },
+    {
+      "text": "have seats kept for our arrival",
+      "feature": "reservations"
+    },
+    {
+      "text": "request a table in advance",
+      "feature": "reservations"
+    },
+    {
+      "text": "confirm seating before the visit",
+      "feature": "reservations"
+    },
+    {
+      "text": "local allowing tables to be scheduled",
+      "feature": "reservations"
+    },
+    {
+      "text": "arrange places for drinks beforehand",
+      "feature": "reservations"
+    },
+    {
+      "text": "pub where advance plans secure a table",
+      "feature": "reservations"
+    },
+    {
+      "text": "whole office can fit together",
+      "feature": "groups"
+    },
+    {
+      "text": "venue hosting a crowd of colleagues",
+      "feature": "groups"
+    },
+    {
+      "text": "space for a sizeable celebration",
+      "feature": "groups"
+    },
+    {
+      "text": "pub equipped for collective events",
+      "feature": "groups"
+    },
+    {
+      "text": "bring fifteen friends to one venue",
+      "feature": "groups"
+    },
+    {
+      "text": "large get-together accommodated here",
+      "feature": "groups"
+    },
+    {
+      "text": "book an event room for everyone",
+      "feature": "groups"
+    },
+    {
+      "text": "cooked fare while the derby is aired",
+      "feature": "sports"
+    },
+    {
+      "text": "cooked fare while the derby is aired",
+      "feature": "food"
+    },
+    {
+      "text": "yard seating beside my beagle",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "yard seating beside my beagle",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "keep seats for an acoustic performance",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "keep seats for an acoustic performance",
+      "feature": "reservations"
+    },
+    {
+      "text": "catered office event at a pub",
+      "feature": "groups"
+    },
+    {
+      "text": "catered office event at a pub",
+      "feature": "food"
+    },
+    {
+      "text": "schedule a table reached by a flat route",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "schedule a table reached by a flat route",
+      "feature": "reservations"
+    },
+    {
+      "text": "cooked dishes then someone mixing tracks",
+      "feature": "dj"
+    },
+    {
+      "text": "cooked dishes then someone mixing tracks",
+      "feature": "food"
+    },
+    {
+      "text": "colleague gathering on an exterior patio",
+      "feature": "groups"
+    },
+    {
+      "text": "colleague gathering on an exterior patio",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "arrange places at a hound-welcoming local",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "arrange places at a hound-welcoming local",
+      "feature": "reservations"
+    },
+    {
+      "text": "televised race beside the pub courtyard",
+      "feature": "sports"
+    },
+    {
+      "text": "televised race beside the pub courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "performed jazz with our beagle present",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "performed jazz with our beagle present",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "adapted entrance and cooked pub fare",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "adapted entrance and cooked pub fare",
+      "feature": "food"
+    },
+    {
+      "text": "collective event with someone spinning vinyl",
+      "feature": "groups"
+    },
+    {
+      "text": "collective event with someone spinning vinyl",
+      "feature": "dj"
+    },
+    {
+      "text": "local deliberately free of televised games",
+      "feature": "sports"
+    },
+    {
+      "text": "do not take me anywhere airing a fixture",
+      "feature": "sports"
+    },
+    {
+      "text": "pub serving beverages and nothing edible",
+      "feature": "food"
+    },
+    {
+      "text": "avoid locals that prepare meals",
+      "feature": "food"
+    },
+    {
+      "text": "keep us inside, away from external seating",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "do not want a patio or courtyard",
+      "feature": "outdoorSeating"
+    },
+    {
+      "text": "bar with zero performed music",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "avoid pubs staging musicians",
+      "feature": "liveMusic"
+    },
+    {
+      "text": "no one should be mixing tracks",
+      "feature": "dj"
+    },
+    {
+      "text": "do not choose a place with turntables",
+      "feature": "dj"
+    },
+    {
+      "text": "venue refusing entry to animals",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "leave out pubs that permit dogs",
+      "feature": "dogFriendly"
+    },
+    {
+      "text": "stairs are required to enter",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "exclude venues offering a flat access route",
+      "feature": "wheelchairAccess"
+    },
+    {
+      "text": "walk-ins only with no advance seating",
+      "feature": "reservations"
+    },
+    {
+      "text": "do not select somewhere that keeps tables",
+      "feature": "reservations"
+    },
+    {
+      "text": "exclude places designed for crowds",
+      "feature": "groups"
+    },
+    {
+      "text": "no event rooms or collective bookings",
+      "feature": "groups"
+    },
+    {
+      "text": "welcoming heritage local with an intimate old-world identity",
+      "feature": "none"
+    },
+    {
+      "text": "classic neighbourhood boozer that feels distinctive and snug",
+      "feature": "none"
+    },
+    {
+      "text": "long-established tavern among Westminster government sights",
+      "feature": "none"
+    },
+    {
+      "text": "historic alehouse within the parliamentary district",
+      "feature": "none"
+    },
+    {
+      "text": "high-energy venue for joyful milestone drinks",
+      "feature": "none"
+    },
+    {
+      "text": "story-rich old London pub with enduring appeal",
+      "feature": "none"
+    },
+    {
+      "text": "unhurried atmospheric local suited to talking",
+      "feature": "none"
+    },
+    {
+      "text": "celebratory venue with an impressive panorama",
+      "feature": "none"
+    }
+  ]
+}
+

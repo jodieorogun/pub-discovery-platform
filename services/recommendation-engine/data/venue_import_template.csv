@@ -1,0 +1,2 @@
+venueId,name,latitude,longitude,area,priceLevel,servesFood,hasOutdoorSeating,showsSports,suitableForGroups,noiseLevel,rating,popularityScore,tags,dataSource,sourceUrl,lastVerifiedDate
+venue-example,Replace With Real Venue,51.5033,-0.1147,Waterloo,moderate,true,false,false,true,moderate,4.0,0.5,replace-me|example,replace-with-source,https://example.com,2026-08-05

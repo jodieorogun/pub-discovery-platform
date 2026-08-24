@@ -1,0 +1,14 @@
+[
+  {"name":"camden-food-1","query":"pub in Camden serving dinner","requiredAttributes":["servesFood"]},
+  {"name":"camden-food-2","query":"Camden local with a meal from the kitchen","requiredAttributes":["servesFood"]},
+  {"name":"camden-food-3","query":"somewhere to eat pub food in Camden","requiredAttributes":["servesFood"]},
+  {"name":"camden-outdoor-1","query":"Camden pub with a beer garden","requiredAttributes":["hasOutdoorSeating"]},
+  {"name":"camden-outdoor-2","query":"outside tables at a pub in Camden","requiredAttributes":["hasOutdoorSeating"]},
+  {"name":"camden-outdoor-3","query":"Camden drinks on a pub terrace","requiredAttributes":["hasOutdoorSeating"]},
+  {"name":"camden-food-outdoor-1","query":"food and outdoor seating in Camden","requiredAttributes":["servesFood","hasOutdoorSeating"]},
+  {"name":"camden-food-outdoor-2","query":"Camden pub meal in a beer garden","requiredAttributes":["servesFood","hasOutdoorSeating"]},
+  {"name":"camden-food-outdoor-3","query":"eat dinner outside at a Camden pub","requiredAttributes":["servesFood","hasOutdoorSeating"]},
+  {"name":"camden-no-outdoor-1","query":"Camden pub with no outdoor seating","excludedAttributes":["hasOutdoorSeating"]},
+  {"name":"camden-no-outdoor-2","query":"avoid Camden pubs with a beer garden","excludedAttributes":["hasOutdoorSeating"]},
+  {"name":"camden-no-food","query":"Camden pub that does not serve food","excludedAttributes":["servesFood"]}
+]

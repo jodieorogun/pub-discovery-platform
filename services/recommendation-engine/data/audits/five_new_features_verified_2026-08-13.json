@@ -1,0 +1,167 @@
+[
+  {
+    "venueId": "osm-way-451480071",
+    "venueName": "The Camden Eye",
+    "feature": "hasAccessibleToilet",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.camdeneye.pub/privatehire",
+    "evidenceText": "The official private-hire page explicitly lists an accessible toilet and separately notes that there is no lift.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current facility statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-451480071",
+    "venueName": "The Camden Eye",
+    "feature": "hostsQuiz",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.camdeneye.pub/whats-on",
+    "evidenceText": "The official what's-on page explicitly advertises quiz nights.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current event statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-node-192399976",
+    "venueName": "The Pineapple",
+    "feature": "hasHappyHour",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.thepineapplepubnw5.com/",
+    "evidenceText": "The official site advertises reduced drink prices from 3–7 pm daily and all day Tuesday.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current timed drinks promotion on the verified official venue website"
+  },
+  {
+    "venueId": "osm-node-10937912505",
+    "venueName": "Shuffleboard Bar London",
+    "feature": "hasHappyHour",
+    "suggestedValue": true,
+    "evidenceUrl": "https://shuffleboardbars.com/london/",
+    "evidenceText": "The verified official London venue page explicitly advertises happy hour.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current happy-hour statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-427900370",
+    "venueName": "The Lighterman",
+    "feature": "servesSundayRoast",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.thelighterman.co.uk/whats-on",
+    "evidenceText": "The official what's-on page advertises a Sunday roast and a roast feasting menu.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-1238928087",
+    "venueName": "The Alliance",
+    "feature": "hasVeganOptions",
+    "suggestedValue": true,
+    "evidenceUrl": "https://locipubs.com/alliance/",
+    "evidenceText": "The official venue page says it always offers healthy, seasonal and vegan options.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-1238928087",
+    "venueName": "The Alliance",
+    "feature": "servesSundayRoast",
+    "suggestedValue": true,
+    "evidenceUrl": "https://locipubs.com/alliance/",
+    "evidenceText": "The official venue page explicitly advertises fully loaded Sunday roasts.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-172055438",
+    "venueName": "The Black Lion",
+    "feature": "hasVeganOptions",
+    "suggestedValue": true,
+    "evidenceUrl": "https://blacklionkilburn.co.uk/",
+    "evidenceText": "The official venue page explicitly describes vegetarian and vegan dishes.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-416068944",
+    "venueName": "The Gatehouse",
+    "feature": "hasVeganOptions",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.urbanpubsandbars.com/venues/the-gatehouse",
+    "evidenceText": "The official venue page explicitly offers a vegan Sunday-roast option.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-416068944",
+    "venueName": "The Gatehouse",
+    "feature": "hostsQuiz",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.urbanpubsandbars.com/venues/the-gatehouse",
+    "evidenceText": "The official venue page explicitly advertises Sunday quiz night.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current recurring event statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-416068944",
+    "venueName": "The Gatehouse",
+    "feature": "servesSundayRoast",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.urbanpubsandbars.com/venues/the-gatehouse",
+    "evidenceText": "The official venue page explicitly advertises its Sunday roast.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-node-49314952",
+    "venueName": "The Colonel Fawcett",
+    "feature": "servesSundayRoast",
+    "suggestedValue": true,
+    "evidenceUrl": "https://thecolonelfawcett.co.uk/",
+    "evidenceText": "The official venue page says its Sunday roasts are available every Sunday.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit recurring menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-1009113811",
+    "venueName": "The Prince Albert",
+    "feature": "servesSundayRoast",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.princealbert.pub/",
+    "evidenceText": "The official venue page explicitly advertises its Sunday roasts.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "osm-way-275292695",
+    "venueName": "The Harrison",
+    "feature": "servesSundayRoast",
+    "suggestedValue": true,
+    "evidenceUrl": "https://theharrisonpub.com/",
+    "evidenceText": "The official venue page says home-cooked food includes Sunday roast.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current menu statement on the verified official venue website"
+  },
+  {
+    "venueId": "fsq-4b940d56f964a520606434e3",
+    "venueName": "The Shakespeare",
+    "feature": "hostsQuiz",
+    "suggestedValue": true,
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/shakespeare",
+    "evidenceText": "The verified official venue page explicitly advertises quiz nights.",
+    "reviewedAt": "2026-08-13",
+    "reviewStatus": "approved",
+    "reviewReason": "Explicit current event statement on the verified official venue website"
+  }
+]

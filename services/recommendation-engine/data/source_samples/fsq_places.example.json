@@ -1,0 +1,13 @@
+[
+  {
+    "fsqPlaceId": "fsq-example-001",
+    "name": "The Example Arms",
+    "latitude": 51.5033,
+    "longitude": -0.1147,
+    "address": "10 Example Street",
+    "postcode": "SE1 8XX",
+    "website": "https://example.invalid",
+    "phone": "+44 20 7000 0000",
+    "categories": ["Pub"]
+  }
+]

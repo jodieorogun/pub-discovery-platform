@@ -1,0 +1,611 @@
+[
+  {
+    "venueId": "fsq-4bc8964015a7ef3b8e617bda",
+    "website": "https://www.buckinghamarms.com",
+    "evidenceUrl": "https://www.buckinghamarms.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4c2f78373896e21e24f8e390",
+    "website": "https://www.carltontavern.co.uk/",
+    "evidenceUrl": "https://www.carltontavern.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b09a2a4f964a520ba1a23e3",
+    "website": "https://www.caskpubandkitchen.com",
+    "evidenceUrl": "https://www.caskpubandkitchen.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-566af633498eadbfb1b6ec53",
+    "website": "https://www.cheshirecheese.pub",
+    "evidenceUrl": "https://www.cheshirecheese.pub",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b10216ef964a520a76923e3",
+    "website": "https://www.cockandbottlew11.com/",
+    "evidenceUrl": "https://www.cockandbottlew11.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518bef964a52020a320e3",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thedogandducksoholondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thedogandducksoholondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4baa57e6f964a5202b613ae3",
+    "website": "https://www.halfway2heaven.net/london",
+    "evidenceUrl": "https://www.halfway2heaven.net/london",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-618d37ec82095024932e3909",
+    "website": "https://www.mcmullens.co.uk/local-pub/horse-guardsman/",
+    "evidenceUrl": "https://www.mcmullens.co.uk/local-pub/horse-guardsman/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b6469e3f964a52040b12ae3",
+    "website": "https://inn1888marylebone.co.uk/",
+    "evidenceUrl": "https://inn1888marylebone.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad12770f964a5201edd20e3",
+    "website": "https://www.kingsarms-soho.co.uk/london",
+    "evidenceUrl": "https://www.kingsarms-soho.co.uk/london",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b719a70f964a5206e502de3",
+    "website": "https://www.pubsmiths.co.uk/leinster-arms-bayswater",
+    "evidenceUrl": "https://www.pubsmiths.co.uk/leinster-arms-bayswater",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-500012b5e4b064f07ddb5abb",
+    "website": "https://www.urbanpubsandbars.com/venues/lord-wargrave",
+    "evidenceUrl": "https://www.urbanpubsandbars.com/venues/lord-wargrave",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad8db44f964a520561521e3",
+    "website": "https://www.morpetharms.com/",
+    "evidenceUrl": "https://www.morpetharms.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b4a47e0f964a520218226e3",
+    "website": "https://prince-alfred.co.uk/",
+    "evidenceUrl": "https://prince-alfred.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4bb22b27f964a5209cbf3ce3",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/punch-and-judy",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/punch-and-judy",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4addfc9ef964a520156721e3",
+    "website": "https://www.savoytap.co.uk",
+    "evidenceUrl": "https://www.savoytap.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b1ea8e6f964a520621d24e3",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thestgeorgestavernvictorialondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thestgeorgestavernvictorialondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b3fb763f964a52011ad25e3",
+    "website": "https://www.pubsmiths.co.uk/st-james-tavern-piccadilly",
+    "evidenceUrl": "https://www.pubsmiths.co.uk/st-james-tavern-piccadilly",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518c5f964a520d4a420e3",
+    "website": "https://www.ststephenstavern.co.uk",
+    "evidenceUrl": "https://www.ststephenstavern.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b336e66f964a520611925e3",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/tattersalls-tavern",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/tattersalls-tavern",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-545bfbd6498eeac3dda21da0",
+    "website": "https://www.admiraltytrafalgar.co.uk",
+    "evidenceUrl": "https://www.admiraltytrafalgar.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4ac518bef964a520f9a220e3",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/albert",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/albert",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4ac518bcf964a5207ea220e3",
+    "website": "https://theaudleypublichouse.com",
+    "evidenceUrl": "https://theaudleypublichouse.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4bdc684bfed22d7fad0458c9",
+    "website": "https://www.cubitthouse.co.uk/the-barley-mow-mayfair/",
+    "evidenceUrl": "https://www.cubitthouse.co.uk/the-barley-mow-mayfair/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4aeca283f964a520b4c921e3",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thebearandstaffleicestersquarelondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thebearandstaffleicestersquarelondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4aeae724f964a52087bc21e3",
+    "website": "https://www.thebridgehouselittlevenice.co.uk/",
+    "evidenceUrl": "https://www.thebridgehouselittlevenice.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-5362a193498ead903dc3600d",
+    "website": "https://burlingtonarms.com/",
+    "evidenceUrl": "https://burlingtonarms.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4be6b69fcf200f4787c8143c",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thecambridgecambridgecircuslondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thecambridgecambridgecircuslondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b21114bf964a5208f3624e3",
+    "website": "https://www.theclarencewhitehall.com",
+    "evidenceUrl": "https://www.theclarencewhitehall.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4ad63a7ff964a520de0521e3",
+    "website": "https://cliftonnw8.com/",
+    "evidenceUrl": "https://cliftonnw8.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4df2585618386ecb4e2c1bb9",
+    "website": "https://www.coachandhorsesmayfair.co.uk",
+    "evidenceUrl": "https://www.coachandhorsesmayfair.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ae216c5f964a520978a21e3",
+    "website": "https://www.coachandhorsessoho.pub",
+    "evidenceUrl": "https://www.coachandhorsessoho.pub",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ae70ae3f964a5201da821e3",
+    "website": "https://www.cubitthouse.co.uk/the-coach-makers-arms-marylebone/",
+    "evidenceUrl": "https://www.cubitthouse.co.uk/the-coach-makers-arms-marylebone/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: page title or heading matches venue name, URL identifies venue"
+  },
+  {
+    "venueId": "fsq-4ac518bcf964a52069a220e3",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thecoalholestrandlondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thecoalholestrandlondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ace0aa4f964a5200bce20e3",
+    "website": "https://www.constitutionpimlico.co.uk/",
+    "evidenceUrl": "https://www.constitutionpimlico.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518bdf964a520dfa220e3",
+    "website": "https://thecowlondon.com/",
+    "evidenceUrl": "https://thecowlondon.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad771e0f964a5208f0a21e3",
+    "website": "https://www.thecrownandtwochairmenw1.co.uk/",
+    "evidenceUrl": "https://www.thecrownandtwochairmenw1.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-6408fc18173bc606cd5de71c",
+    "website": "https://www.thechaptercollection.co.uk/duchess-marylebone",
+    "evidenceUrl": "https://www.thechaptercollection.co.uk/duchess-marylebone",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518d7f964a52057a820e3",
+    "website": "https://www.frenchhousesoho.com/",
+    "evidenceUrl": "https://www.frenchhousesoho.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4d6d2ef0125eb60c799c314e",
+    "website": "https://thegeorge.london",
+    "evidenceUrl": "https://thegeorge.london",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518baf964a520d6a120e3",
+    "website": "https://www.grenadierbelgravia.com",
+    "evidenceUrl": "https://www.grenadierbelgravia.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4acf3b84f964a520d0d220e3",
+    "website": "https://www.harpcoventgarden.com",
+    "evidenceUrl": "https://www.harpcoventgarden.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-5bfc0ed52db4a9003994a0c6",
+    "website": "https://jackalopelondon.com",
+    "evidenceUrl": "https://jackalopelondon.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b61dbc2f964a52082272ae3",
+    "website": "https://www.juggedharevictoria.co.uk",
+    "evidenceUrl": "https://www.juggedharevictoria.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518c3f964a52038a420e3",
+    "website": "https://www.lambandflagcoventgarden.co.uk",
+    "evidenceUrl": "https://www.lambandflagcoventgarden.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4af42f11f964a52075f021e3",
+    "website": "https://www.thelarrik.com",
+    "evidenceUrl": "https://www.thelarrik.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-63ffa536e69c627f96ebda0b",
+    "website": "https://luckysaint.co",
+    "evidenceUrl": "https://luckysaint.co",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b92e328f964a520812434e3",
+    "website": "https://www.themitrehydepark.com/",
+    "evidenceUrl": "https://www.themitrehydepark.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b8ffdbbf964a520986e33e3",
+    "website": "https://www.themonkeypuzzlepub.co.uk",
+    "evidenceUrl": "https://www.themonkeypuzzlepub.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4afb51dff964a520e41c22e3",
+    "website": "https://www.mcmullens.co.uk/local-pub/nags-head-covent-garden/",
+    "evidenceUrl": "https://www.mcmullens.co.uk/local-pub/nags-head-covent-garden/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4afc6d71f964a520942222e3",
+    "website": "https://www.phoenixcavendishsquare.co.uk/",
+    "evidenceUrl": "https://www.phoenixcavendishsquare.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b54a6faf964a520f5c427e3",
+    "website": "https://www.thephoenixinvictoria.co.uk",
+    "evidenceUrl": "https://www.thephoenixinvictoria.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ba15675f964a520fead37e3",
+    "website": "https://www.theporchester.co.uk/",
+    "evidenceUrl": "https://www.theporchester.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b38d411f964a520d85025e3",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/theporcupineleicestersquarelondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/theporcupineleicestersquarelondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518c3f964a5203ca420e3",
+    "website": "https://porterhouse.london/",
+    "evidenceUrl": "https://porterhouse.london/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ace02b8f964a520decd20e3",
+    "website": "https://www.theprideofpaddington.co.uk",
+    "evidenceUrl": "https://www.theprideofpaddington.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ae5031df964a52001a021e3",
+    "website": "https://www.theprincealfred.com/",
+    "evidenceUrl": "https://www.theprincealfred.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518bdf964a520e8a220e3",
+    "website": "https://www.theprincebonapartew2.co.uk/",
+    "evidenceUrl": "https://www.theprincebonapartew2.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b6c2ae4f964a5204a272ce3",
+    "website": "https://www.theprince-edward.co.uk",
+    "evidenceUrl": "https://www.theprince-edward.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b4f5f27f964a520a80327e3",
+    "website": "https://www.princeofwalespaddington.co.uk/index",
+    "evidenceUrl": "https://www.princeofwalespaddington.co.uk/index",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b54b837f964a520d2c827e3",
+    "website": "https://www.princeofwaleshighgate.co.uk/",
+    "evidenceUrl": "https://www.princeofwaleshighgate.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4baa7223f964a520eb6a3ae3",
+    "website": "https://www.theprinceregentw1.co.uk/",
+    "evidenceUrl": "https://www.theprinceregentw1.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad20635f964a520e5de20e3",
+    "website": "https://butcombe.com/the-punchbowl-pub-mayfair/",
+    "evidenceUrl": "https://butcombe.com/the-punchbowl-pub-mayfair/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue"
+  },
+  {
+    "venueId": "fsq-4b1bad24f964a52093fc23e3",
+    "website": "https://www.brunningandprice.co.uk/queensarms/",
+    "evidenceUrl": "https://www.brunningandprice.co.uk/queensarms/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ac518c3f964a5205aa420e3",
+    "website": "https://www.redlionmayfair.co.uk",
+    "evidenceUrl": "https://www.redlionmayfair.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad61fd1f964a520330521e3",
+    "website": "https://www.redlionwestminster.co.uk",
+    "evidenceUrl": "https://www.redlionwestminster.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4bf1c0a43506ef3bfc6cbd22",
+    "website": "https://www.roundhousecoventgarden.co.uk",
+    "evidenceUrl": "https://www.roundhousecoventgarden.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-53eba251498ebe3ddeb8cb3b",
+    "website": "https://www.theroyaloakmarylebone.com",
+    "evidenceUrl": "https://www.theroyaloakmarylebone.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue"
+  },
+  {
+    "venueId": "fsq-4aeae4a0f964a52073bc21e3",
+    "website": "https://www.sanctuaryhousehotel.co.uk",
+    "evidenceUrl": "https://www.sanctuaryhousehotel.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, page title or heading matches venue name, title or heading contains distinctive venue words, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4b940d56f964a520606434e3",
+    "website": "https://www.greeneking.co.uk/pubs/greater-london/shakespeare",
+    "evidenceUrl": "https://www.greeneking.co.uk/pubs/greater-london/shakespeare",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b3f6928f964a5207fa625e3",
+    "website": "https://www.shipandshovell.co.uk",
+    "evidenceUrl": "https://www.shipandshovell.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b24fe37f964a520156b24e3",
+    "website": "https://www.star-tavern-belgravia.co.uk",
+    "evidenceUrl": "https://www.star-tavern-belgravia.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4bb7695f6edc76b05522321c",
+    "website": "https://www.stylotel.com/sussex-arms",
+    "evidenceUrl": "https://www.stylotel.com/sussex-arms",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4bcdf67ecc8cd13ad679c3cf",
+    "website": "https://www.swanhydepark.co.uk",
+    "evidenceUrl": "https://www.swanhydepark.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad12f23f964a52054dd20e3",
+    "website": "https://www.thetattershallcastle.co.uk",
+    "evidenceUrl": "https://www.thetattershallcastle.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words, tracked official evidence uses same domain"
+  },
+  {
+    "venueId": "fsq-4b82eb42f964a52025ed30e3",
+    "website": "https://www.victoriapaddington.co.uk",
+    "evidenceUrl": "https://www.victoriapaddington.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b530264f964a5207c8c27e3",
+    "website": "https://www.thevolunteernw1.co.uk/",
+    "evidenceUrl": "https://www.thevolunteernw1.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ada5409f964a5205c2121e3",
+    "website": "https://www.walmercastle-nottinghill.co.uk",
+    "evidenceUrl": "https://www.walmercastle-nottinghill.co.uk",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ace2fc8f964a520edce20e3",
+    "website": "https://thewarringtonhotel.co.uk/",
+    "evidenceUrl": "https://thewarringtonhotel.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ba3d87cf964a520e46538e3",
+    "website": "https://www.warwickcastlemaidavale.com/",
+    "evidenceUrl": "https://www.warwickcastlemaidavale.com/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4c612e1ddb219c74e3c66473",
+    "website": "https://www.thewarwickpimlico.co.uk/",
+    "evidenceUrl": "https://www.thewarwickpimlico.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4ad4dc51f964a5204bfc20e3",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thewellingtonstrandlondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thewellingtonstrandlondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4bb198a7f964a5204d9b3ce3",
+    "website": "https://www.publove.co.uk/pubs/white-ferry-house",
+    "evidenceUrl": "https://www.publove.co.uk/pubs/white-ferry-house",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4fac0383e4b05cb200c3fda4",
+    "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thewhiteswanlondon",
+    "evidenceUrl": "https://www.nicholsonspubs.co.uk/restaurants/london/thewhiteswanlondon",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-5967bd71ee71205b8f06589f",
+    "website": "https://www.the-wigmore.co.uk/",
+    "evidenceUrl": "https://www.the-wigmore.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-4b2a2be5f964a520c1a524e3",
+    "website": "https://www.windmillmayfair.co.uk/",
+    "evidenceUrl": "https://www.windmillmayfair.co.uk/",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  },
+  {
+    "venueId": "fsq-5e2dcd9ef51f80000862c8e3",
+    "website": "https://threefalcons.com",
+    "evidenceUrl": "https://threefalcons.com",
+    "verifiedAt": "2026-08-10",
+    "reason": "Multiple first-party identity signals verified the venue page: full venue name appears on page, URL identifies venue, title or heading contains distinctive venue words"
+  }
+]

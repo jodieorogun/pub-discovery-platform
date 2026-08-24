@@ -1,0 +1,39 @@
+{
+  "evaluatedAt": "2026-08-10",
+  "model": "qwen2.5:3b",
+  "runtime": "Ollama 0.32.7",
+  "cost": "local-only; no API charge",
+  "results": {
+    "v6InitialLocalLlm": {
+      "meanPrecisionAtK": 0.4044,
+      "hitRateAtK": 0.6
+    },
+    "v6GuardedDevelopment": {
+      "meanPrecisionAtK": 0.8978,
+      "hitRateAtK": 0.9333
+    },
+    "v7UntouchedSemantic": {
+      "meanPrecisionAtK": 0.8444,
+      "hitRateAtK": 0.8444
+    },
+    "v7UntouchedGuardedLocalLlm": {
+      "meanPrecisionAtK": 0.8889,
+      "hitRateAtK": 0.8889
+    },
+    "v7AfterDevelopmentCorrections": {
+      "meanPrecisionAtK": 0.9778,
+      "hitRateAtK": 0.9778,
+      "independentHoldout": false
+    },
+    "v8UntouchedSemantic": {
+      "meanPrecisionAtK": 0.8233,
+      "hitRateAtK": 0.8667
+    },
+    "v8UntouchedGuardedLocalLlm": {
+      "meanPrecisionAtK": 0.8233,
+      "hitRateAtK": 0.8667
+    }
+  },
+  "v8HoldoutSha256": "b75018a2f6e802853a788b68b13e677eeb6aa5eeb01133c221ee8966ef4aab98",
+  "decision": "Keep the 3B local parser opt-in. It improved v7 but produced no same-set gain on untouched v8, so it is not the default production parser."
+}

@@ -1,0 +1,39 @@
+{
+  "auditDate": "2026-08-13",
+  "sourcePages": [
+    "https://www.pint-prices.com/borough-results/Camden",
+    "https://www.pint-prices.com/borough-results/Westminster"
+  ],
+  "selectionRule": "Accept only an explicitly listed full draught Guinness pint price; never substitute another beer",
+  "matchingRules": [
+    "compatible name plus exact normalised postcode",
+    "compatible name plus nearest coordinates within 35 metres, with the next venue over 75 metres away",
+    "compatible name plus venue-specific website host and path",
+    "compatible name plus matching numbered street address"
+  ],
+  "directoryPubsFound": 282,
+  "canonicalPubs": 408,
+  "publishedExactMatches": 37,
+  "coveragePercent": 9.07,
+  "matchMethods": {
+    "name+postcode": 30,
+    "name+coordinates": 3,
+    "name+website": 2,
+    "name+address": 2
+  },
+  "priceBands": {
+    "cheap": 0,
+    "moderate": 34,
+    "expensive": 3
+  },
+  "priceRangeGbp": {
+    "minimum": 5.07,
+    "maximum": 7.5
+  },
+  "limitations": [
+    "The directory is community-reported, not an official pub-menu source.",
+    "The source records do not expose a per-observation date, so freshness cannot be guaranteed.",
+    "Other draught beers are deliberately excluded because they are not comparable to the Guinness benchmark.",
+    "Unresolved or ambiguous directory pubs were deliberately not imported."
+  ]
+}

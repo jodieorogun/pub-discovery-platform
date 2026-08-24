@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-08-12",
+  "dataset": {
+    "venues": 408,
+    "officialWebsitesVerified": 152,
+    "evidenceDocuments": 1771,
+    "evidenceBackend": "sqlite_fts5"
+  },
+  "verifiedFeatureCoverage": {
+    "hasLiveMusic": {"known": 20, "positive": 19, "coverage": 0.049},
+    "hasDj": {"known": 6, "positive": 5, "coverage": 0.0147},
+    "hostsEvents": {"known": 7, "positive": 7, "coverage": 0.0172}
+  },
+  "regression300": {
+    "precisionAt1": 0.88,
+    "precisionAt3": 0.8756,
+    "precisionAt5": 0.8733,
+    "recallAt5": 0.5234,
+    "recallAt20": 0.6758,
+    "capacityAdjustedRecallAt5": 0.8377,
+    "hitRateAt5": 0.88,
+    "mrr": 0.8801,
+    "ndcgAt5": 0.8486
+  },
+  "ragasEvidence": {
+    "evaluatedCases": 236,
+    "idContextPrecision": 0.881,
+    "idContextRecall": 0.8898,
+    "paidApiCost": 0
+  },
+  "notes": [
+    "The active 300-case file is a development regression suite, not an untouched holdout.",
+    "Unknown feature values are not treated as false or accepted as verified matches.",
+    "Official-site music, DJ and event claims remain separate attributes."
+  ]
+}

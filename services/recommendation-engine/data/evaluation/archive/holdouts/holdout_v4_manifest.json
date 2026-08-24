@@ -1,0 +1,13 @@
+{
+  "suite": "grounded-rag-holdout-v4-objective",
+  "frozenAt": "2026-08-10",
+  "caseCount": 90,
+  "sha256": "d361a8c2fd01a73f5ddf599ec25a452c87755798b966289b8700a90f87050a11",
+  "composition": {
+    "singleFeatureParaphrases": 54,
+    "multiConstraintQueries": 12,
+    "negativeQueries": 18,
+    "contradictions": 6
+  },
+  "policy": "This objective suite was frozen before example-based intent development. It excludes subjective cases whose sparse judgments require new human review."
+}

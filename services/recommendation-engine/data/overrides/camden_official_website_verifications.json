@@ -1,0 +1,16 @@
+[
+  {
+    "venueId": "osm-node-26610587",
+    "website": "https://www.thegoodmixer.co.uk/",
+    "evidenceUrl": "https://www.thegoodmixer.co.uk/",
+    "verifiedAt": "2026-08-12",
+    "reason": "Official page names The Good Mixer, gives its Camden address, and publishes its recurring music programme."
+  },
+  {
+    "venueId": "osm-way-451480071",
+    "website": "https://www.camdeneye.pub/",
+    "evidenceUrl": "https://www.camdeneye.pub/about",
+    "verifiedAt": "2026-08-12",
+    "reason": "Official page names The Camden Eye and gives the matching Kentish Town Road address and telephone number."
+  }
+]

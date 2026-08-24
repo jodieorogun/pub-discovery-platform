@@ -1,0 +1,14 @@
+{
+  "suite": "grounded-rag-holdout-v2",
+  "frozenAt": "2026-08-10",
+  "caseCount": 120,
+  "sha256": "cf40334cb77ae9babb74137d0da2d1d5976f1099aff094b9dc2105b0ee148787",
+  "composition": {
+    "singleFeatureParaphrases": 72,
+    "multiConstraintQueries": 12,
+    "negativeQueries": 18,
+    "contradictions": 10,
+    "subjectiveQueries": 8
+  },
+  "policy": "This suite was frozen before semantic intent development. Do not inspect its retrieval results or tune against it until holdout v1 development is complete."
+}

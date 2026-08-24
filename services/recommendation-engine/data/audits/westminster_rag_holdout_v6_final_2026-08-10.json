@@ -1,0 +1,42 @@
+{
+  "suite": "grounded-rag-holdout-v6-objective-final",
+  "measuredAt": "2026-08-10",
+  "queryFileSha256": "a13edeada853dae2ef5dca84c8d226483c0008d858095b2822e19313fc476b02",
+  "caseCount": 45,
+  "aggregate": {
+    "meanPrecisionAtK": 0.8756,
+    "meanRecallAtK": 0.6029,
+    "hitRateAtK": 0.9111,
+    "meanReciprocalRank": 0.8822,
+    "meanEvidenceTermCoverage": 0.9286,
+    "meanNdcgAtK": 0.8473,
+    "meanReturnedResultsAtK": 3.2667
+  },
+  "categories": {
+    "singleFeatureParaphrases": {
+      "caseCount": 27,
+      "meanPrecisionAtK": 0.963,
+      "hitRateAtK": 0.963,
+      "meanNdcgAtK": 0.9054
+    },
+    "multiConstraintQueries": {
+      "caseCount": 8,
+      "meanPrecisionAtK": 0.8,
+      "hitRateAtK": 1.0,
+      "meanNdcgAtK": 0.8354
+    },
+    "negativeQueries": {
+      "caseCount": 5,
+      "meanPrecisionAtK": 0.8,
+      "hitRateAtK": 0.8,
+      "meanNdcgAtK": 0.8
+    },
+    "contradictions": {
+      "caseCount": 5,
+      "meanPrecisionAtK": 0.6,
+      "hitRateAtK": 0.6,
+      "meanNdcgAtK": 0.6
+    }
+  },
+  "interpretation": "This untouched objective result is the stopping measurement. Development-suite precision is higher, but BGE-small intent parsing plateaus below the 0.90 unseen-query target."
+}

@@ -1,0 +1,54 @@
+{
+  "expandedAt": "2026-08-10",
+  "borough": "Camden",
+  "boundary": {
+    "source": "OpenStreetMap relation 51827 via Nominatim",
+    "geometryType": "Polygon",
+    "coordinateCount": 2024,
+    "sha256": "f3f01211e7811f87a12ebf15f13acdf314ef0f293bf5f3519badc9113e00d47e"
+  },
+  "sourceImports": {
+    "openStreetMapPubs": 225,
+    "fsqStatus": "blocked by HTTP 429 after paced bounded retries",
+    "fsqRecordsUsed": 0
+  },
+  "camdenDataset": {
+    "venues": 225,
+    "candidateWebsites": 129,
+    "verifiedOfficialWebsites": 52,
+    "rejectedCandidateWebsites": 77,
+    "foodKnown": 90,
+    "outdoorSeatingKnown": 129,
+    "postcodesKnown": 175,
+    "sha256": "12cfcc682fe832f719a4ccd962f002cb2de6e2ee6d20eeebdd18313d95b0f1d3"
+  },
+  "groundedDocuments": {
+    "venuesScanned": 45,
+    "pagesFetched": 73,
+    "passages": 276,
+    "pendingStructuredFeatureReviews": 22,
+    "sha256": "87922f90481bb0775dbd9937f1ad62c163605ead7274eeaf5e25bf0c5177d561"
+  },
+  "combinedDataset": {
+    "venues": 408,
+    "westminsterVenues": 183,
+    "camdenVenues": 225,
+    "verifiedOfficialWebsites": 150,
+    "websitePassages": 835,
+    "indexChunks": 1629,
+    "datasetSha256": "c19d1ff3ec40cebe9be32ec53dbbe195ccf6036f615d3c07f876b438fdf6e8b9",
+    "indexSha256": "4a3d71d45dbd9b4968cf9c79269b77ebd9c2f9da9da3d57e264c03dae5c395ed"
+  },
+  "evaluation": {
+    "camdenStructuredCaseCount": 12,
+    "camdenMeanPrecisionAtK": 1.0,
+    "camdenHitRateAtK": 1.0,
+    "camdenMeanNdcgAtK": 0.9678,
+    "combinedV6MeanPrecisionAtK": 0.8711,
+    "combinedV6HitRateAtK": 0.8889
+  },
+  "manualNextSteps": [
+    "Review the 22 Camden passage feature suggestions before applying them as hard filters.",
+    "Retry the paced FSQ import after the current key allowance resets, then source-match and rebuild."
+  ]
+}

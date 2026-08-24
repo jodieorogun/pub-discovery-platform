@@ -1,0 +1,52 @@
+{
+  "suite": "grounded-rag-holdout-v1",
+  "measuredAt": "2026-08-10",
+  "queryFileSha256": "d23191c6672d2c882bd26e0552afdc29027e2b8f40ad499649295af6d6e6e179",
+  "caseCount": 120,
+  "aggregate": {
+    "meanPrecisionAtK": 0.5475,
+    "meanRecallAtK": 0.4045,
+    "hitRateAtK": 0.775,
+    "meanReciprocalRank": 0.6858,
+    "meanEvidenceTermCoverage": 0.8641,
+    "meanNdcgAtK": 0.5823,
+    "meanReturnedResultsAtK": 3.9917
+  },
+  "categories": {
+    "singleFeatureParaphrases": {
+      "caseCount": 72,
+      "meanPrecisionAtK": 0.4972,
+      "hitRateAtK": 0.7778,
+      "meanNdcgAtK": 0.5189,
+      "fullyParsed": 9
+    },
+    "multiConstraintQueries": {
+      "caseCount": 12,
+      "meanPrecisionAtK": 0.275,
+      "hitRateAtK": 0.5,
+      "meanNdcgAtK": 0.4001,
+      "fullyParsed": 2
+    },
+    "negativeQueries": {
+      "caseCount": 18,
+      "meanPrecisionAtK": 0.8333,
+      "hitRateAtK": 0.8333,
+      "meanNdcgAtK": 0.8333,
+      "fullyParsed": 15
+    },
+    "contradictions": {
+      "caseCount": 10,
+      "meanPrecisionAtK": 0.9,
+      "hitRateAtK": 0.9,
+      "meanNdcgAtK": 0.9,
+      "fullyParsed": 9
+    },
+    "subjectiveQueries": {
+      "caseCount": 8,
+      "meanPrecisionAtK": 0.325,
+      "hitRateAtK": 0.875,
+      "meanNdcgAtK": 0.4637
+    }
+  },
+  "interpretation": "This is the first frozen holdout run. Parser and ranking rules were not changed after observing these results."
+}

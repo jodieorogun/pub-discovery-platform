@@ -1,0 +1,13 @@
+{
+  "suite": "grounded-rag-holdout-v6-objective-final",
+  "frozenAt": "2026-08-10",
+  "caseCount": 45,
+  "sha256": "a13edeada853dae2ef5dca84c8d226483c0008d858095b2822e19313fc476b02",
+  "composition": {
+    "singleFeatureParaphrases": 27,
+    "multiConstraintQueries": 8,
+    "negativeQueries": 5,
+    "contradictions": 5
+  },
+  "policy": "Frozen before the final bounded scope and anchor corrections identified from v5."
+}

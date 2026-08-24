@@ -1,0 +1,78 @@
+{
+  "expandedAt": "2026-08-12",
+  "dataset": {
+    "venues": 408,
+    "westminsterVenues": 183,
+    "camdenVenues": 225,
+    "datasetSha256": "b984289f0b2e29ccb4e16b12762f702e37baf80cc13f5d3f68bebc7cb5874bc1",
+    "indexChunks": 1760,
+    "indexStorage": "SQLite evidence database",
+    "indexSha256": "b6c67283ad95edde4d0d636595ac65098491c97db14c3cbeb3b47abc5b953d16"
+  },
+  "reviewedOfficialPassageFacts": {
+    "approved": 20,
+    "rejected": 2,
+    "pending": 0,
+    "newCanonicalValues": 18
+  },
+  "explicitOsmFeatureFacts": {
+    "newCanonicalValues": 77,
+    "camdenLiveMusicKnown": 4,
+    "camdenDogFriendlyKnown": 8,
+    "camdenWheelchairAccessibilityKnown": 60,
+    "camdenReservationsKnown": 5,
+    "negationPolicy": "Only explicit no values become false; missing and ambiguous values remain unknown. Limited wheelchair access is not promoted to fully accessible."
+  },
+  "combinedKnownCoverage": {
+    "servesFood": { "count": 167, "ratio": 0.4093 },
+    "hasOutdoorSeating": { "count": 202, "ratio": 0.4951 },
+    "showsSports": { "count": 16, "ratio": 0.0392 },
+    "hasLiveMusic": { "count": 18, "ratio": 0.0441 },
+    "hasDj": { "count": 4, "ratio": 0.0098 },
+    "dogFriendly": { "count": 20, "ratio": 0.049 },
+    "wheelchairAccessible": { "count": 61, "ratio": 0.1495 },
+    "acceptsReservations": { "count": 18, "ratio": 0.0441 },
+    "suitableForGroups": { "count": 11, "ratio": 0.027 }
+  },
+  "regression300": {
+    "parserVersion": "semantic-intents-v3",
+    "precisionAt1": 0.8733,
+    "precisionAt3": 0.8711,
+    "precisionAt5": 0.87,
+    "traditionalRecallAt1": 0.3708,
+    "traditionalRecallAt3": 0.4714,
+    "traditionalRecallAt5": 0.5193,
+    "traditionalRecallAt10": 0.5949,
+    "traditionalRecallAt20": 0.6679,
+    "capacityAdjustedRecallAt1": 0.8733,
+    "capacityAdjustedRecallAt3": 0.845,
+    "capacityAdjustedRecallAt5": 0.8314,
+    "capacityAdjustedRecallAt10": 0.8029,
+    "capacityAdjustedRecallAt20": 0.7801
+  },
+  "v6ContinuityCheck": {
+    "caseCount": 45,
+    "precisionAt5": 0.8756,
+    "traditionalRecallAt5": 0.4527,
+    "capacityAdjustedRecallAt5": 0.8356,
+    "hitRateAt5": 0.8889,
+    "meanNdcgAt5": 0.8467,
+    "evidenceTermCoverage": 0.9714,
+    "independenceCaveat": "No longer an untouched holdout after its expanded-data contrast-scope failure informed a general parser fix."
+  },
+  "interfaceVerification": {
+    "initialResults": 5,
+    "batchSize": 5,
+    "verifiedAfterLoadMore": 10,
+    "exampleTotalAvailable": 35
+  },
+  "qualityChecks": {
+    "testsPassed": 201,
+    "applicationCoverage": 0.9085,
+    "ruff": "passed",
+    "strictMypy": "passed",
+    "jsonValidation": "passed",
+    "lockfileConsistency": "passed",
+    "whitespace": "passed"
+  }
+}

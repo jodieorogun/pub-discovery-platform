@@ -1,0 +1,14 @@
+{
+  "suite": "grounded-rag-holdout-v3",
+  "frozenAt": "2026-08-10",
+  "caseCount": 108,
+  "sha256": "14b640a7605225e14a7a97fe40bd674029bab6a01085a6ab0c248f936945b2ab",
+  "composition": {
+    "singleFeatureParaphrases": 63,
+    "multiConstraintQueries": 12,
+    "negativeQueries": 18,
+    "contradictions": 7,
+    "subjectiveQueries": 8
+  },
+  "policy": "This suite was frozen before using v2 failures for development. Do not inspect its retrieval results or tune against it until v2 development is complete."
+}

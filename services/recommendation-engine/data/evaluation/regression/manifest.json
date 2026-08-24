@@ -1,0 +1,14 @@
+{
+  "suite": "grounded-rag-regression-300-v1",
+  "createdAt": "2026-08-12",
+  "caseCount": 300,
+  "sha256": "23a97b21d5ffef08e68c7b75d3830a93e93ee779274dbcfde9aebda9123a3023",
+  "composition": {
+    "positiveSingleFeature": 126,
+    "negativeSingleFeature": 72,
+    "positiveMultiConstraint": 54,
+    "mixedRequiredAndExcluded": 18,
+    "contradictions": 30
+  },
+  "policy": "Deterministic transparent-template regression suite. It may be used for development and must not be reported as an untouched holdout or independent generalisation test."
+}
