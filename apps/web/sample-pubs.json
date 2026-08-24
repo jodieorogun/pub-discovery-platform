@@ -1,0 +1,17 @@
+[
+  {"id":"venue-001","name":"The Lantern & Lock","latitude":51.5021,"longitude":-0.1162,"address":"Waterloo","website":null,"phone":null,"tags":{"area":"Waterloo","features":"traditional ale garden food outdoor seating"}},
+  {"id":"venue-002","name":"The Copper Signal","latitude":51.5044,"longitude":-0.1129,"address":"Waterloo","website":null,"phone":null,"tags":{"area":"Waterloo","features":"sports burgers craft beer food groups"}},
+  {"id":"venue-003","name":"The Quiet Arch","latitude":51.5015,"longitude":-0.1108,"address":"Waterloo","website":null,"phone":null,"tags":{"area":"Waterloo","features":"gastropub wine historic food outdoor seating quiet"}},
+  {"id":"venue-004","name":"The Borough Compass","latitude":51.5062,"longitude":-0.0881,"address":"London Bridge","website":null,"phone":null,"tags":{"area":"London Bridge","features":"riverside roasts terrace food outdoor seating groups"}},
+  {"id":"venue-005","name":"The Hop Foundry","latitude":51.5041,"longitude":-0.0848,"address":"London Bridge","website":null,"phone":null,"tags":{"area":"London Bridge","features":"sports real ale late groups"}},
+  {"id":"venue-006","name":"The Glass Anchor","latitude":51.507,"longitude":-0.0829,"address":"London Bridge","website":null,"phone":null,"tags":{"area":"London Bridge","features":"dining cocktails river view food outdoor seating"}},
+  {"id":"venue-007","name":"The Neon Fox","latitude":51.5248,"longitude":-0.0791,"address":"Shoreditch","website":null,"phone":null,"tags":{"area":"Shoreditch","features":"DJ street food courtyard live music food groups"}},
+  {"id":"venue-008","name":"The Brick & Byte","latitude":51.527,"longitude":-0.0755,"address":"Shoreditch","website":null,"phone":null,"tags":{"area":"Shoreditch","features":"games sports pizza food groups"}},
+  {"id":"venue-009","name":"The Weaver's Rest","latitude":51.5237,"longitude":-0.0738,"address":"Shoreditch","website":null,"phone":null,"tags":{"area":"Shoreditch","features":"small plates local beer calm food quiet"}},
+  {"id":"venue-010","name":"The Electric Ram","latitude":51.4602,"longitude":-0.1172,"address":"Brixton","website":null,"phone":null,"tags":{"area":"Brixton","features":"music football garden food outdoor seating"}},
+  {"id":"venue-011","name":"The Market Drum","latitude":51.4628,"longitude":-0.1139,"address":"Brixton","website":null,"phone":null,"tags":{"area":"Brixton","features":"Caribbean food live music craft beer food groups"}},
+  {"id":"venue-012","name":"The Olive Crown","latitude":51.4594,"longitude":-0.1126,"address":"Brixton","website":null,"phone":null,"tags":{"area":"Brixton","features":"gastropub terrace seasonal food outdoor seating"}},
+  {"id":"venue-013","name":"The Painted Lion","latitude":51.5381,"longitude":-0.145,"address":"Camden","website":null,"phone":null,"tags":{"area":"Camden","features":"rock sports canal outdoor seating groups"}},
+  {"id":"venue-014","name":"The Canal Parlour","latitude":51.5404,"longitude":-0.1403,"address":"Camden","website":null,"phone":null,"tags":{"area":"Camden","features":"canal roasts garden food outdoor seating groups"}},
+  {"id":"venue-015","name":"The North Starling","latitude":51.5372,"longitude":-0.1387,"address":"Camden","website":null,"phone":null,"tags":{"area":"Camden","features":"dining whisky fireside food quiet"}}
+]
