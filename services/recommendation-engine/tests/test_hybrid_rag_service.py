@@ -5,7 +5,7 @@ from datetime import UTC, datetime
 from app.models.account import VenueRating
 from app.models.venue import Venue
 from app.rag.venue_index import EvidenceChunk, HybridRagRetriever, VenueRagIndex
-from app.schemas.recommendation import RecommendationRequest
+from app.schemas.recommendation import RecommendationRating, RecommendationRequest
 from app.services.recommendation_service import RecommendationService
 
 
@@ -179,3 +179,30 @@ def test_personalisation_only_claims_at_least_95_percent_vibe_similarity() -> No
     assert byId["near"].personalReason is not None
     assert byId["loose"].personalReason is None
     assert response.personalised is True
+
+
+def test_browser_ratings_boost_similar_pubs_and_suppress_disliked_vibes() -> None:
+    liked = venue("liked", 4.0)
+    liked.hasLiveMusic = True
+    similar = liked.model_copy(update={"venueId": "similar", "name": "similar"})
+    disliked = venue("disliked", 4.0)
+    disliked.servesFood = False
+    disliked.hasLiveMusic = True
+    avoid = disliked.model_copy(update={"venueId": "avoid", "name": "avoid"})
+    response = RecommendationService(Repository([liked, similar, disliked, avoid])).recommend(
+        RecommendationRequest(
+            query="pub",
+            limit=4,
+            ratings=[
+                RecommendationRating(venueId="liked", rating=4.5),
+                RecommendationRating(venueId="disliked", rating=1),
+            ],
+        )
+    )
+
+    byId = {item.venueId: item for item in response.recommendations}
+    assert byId["similar"].personalReason == "Similar vibe to liked, which you rated highly"
+    assert byId["avoid"].personalReason == (
+        "Less similar to disliked, which you rated below two"
+    )
+    assert byId["liked"].userRating == 4.5

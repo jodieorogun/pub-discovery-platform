@@ -13,6 +13,7 @@ from app.repositories.venue_repository import VenueRepository
 from app.retrieval.candidate_retriever import retrieveCandidates
 from app.schemas.recommendation import (
     ParsedPreferences,
+    RecommendationRating,
     RecommendationRequest,
     RecommendationResponse,
     VenueRecommendation,
@@ -112,7 +113,8 @@ class RecommendationService:
                 key=lambda recommendation: (-recommendation.score, recommendation.name)
             )
             retrievalMode = "hybrid_rag"
-        recommendations = _personalise(recommendations, venues, userRatings or [])
+        ratings = [*(userRatings or []), *request.ratings]
+        recommendations = _personalise(recommendations, venues, ratings)
         totalAvailable = len(recommendations)
         pageEnd = request.offset + request.limit
         return RecommendationResponse(
@@ -144,16 +146,23 @@ class RecommendationService:
 def _personalise(
     recommendations: list[VenueRecommendation],
     venues: list[Venue],
-    userRatings: list[VenueRating],
+    userRatings: list[VenueRating | RecommendationRating],
 ) -> list[VenueRecommendation]:
-    """Add a cautious vibe boost using only pubs the user rated four or five stars."""
+    """Boost liked vibes and strongly suppress vibes the user rated below two."""
     ratingsByVenue = {rating.venueId: rating for rating in userRatings}
     venuesById = {venue.venueId: venue for venue in venues}
     liked = [
         (venuesById[rating.venueId], rating.rating)
         for rating in userRatings
         if rating.rating is not None
-        and rating.rating >= 4
+        and rating.rating > 4
+        and rating.venueId in venuesById
+    ]
+    disliked = [
+        (venuesById[rating.venueId], rating.rating)
+        for rating in userRatings
+        if rating.rating is not None
+        and rating.rating < 2
         and rating.venueId in venuesById
     ]
     personalised: list[VenueRecommendation] = []
@@ -171,10 +180,21 @@ def _personalise(
                 bestSimilarity = similarity
                 bestName = likedVenue.name
                 bestRating = likedRating
+        bestDislikeSimilarity = 0.0
+        bestDislikedName: str | None = None
+        for dislikedVenue, dislikedRating in disliked:
+            if dislikedVenue.venueId == candidate.venueId:
+                continue
+            similarity = _vibeSimilarity(candidate, dislikedVenue)
+            if similarity > bestDislikeSimilarity:
+                bestDislikeSimilarity = similarity
+                bestDislikedName = dislikedVenue.name
         combinedScore = recommendation.score
         reason = None
-        # Only claim a shared vibe when the verified-trait similarity is exceptional.
-        if bestName is not None and bestSimilarity >= 0.95:
+        if bestDislikedName is not None and bestDislikeSimilarity >= 0.75:
+            combinedScore = recommendation.score * (1.0 - 0.85 * bestDislikeSimilarity)
+            reason = f"Less similar to {bestDislikedName}, which you rated below two"
+        elif bestName is not None and bestSimilarity >= 0.95:
             personalSignal = bestSimilarity * (bestRating / 5.0)
             combinedScore = 0.85 * recommendation.score + 0.15 * personalSignal
             reason = f"Similar vibe to {bestName}, which you rated highly"
@@ -186,7 +206,11 @@ def _personalise(
                     "score": round(min(1.0, combinedScore), 3),
                     "beenHere": ownRating.beenHere if ownRating else False,
                     "userRating": ownRating.rating if ownRating else None,
-                    "personalScore": round(bestSimilarity, 3) if bestName else None,
+                    "personalScore": round(
+                        max(bestSimilarity, bestDislikeSimilarity), 3
+                    )
+                    if bestName or bestDislikedName
+                    else None,
                     "personalReason": reason,
                 }
             )

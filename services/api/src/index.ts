@@ -69,6 +69,20 @@ app.post<{ Body: { query: string; limit?: number; offset?: number } }>('/recomme
   }
 });
 
+app.post<{ Body: Record<string, unknown> }>('/feedback', async (request, reply) => {
+  try {
+    const response = await fetch(`${recommendationApiUrl}/feedback`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(request.body),
+    });
+    const payload = await response.json();
+    return reply.code(response.status).send(payload);
+  } catch {
+    return reply.code(503).send({ error: 'Recommendation service unavailable' });
+  }
+});
+
 app.get<{ Querystring: { limit?: string } }>('/pubs', async (request) => {
   const requestedLimit = Number(request.query.limit ?? 500);
   const limit = Number.isFinite(requestedLimit)

@@ -3,12 +3,21 @@
 from pydantic import BaseModel, Field, field_validator
 
 
+class RecommendationRating(BaseModel):
+    """A browser-supplied rating used for anonymous personalisation."""
+
+    venueId: str = Field(min_length=1, max_length=100)
+    rating: float = Field(ge=1, le=5, multiple_of=0.5)
+    beenHere: bool = True
+
+
 class RecommendationRequest(BaseModel):
     """A natural-language recommendation request."""
 
     query: str = Field(min_length=1, max_length=500)
     limit: int = Field(default=5, ge=1, le=20)
     offset: int = Field(default=0, ge=0)
+    ratings: list[RecommendationRating] = Field(default_factory=list, max_length=100)
 
     @field_validator("query")
     @classmethod
@@ -77,7 +86,7 @@ class VenueRecommendation(BaseModel):
     verifiedFeatures: list[str] = Field(default_factory=list)
     unknownFeatures: list[str] = Field(default_factory=list)
     beenHere: bool = False
-    userRating: int | None = Field(default=None, ge=1, le=5)
+    userRating: float | None = Field(default=None, ge=1, le=5, multiple_of=0.5)
     personalScore: float | None = Field(default=None, ge=0.0, le=1.0)
     personalReason: str | None = None
 
