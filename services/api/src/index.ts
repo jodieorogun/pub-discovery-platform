@@ -7,7 +7,7 @@ import { refreshPubOpeningHours } from './websiteHours.js';
 import { refreshPubAddress } from './address.js';
 
 const app = Fastify({ logger: true });
-await app.register(cors, { origin: true });
+await app.register(cors, { origin: true, credentials: true });
 
 const recommendationApiUrl = (process.env.RECOMMENDATION_API_URL ?? 'http://127.0.0.1:8000').replace(/\/$/, '');
 
@@ -80,6 +80,29 @@ app.post<{ Body: Record<string, unknown> }>('/feedback', async (request, reply) 
     return reply.code(response.status).send(payload);
   } catch {
     return reply.code(503).send({ error: 'Recommendation service unavailable' });
+  }
+});
+
+app.all<{ Params: { '*': string }; Body: unknown }>('/account/*', async (request, reply) => {
+  try {
+    const body = ['GET', 'HEAD'].includes(request.method)
+      ? undefined
+      : JSON.stringify(request.body ?? {});
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+    if (request.headers.cookie) headers.Cookie = request.headers.cookie;
+    const response = await fetch(`${recommendationApiUrl}/account/${request.params['*']}`, {
+      method: request.method,
+      headers,
+      body,
+    });
+    const cookies = response.headers.getSetCookie?.() ?? [];
+    cookies.forEach((cookie) => reply.header('set-cookie', cookie));
+    const contentType = response.headers.get('content-type');
+    if (contentType) reply.type(contentType);
+    const payload = Buffer.from(await response.arrayBuffer());
+    return reply.code(response.status).send(payload.length ? payload : undefined);
+  } catch {
+    return reply.code(503).send({ error: 'Account service unavailable' });
   }
 });
 

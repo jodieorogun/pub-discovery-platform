@@ -54,6 +54,19 @@ class AccountService:
             raise AccountConflictError("An account already exists for this email")
         return account, self._newSession(account.userId, now)
 
+    def ensureDemoAdmin(self, email: str, password: str) -> None:
+        """Create the temporary local demo account when it does not exist."""
+        if self.repository.getCredentials(email) is not None:
+            return
+        now = datetime.now(UTC)
+        account = UserAccount(
+            userId=str(uuid4()),
+            email=email.lower(),
+            displayName="Admin",
+            createdAt=now,
+        )
+        self.repository.createUser(account, _hashPassword(password))
+
     def login(self, request: LoginRequest) -> tuple[UserAccount, str]:
         credentials = self.repository.getCredentials(str(request.email))
         if credentials is None or not _verifyPassword(request.password, credentials[1]):

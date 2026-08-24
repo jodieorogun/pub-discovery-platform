@@ -119,6 +119,11 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     accountPath = Path(os.environ.get("ACCOUNT_DB_PATH", str(defaultAccountPath)))
     accountRepository = SqliteAccountRepository(accountPath)
     app.state.accountService = AccountService(accountRepository, venueRepository)
+    if os.environ.get("DEMO_ADMIN_ENABLED", "true").lower() == "true":
+        app.state.accountService.ensureDemoAdmin(
+            os.environ.get("DEMO_ADMIN_EMAIL", "admin@admin.com"),
+            os.environ.get("DEMO_ADMIN_PASSWORD", "admin"),
+        )
     app.state.featureReviewRepository = SqliteFeatureReviewRepository(feedbackPath)
     app.state.priceObservationRepository = priceObservations
     app.state.venueRepository = venueRepository

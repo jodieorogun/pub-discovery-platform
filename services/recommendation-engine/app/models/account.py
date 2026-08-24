@@ -20,7 +20,7 @@ class VenueRating(BaseModel):
     userId: str
     venueId: str
     beenHere: bool = True
-    rating: int | None = Field(default=None, ge=1, le=5)
+    rating: float | None = Field(default=None, ge=1, le=5, multiple_of=0.5)
     privateNote: str | None = None
     hasPhoto: bool = False
     visitedAt: datetime

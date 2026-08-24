@@ -700,7 +700,7 @@ The first personalisation layer is deliberately local and free:
 - mark a pub as visited and optionally rate it from one to five stars;
 - keep a private diary note and optional photo for each visit;
 - update an existing rating without creating duplicate diary entries;
-- boost pubs sharing verified traits with places rated four or five stars;
+- boost pubs sharing verified traits with places rated above four stars;
 - see why a result was personalised without hiding its normal evidence.
 - see a weekly visit count, average rating, and London dataset discovery percentage.
 
@@ -712,6 +712,9 @@ Diary notes and photos are private account data: photo responses require the own
 use private caching. Friend connections and public reviews are intentionally not implemented yet.
 Personal data is stored in `data/local/accounts.sqlite3`, separately from the rebuildable venue
 and evidence database. Set `ACCOUNT_DB_PATH` to choose a different private database location.
+
+For the local demo, the web login is prefilled with `admin@admin.com` / `admin`. Disable this
+temporary account with `DEMO_ADMIN_ENABLED=false` before exposing the service beyond local development.
 
 Personal vibe explanations require at least 50% overlap across known verified traits. Pricing uses
 one comparable London benchmark: a full pint of draught Guinness is cheap below £4, expensive

@@ -44,7 +44,7 @@ class RatingRequest(BaseModel):
     """A null rating records a visit without forcing a star score."""
 
     beenHere: bool = True
-    rating: int | None = Field(default=None, ge=1, le=5)
+    rating: float | None = Field(default=None, ge=1, le=5, multiple_of=0.5)
     privateNote: str | None = Field(default=None, max_length=2000)
     photoDataUrl: str | None = Field(default=None, max_length=7_000_000)
 
@@ -62,7 +62,7 @@ class DiaryEntry(BaseModel):
     area: str
     address: str | None = None
     postcode: str | None = None
-    rating: int | None = Field(default=None, ge=1, le=5)
+    rating: float | None = Field(default=None, ge=1, le=5, multiple_of=0.5)
     privateNote: str | None = None
     photoUrl: str | None = None
     visitedAt: datetime

@@ -51,6 +51,15 @@ def testRejectsDuplicateAccountAndInvalidLogin(client: TestClient) -> None:
     assert invalid.status_code == 401
 
 
+def testDemoAdminLogin(client: TestClient) -> None:
+    response = client.post(
+        "/account/login", json={"email": "admin@admin.com", "password": "admin"}
+    )
+
+    assert response.status_code == 200
+    assert response.json()["email"] == "admin@admin.com"
+
+
 def testStoresLatestVenueRatingAndPersonalisesResults(client: TestClient) -> None:
     _register(client)
 
@@ -77,6 +86,17 @@ def testStoresLatestVenueRatingAndPersonalisesResults(client: TestClient) -> Non
     )
     assert rated["beenHere"] is True
     assert rated["userRating"] == 4
+
+
+def testStoresHalfStarRatings(client: TestClient) -> None:
+    _register(client)
+
+    saved = client.put(
+        "/account/ratings/venue-001", json={"beenHere": True, "rating": 4.5}
+    )
+
+    assert saved.status_code == 200
+    assert saved.json()["rating"] == 4.5
 
 
 def testAllowsVisitedWithoutRatingAndRejectsUnknownVenue(client: TestClient) -> None:
