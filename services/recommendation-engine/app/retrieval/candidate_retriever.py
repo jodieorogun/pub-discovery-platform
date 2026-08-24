@@ -5,6 +5,11 @@ from app.preference_features import featureValue
 from app.schemas.recommendation import ParsedPreferences
 
 
+def normalisePostcode(value: str | None) -> str:
+    """Compare UK postcodes without case or spacing differences."""
+    return "".join((value or "").upper().split())
+
+
 def retrieveCandidates(venues: list[Venue], preferences: ParsedPreferences) -> list[Venue]:
     """Apply location and explicitly required feature filters."""
     if preferences.contradictions:
@@ -13,6 +18,10 @@ def retrieveCandidates(venues: list[Venue], preferences: ParsedPreferences) -> l
         venue
         for venue in venues
         if (preferences.location is None or venue.area == preferences.location)
+        and (
+            preferences.postcode is None
+            or normalisePostcode(venue.postcode).startswith(normalisePostcode(preferences.postcode))
+        )
         and venue.area not in preferences.excludedLocations
         and (
             not preferences.excludedPriceLevels

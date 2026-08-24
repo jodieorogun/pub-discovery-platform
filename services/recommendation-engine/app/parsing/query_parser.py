@@ -12,7 +12,7 @@ SUPPORTED_AREAS = (
     "Camden",
     "Westminster",
 )
-PARSER_VERSION = "rules-v4-five-features"
+PARSER_VERSION = "rules-v5-postcodes"
 FILLER_TERMS = {
     "a",
     "an",
@@ -48,6 +48,8 @@ GROUP_SIZE_PATTERN = re.compile(
     r"\b(?:(?:for|party of|group of)\s+(\d{1,2})(?:\s+(?:people|persons|friends|guests))?"
     r"|(\d{1,2})\s+(?:people|persons|friends|guests))\b"
 )
+UK_POSTCODE_PATTERN = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2})\b", re.IGNORECASE)
+UK_OUTWARD_POSTCODE_PATTERN = re.compile(r"\b([A-Z]{1,2}\d[A-Z]?)\b", re.IGNORECASE)
 
 # Canonical names are shared by exclusions, soft preferences, and API diagnostics.
 FEATURE_PHRASES: dict[str, tuple[str, ...]] = {
@@ -234,6 +236,9 @@ def _phraseStrengths(query: str, phrase: str) -> set[str]:
 def parseQuery(query: str) -> ParsedPreferences:
     """Extract only explicitly supported preferences from a query."""
     loweredQuery = query.casefold()
+    postcodeMatch = UK_POSTCODE_PATTERN.search(query) or UK_OUTWARD_POSTCODE_PATTERN.search(query)
+    postcodeText = postcodeMatch.group(1) if postcodeMatch else None
+    postcode = re.sub(r"\s+", "", postcodeText).upper() if postcodeText else None
     locationStrengths = {
         area: _phraseStrengths(loweredQuery, area.casefold()) for area in SUPPORTED_AREAS
     }
@@ -325,6 +330,8 @@ def parseQuery(query: str) -> ParsedPreferences:
     ]
     remainingText = loweredQuery
     remainingText = GROUP_SIZE_PATTERN.sub(" ", remainingText)
+    if postcodeText:
+        remainingText = re.sub(re.escape(postcodeText), " ", remainingText, flags=re.IGNORECASE)
     for phrase in sorted(recognisedPhrases, key=len, reverse=True):
         remainingText = re.sub(rf"\b{re.escape(phrase)}\b", " ", remainingText)
     unparsedTerms = [
@@ -333,6 +340,7 @@ def parseQuery(query: str) -> ParsedPreferences:
 
     return ParsedPreferences(
         location=location,
+        postcode=postcode,
         excludedLocations=excludedLocations,
         priceLevel=priceLevel,
         excludedPriceLevels=excludedPriceLevels,

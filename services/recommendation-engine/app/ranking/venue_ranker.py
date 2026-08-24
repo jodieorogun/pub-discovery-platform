@@ -65,6 +65,8 @@ def scoreVenue(
         factors.append(("location", weights.location, locationScore))
         if venue.area == preferences.location:
             reasons.append(f"Located in {preferences.location}")
+    if preferences.postcode and venue.postcode:
+        reasons.append(f"Located in postcode {venue.postcode}")
     if preferences.priceLevel and venue.priceLevel is not None:
         priceMatch = venue.priceLevel == preferences.priceLevel
         factors.append(("price", weights.price, float(priceMatch)))

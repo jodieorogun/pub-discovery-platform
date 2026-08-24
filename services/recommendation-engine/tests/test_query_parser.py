@@ -22,6 +22,12 @@ def testParsesNoisePreferences() -> None:
     assert parseQuery("a pub in Westminster").location == "Westminster"
 
 
+def testParsesUkPostcodes() -> None:
+    assert parseQuery("pub near SW1A 1AA").postcode == "SW1A1AA"
+    assert parseQuery("pub in nw1 7by with food").postcode == "NW17BY"
+    assert parseQuery("pub near SW1A 1AA").unparsedTerms == []
+
+
 def testParsesExcludedOutdoorSeating() -> None:
     for query in (
         "pubs in Westminster with food and no outdoor seating",

@@ -40,6 +40,21 @@ def testAppliesHardFilters() -> None:
     assert candidates == [matchingVenue]
 
 
+def testFiltersByFullOrOutwardPostcode() -> None:
+    matchingVenue = makeVenue(postcode="SW1A 1AA")
+    candidates = retrieveCandidates(
+        [matchingVenue, makeVenue(venueId="other", postcode="SW1A 2BB")],
+        ParsedPreferences(postcode="SW1A1AA"),
+    )
+    assert candidates == [matchingVenue]
+
+    outwardCandidates = retrieveCandidates(
+        [matchingVenue, makeVenue(venueId="other", postcode="SW1A 2BB")],
+        ParsedPreferences(postcode="SW1A"),
+    )
+    assert outwardCandidates == [matchingVenue, makeVenue(venueId="other", postcode="SW1A 2BB")]
+
+
 def testDoesNotHardFilterSoftPreferences() -> None:
     venue = makeVenue(priceLevel="expensive", noiseLevel="lively")
     candidates = retrieveCandidates(

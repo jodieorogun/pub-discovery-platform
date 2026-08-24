@@ -23,6 +23,7 @@ class ParsedPreferences(BaseModel):
     """Structured preferences extracted from a natural-language query."""
 
     location: str | None = None
+    postcode: str | None = None
     excludedLocations: list[str] = Field(default_factory=list)
     priceLevel: str | None = None
     excludedPriceLevels: list[str] = Field(default_factory=list)

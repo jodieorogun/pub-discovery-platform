@@ -250,7 +250,7 @@ def _describePreferences(
     ignored: list[str] = []
     warnings: list[str] = []
 
-    for name in ("location", "priceLevel", "noiseLevel"):
+    for name in ("location", "postcode", "priceLevel", "noiseLevel"):
         value = getattr(parsed, name)
         if value is not None:
             active.append(f"{name}:{value}")
@@ -305,6 +305,11 @@ def _describeNoResults(venues: list[Venue], preferences: ParsedPreferences) -> l
         return ["Conflicting requirements must be resolved before matching venues."]
 
     reasons: list[str] = []
+    if parsed.postcode and not any(
+        "".join((venue.postcode or "").upper().split()).startswith(parsed.postcode)
+        for venue in venues
+    ):
+        reasons.append(f"No venues are available in postcode {parsed.postcode}.")
     if parsed.location and not any(venue.area == parsed.location for venue in venues):
         reasons.append(f"No venues are available in {parsed.location}.")
     requiredFlags = {
