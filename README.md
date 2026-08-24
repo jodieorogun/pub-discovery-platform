@@ -24,6 +24,23 @@ cp apps/mobile/.env.example apps/mobile/.env
 
 Set `DATABASE_URL` in `services/api/.env`. In `apps/mobile/.env`, replace `192.168.1.100` with this computer's local network IP when using Expo Go on a phone. The phone and computer must be on the same Wi-Fi network. For an iOS simulator, use `http://127.0.0.1:3000` instead.
 
+### Hosted database with Neon
+
+Neon works with the existing Fastify API without a code migration. Create a Neon project, copy its pooled PostgreSQL connection string, and set these values in `services/api/.env`:
+
+```env
+DATABASE_URL=postgresql://USER:PASSWORD@HOST/DBNAME?sslmode=require
+DATABASE_SSL=true
+```
+
+Then initialize and populate it:
+
+```bash
+cd services/api
+npm run db:migrate
+npm run db:import
+```
+
 To find the computer's local IP on macOS, run `ipconfig getifaddr en0` (or `ipconfig getifaddr en1` if Wi-Fi is using that interface). After changing `.env`, restart Expo with its cache cleared:
 
 ```bash

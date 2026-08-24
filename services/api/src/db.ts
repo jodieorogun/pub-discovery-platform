@@ -7,8 +7,10 @@ if (!process.env.DATABASE_URL) {
   throw new Error('DATABASE_URL is required');
 }
 
+const useSsl = process.env.DATABASE_SSL === 'true' || process.env.NODE_ENV === 'production';
+
 export const db = new Pool({
   connectionString: process.env.DATABASE_URL,
   connectionTimeoutMillis: 3000,
-  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : undefined,
+  ssl: useSsl ? { rejectUnauthorized: false } : undefined,
 });
