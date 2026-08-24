@@ -57,6 +57,7 @@ class AccountService:
     def ensureDemoAdmin(self, email: str, password: str) -> None:
         """Create the temporary local demo account when it does not exist."""
         if self.repository.getCredentials(email) is not None:
+            self.repository.updatePasswordHash(email, _hashPassword(password))
             return
         now = datetime.now(UTC)
         account = UserAccount(

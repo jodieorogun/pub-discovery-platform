@@ -85,6 +85,14 @@ class SqliteAccountRepository:
             return None
         return self._account(row), str(row["password_hash"])
 
+    def updatePasswordHash(self, email: str, passwordHash: str) -> None:
+        """Update a local demo credential by email."""
+        with sqlite3.connect(self.databasePath) as connection:
+            connection.execute(
+                "UPDATE users SET password_hash = ? WHERE email = ? COLLATE NOCASE",
+                (passwordHash, email),
+            )
+
     def createSession(
         self, tokenHash: str, userId: str, expiresAt: datetime, createdAt: datetime
     ) -> None:
