@@ -19,17 +19,17 @@ if [[ ! -f "$ROOT_DIRECTORY/services/api/.env" ]]; then
   exit 1
 fi
 
-if port_in_use 8000; then
-  echo "Recommendation engine already running on port 8000; reusing it."
-else
-  (cd "$ROOT_DIRECTORY/services/recommendation-engine" && ./run.sh) & PIDS+=("$!")
-fi
+for port in 8000 3000; do
+  if port_in_use "$port"; then
+    echo "Stopping the existing project service on port $port."
+    existing_pid=$(lsof -tiTCP:"$port" -sTCP:LISTEN 2>/dev/null || true)
+    if [[ -n "$existing_pid" ]]; then kill $existing_pid 2>/dev/null || true; fi
+    sleep 1
+  fi
+done
 
-if port_in_use 3000; then
-  echo "API already running on port 3000; reusing it."
-else
-  (cd "$ROOT_DIRECTORY/services/api" && npm run dev) & PIDS+=("$!")
-fi
+(cd "$ROOT_DIRECTORY/services/recommendation-engine" && ./run.sh) & PIDS+=("$!")
+(cd "$ROOT_DIRECTORY/services/api" && npm run dev) & PIDS+=("$!")
 
 (cd "$ROOT_DIRECTORY/apps/web" && npm start) & PIDS+=("$!")
 
