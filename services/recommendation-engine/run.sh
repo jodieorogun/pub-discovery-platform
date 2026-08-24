@@ -6,6 +6,10 @@ set -euo pipefail
 PROJECT_DIRECTORY="$(cd "$(dirname "$0")" && pwd)"
 cd "$PROJECT_DIRECTORY"
 
+if [[ -z "${UV_CACHE_DIR:-}" ]]; then
+  export UV_CACHE_DIR="$PROJECT_DIRECTORY/.cache/uv"
+fi
+
 APP_PORT="${PORT:-8000}"
 VENUE_DATABASE="data/local/westminster_camden_venues_enriched.json"
 EVIDENCE_DATABASE="data/local/westminster_camden_evidence.sqlite3"

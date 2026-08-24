@@ -12,6 +12,7 @@ __pycache__/
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
+.cache/
 data/local/
 *.egg-info/
 .coverage*

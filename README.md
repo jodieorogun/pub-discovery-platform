@@ -11,6 +11,8 @@ One workspace for the London pub discovery app, its API, and the recommendation 
 
 The web app talks only to the Fastify API. Fastify proxies `/recommendations` to the Python service, so the client needs one backend URL.
 
+The recommendation engine's full 408-venue RAG dataset lives in the local ignored `services/recommendation-engine/data/local` directory. It is intentionally not committed to GitHub; copy or restore that directory when setting up another machine.
+
 ## Setup
 
 Requirements: Node.js 20+, npm, Python 3.12+, `uv`, and PostgreSQL.
