@@ -61,7 +61,6 @@ for (const element of data.elements) {
        tags = EXCLUDED.tags,
        opening_hours = CASE WHEN pubs.hours_source IN ('manual', 'official') THEN pubs.opening_hours ELSE EXCLUDED.opening_hours END,
        hours_source = CASE WHEN pubs.hours_source IN ('manual', 'official') THEN pubs.hours_source ELSE EXCLUDED.hours_source END,
-       address = CASE WHEN pubs.address_source IN ('manual', 'reverseGeocoded', 'officialWebsite') THEN pubs.address ELSE EXCLUDED.address END,
        address_source = CASE WHEN pubs.address_source IN ('manual', 'reverseGeocoded', 'officialWebsite') THEN pubs.address_source ELSE EXCLUDED.address_source END,
        updated_at = NOW()`,
     [
