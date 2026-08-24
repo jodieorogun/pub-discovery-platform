@@ -20,4 +20,13 @@ fi
 (cd "$ROOT_DIRECTORY/apps/mobile" && npm start) & PIDS+=("$!")
 
 echo "Pub Discovery is running. Press Ctrl-C to stop all services."
-wait -n "${PIDS[@]}"
+
+# macOS ships with Bash 3.2, which does not support `wait -n`.
+while true; do
+  for pid in "${PIDS[@]}"; do
+    if ! kill -0 "$pid" 2>/dev/null; then
+      exit 1
+    fi
+  done
+  sleep 1
+done
