@@ -6,7 +6,7 @@ const MINIMUM_MATCH_THRESHOLD = 0.5;
 
 function persist() { localStorage.setItem('pub-discovery-visited', JSON.stringify([...state.visited])); localStorage.setItem('pub-discovery-saved', JSON.stringify([...state.saved])); localStorage.setItem('pub-discovery-reviews', JSON.stringify(state.reviews)); localStorage.setItem('pub-discovery-ratings', JSON.stringify(state.ratings)); updateCounts(); }
 function updateCounts() { $('#nav-visited-count').textContent = state.visited.size; $('#nav-saved-count').textContent = state.saved.size; $('#visited-total').textContent = state.visited.size; $('#saved-total').textContent = state.saved.size; $('#discovered-total').textContent = state.pubs.length; const percent = state.pubs.length ? Math.round(state.visited.size / state.pubs.length * 100) : 0; $('#passport-percent').textContent = `${percent}%`; $('#progress-label').textContent = `${percent}% complete`; $('#progress-fill').style.width = `${percent}%`; }
-function toast(message) { const el = $('#toast'); el.textContent = message; el.classList.add('show'); window.clearTimeout(toast.timer); toast.timer = window.setTimeout(() => el.classList.remove('show'), 2400); }
+function toast() {}
 function safeUrl(value) { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } }
 function normalizedTags(pub) { return Object.entries(pub.tags || {}).filter(([, value]) => value).map(([key, value]) => `${key} ${value}`.toLowerCase()).join(' '); }
 function areaFor(pub) { const text = `${pub.address || ''} ${normalizedTags(pub)}`; if (/camden/i.test(text)) return 'Camden'; if (/westminster|soho|mayfair|pimlico/i.test(text)) return 'Westminster'; return 'London'; }
