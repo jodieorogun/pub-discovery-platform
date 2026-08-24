@@ -47,6 +47,7 @@
     </main>
 
     <dialog id="detail-dialog" class="detail-dialog"><button id="close-detail" class="dialog-close" aria-label="Close">×</button><div id="detail-content"></div></dialog>
+    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">YOUR PASSPORT</p><h2 id="review-title">Add your note</h2><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="A good pint, a memorable corner, the atmosphere…"></textarea><div class="photo-placeholder">📷 <strong>Photo memories coming soon</strong><span>Photo uploads will be added here.</span></div><button class="primary-button" type="submit">Save review</button></form></dialog>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <footer><span>Third Space · London pub discovery</span><span>Venue data from OpenStreetMap</span></footer>
   </body>
