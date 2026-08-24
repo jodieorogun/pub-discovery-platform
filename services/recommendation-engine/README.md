@@ -713,7 +713,7 @@ use private caching. Friend connections and public reviews are intentionally not
 Personal data is stored in `data/local/accounts.sqlite3`, separately from the rebuildable venue
 and evidence database. Set `ACCOUNT_DB_PATH` to choose a different private database location.
 
-Personal vibe explanations require at least 95% overlap across known verified traits. Pricing uses
+Personal vibe explanations require at least 50% overlap across known verified traits. Pricing uses
 one comparable London benchmark: a full pint of draught Guinness is cheap below £4, expensive
 above £7, and moderate otherwise. Other beers are never substituted because their prices are not
 directly comparable. The robots-aware official-site scanner checks verified HTML and PDF menus and

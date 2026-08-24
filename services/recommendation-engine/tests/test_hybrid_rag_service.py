@@ -156,12 +156,12 @@ def test_service_prioritises_evidence_for_parsed_feature() -> None:
     assert response.recommendations[0].evidence == ["This pub shows live sport."]
 
 
-def test_personalisation_only_claims_at_least_95_percent_vibe_similarity() -> None:
+def test_personalisation_only_claims_at_least_50_percent_vibe_similarity() -> None:
     liked = venue("liked", 4.0)
     liked.hasLiveMusic = True
     near = liked.model_copy(update={"venueId": "near", "name": "near"})
     loose = liked.model_copy(
-        update={"venueId": "loose", "name": "loose", "hasLiveMusic": False}
+        update={"venueId": "loose", "name": "loose", "area": "Camden", "hasLiveMusic": False}
     )
     rating = VenueRating(
         userId="user",

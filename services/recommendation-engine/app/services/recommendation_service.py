@@ -194,7 +194,7 @@ def _personalise(
         if bestDislikedName is not None and bestDislikeSimilarity >= 0.75:
             combinedScore = recommendation.score * (1.0 - 0.85 * bestDislikeSimilarity)
             reason = f"Less similar to {bestDislikedName}, which you rated below two"
-        elif bestName is not None and bestSimilarity >= 0.95:
+        elif bestName is not None and bestSimilarity >= 0.5:
             personalSignal = bestSimilarity * (bestRating / 5.0)
             combinedScore = 0.85 * recommendation.score + 0.15 * personalSignal
             reason = f"Similar vibe to {bestName}, which you rated highly"
