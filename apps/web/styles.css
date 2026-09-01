@@ -123,6 +123,17 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .saved-view { padding-top: 60px; }
 .saved-heading { margin-bottom: 28px; }
 
+.diary-view { padding-top: 12px; }
+.diary-hero { padding: 44px 0 28px; }
+.diary-hero h1 { margin: 0; color: var(--ink); font-size: clamp(44px, 6vw, 68px); line-height: 0.96; letter-spacing: -0.075em; }
+.diary-hero .hero-lede { margin-top: 14px; }
+.diary-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 34px; }
+.diary-stats > div { display: grid; gap: 3px; padding: 17px 18px; border: 1px solid var(--line); border-radius: 17px; background: var(--surface); box-shadow: 0 6px 16px rgba(42, 38, 32, 0.05); }
+.diary-stats strong { color: var(--primary); font-size: 26px; letter-spacing: -0.04em; }
+.diary-stats span { color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: 0.1em; }
+.diary-heading { margin-bottom: 2px; }
+.diary-view .pub-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
 .detail-dialog { width: min(560px, calc(100% - 30px)); padding: 0; border: 0; border-radius: 22px; background: var(--surface); color: var(--ink); box-shadow: 0 24px 70px rgba(42, 38, 32, 0.24); }
 .detail-dialog::backdrop { background: rgba(42, 38, 32, 0.42); }
 .dialog-close { position: absolute; top: 11px; right: 15px; border: 0; background: transparent; color: var(--muted); font-size: 28px; }
@@ -186,6 +197,8 @@ footer { display: flex; justify-content: space-between; padding: 23px clamp(20px
   .passport-stats { grid-template-columns: repeat(2, 1fr); }
   .passport-stats div:nth-child(2) { border-right: 0; }
   .passport-stats div:nth-child(-n + 2) { border-bottom: 1px solid var(--line); }
+  .diary-stats { grid-template-columns: repeat(2, 1fr); }
+  .diary-view .pub-grid { grid-template-columns: 1fr; }
   .map { height: 420px; }
   .detail-inner, .review-form { padding: 28px 22px; }
   footer { display: block; line-height: 1.8; }
