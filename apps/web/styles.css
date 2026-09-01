@@ -102,6 +102,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .pub-card:nth-child(3n) { border-color: #e3b3a9; box-shadow: 0 7px 18px rgba(217, 109, 93, 0.1); }
 .personal-fact { border-color: transparent; background: var(--primary-soft) !important; color: var(--primary) !important; }
 .pub-note { min-height: 34px; margin: 10px 0; color: var(--muted); font-size: 11px; line-height: 1.45; }
+.card-links { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 2px; }
+.card-links a { color: var(--primary); font-size: 11px; font-weight: 800; text-decoration: none; }
+.card-links a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 .card-actions { display: flex; align-items: stretch; gap: 7px; margin-top: 13px; }
 .card-actions button { flex: 1; padding: 8px 6px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface-strong); color: var(--primary); font-size: 10px; font-weight: 800; line-height: 1.2; }
 .card-actions button:hover { border-color: var(--primary); background: var(--primary-soft); }
