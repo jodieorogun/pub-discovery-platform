@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Find London pubs, get thoughtful recommendations, and build your pub passport.">
+    <meta name="description" content="Find London pubs, get recommendations, and keep a private pub diary.">
     <title>Pub Discovery — London pubs</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-    <link rel="stylesheet" href="styles.css?v=pub-discovery-feed">
+    <link rel="stylesheet" href="styles.css?v=pub-discovery-diary-only">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
-    <script src="app.js?v=pub-discovery-diary" defer></script>
+    <script src="app.js?v=pub-discovery-diary-only" defer></script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#explore" data-route="explore"><span class="brand-mark">PD</span><span>Pub Discovery</span></a>
       <nav class="main-nav" aria-label="Main navigation">
         <button class="nav-link active" data-route="explore">Explore</button>
-        <button class="nav-link" data-route="diary">Diary <span id="nav-diary-count" class="nav-count">0</span></button><button class="nav-link" data-route="passport">Passport <span id="nav-visited-count" class="nav-count">0</span></button><button class="nav-link" data-route="saved">Saved <span id="nav-saved-count" class="nav-count">0</span></button>
+        <button class="nav-link" data-route="diary">Diary <span id="nav-diary-count" class="nav-count">0</span></button><button class="nav-link" data-route="saved">Saved <span id="nav-saved-count" class="nav-count">0</span></button>
       </nav>
       <div class="header-actions"><span class="location-pill">⌖ London</span><button id="header-profile" class="avatar-button" aria-label="Open profile">TS</button></div>
     </header>
@@ -36,13 +36,6 @@
         <section class="discover-section"><div class="section-heading"><div><p class="eyebrow">RESULTS</p><h2 id="results-title">Explore London</h2></div><div class="view-tabs"><button class="view-tab active" data-view="list">List</button><button class="view-tab" data-view="map">Map</button></div></div><p id="status" class="status">Loading London pubs…</p><div id="results" class="pub-grid"></div><div id="browse-controls" class="browse-controls"><button id="browse-more" class="view-more-button">View more pubs</button><button id="browse-less" class="view-more-button" disabled>View less</button></div><div id="map" class="map" hidden></div></section>
       </section>
 
-      <section id="passport-view" class="view" hidden>
-        <div class="passport-hero"><div><p class="eyebrow">PASSPORT</p><h1>Your pub<br><em>history.</em></h1><p class="hero-lede">Keep track of the pubs you’ve visited.</p></div><div class="passport-seal">PD<br><small>LONDON</small></div></div>
-        <div class="passport-stats"><div><strong id="visited-total">0</strong><span>VISITED</span></div><div><strong id="saved-total">0</strong><span>SAVED</span></div><div><strong id="discovered-total">0</strong><span>DISCOVERED</span></div><div><strong id="passport-percent">0%</strong><span>EXPLORED</span></div></div>
-        <div class="progress-wrap"><div class="progress-label"><span>London pub passport</span><strong id="progress-label">0% complete</strong></div><div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div></div>
-        <div class="section-heading passport-heading"><div><p class="eyebrow">YOUR STAMPS</p><h2>Places you’ve been</h2></div></div><div id="passport-list" class="pub-grid"></div>
-      </section>
-
       <section id="diary-view" class="view diary-view" hidden>
         <div class="diary-hero"><p class="eyebrow">DIARY</p><h1>Pub diary</h1><p class="hero-lede">Your visits, ratings, reviews, and photos in one place.</p></div>
         <div class="diary-stats"><div><strong id="diary-visited-total">0</strong><span>VISITED</span></div><div><strong id="diary-rated-total">0</strong><span>RATED</span></div><div><strong id="diary-review-total">0</strong><span>REVIEWS</span></div><div><strong id="diary-photo-total">0</strong><span>PHOTOS</span></div></div>
@@ -53,7 +46,7 @@
     </main>
 
     <dialog id="detail-dialog" class="detail-dialog"><button id="close-detail" class="dialog-close" aria-label="Close">×</button><div id="detail-content"></div></dialog>
-    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">PASSPORT</p><h2 id="review-title">Add your note</h2><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="Add a note about this pub"></textarea><button class="primary-button" type="submit">Save review</button></form></dialog>
+    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">DIARY</p><h2 id="review-title">Add your note</h2><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="Add a note about this pub"></textarea><button class="primary-button" type="submit">Save review</button></form></dialog>
     <dialog id="login-dialog" class="detail-dialog"><button id="close-login" class="dialog-close" type="button" aria-label="Close">×</button><form id="login-form" class="review-form"><p class="eyebrow">ACCOUNT</p><h2 id="login-title">Sign in to save your rankings</h2><p id="login-copy" class="login-copy">Your ratings, visits, and recommendations will be saved to this account.</p><label for="login-email">Email</label><input id="login-email" type="email" value="admin@admin.com" autocomplete="username" required><label for="login-password">Password</label><input id="login-password" type="password" value="admin" autocomplete="current-password" required><p id="login-message" class="login-message" role="status"></p><button id="login-submit" class="primary-button" type="submit">Sign in</button><button id="logout-button" class="text-button" type="button" hidden>Sign out</button></form></dialog>
     <footer><span>Pub Discovery · London pubs</span><span>Venue data from OpenStreetMap</span></footer>
   </body>
