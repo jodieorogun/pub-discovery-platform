@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Find London pubs, get thoughtful recommendations, and build your pub passport.">
-    <title>Third Space — London pub discovery</title>
+    <title>Joro — London pub discovery</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-    <link rel="stylesheet" href="styles.css?v=all-recommendations-visible">
+    <link rel="stylesheet" href="styles.css?v=third-space-theme">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
     <script src="app.js?v=account-ratings-v2" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#explore" data-route="explore"><span class="brand-mark">TS</span><span>Third Space</span></a>
+      <a class="brand" href="#explore" data-route="explore"><span class="brand-mark">JR</span><span>Joro</span></a>
       <nav class="main-nav" aria-label="Main navigation">
         <button class="nav-link active" data-route="explore">Explore</button>
         <button class="nav-link" data-route="passport">My passport <span id="nav-visited-count" class="nav-count">0</span></button><button class="nav-link" data-route="saved">Saved <span id="nav-saved-count" class="nav-count">0</span></button>
@@ -23,7 +23,7 @@
     <main>
       <section id="explore-view" class="view active-view">
         <div class="hero">
-          <div class="hero-copy"><p class="eyebrow">YOUR LONDON, ONE PUB AT A TIME</p><h1>Find your<br><em>third space.</em></h1><p class="hero-lede">A thoughtful guide to the pubs, people and places that make London feel like home.</p></div>
+          <div class="hero-copy"><p class="eyebrow">PUB DISCOVERY</p><h1>Find a pub<br><em>you’ll like.</em></h1><p class="hero-lede">Search London pubs by area, atmosphere, food, music, and more.</p></div>
           <div class="hero-art" aria-hidden="true"><span class="sun"></span><span class="arch arch-one"></span><span class="arch arch-two"></span><span class="hero-pint">◒</span></div>
         </div>
 
@@ -33,22 +33,22 @@
           <div class="quick-chips"><button data-query="pub with live music">Live music</button><button data-query="historic pub">Historic</button><button data-query="pub with food and outdoor seating">Food + outdoors</button><button data-query="quiet pub for a group">Good for groups</button></div><div id="suggestion-chips" class="suggestion-chips" hidden></div>
         </section>
 
-        <section class="discover-section"><div class="section-heading"><div><p class="eyebrow">YOUR DISCOVERY</p><h2 id="results-title">Explore London</h2></div><div class="view-tabs"><button class="view-tab active" data-view="list">List</button><button class="view-tab" data-view="map">Map</button></div></div><p id="status" class="status">Loading London pubs…</p><div id="results" class="pub-grid"></div><div id="browse-controls" class="browse-controls"><button id="browse-more" class="view-more-button">View more pubs</button><button id="browse-less" class="view-more-button" disabled>View less</button></div><div id="map" class="map" hidden></div></section>
+        <section class="discover-section"><div class="section-heading"><div><p class="eyebrow">RESULTS</p><h2 id="results-title">Explore London</h2></div><div class="view-tabs"><button class="view-tab active" data-view="list">List</button><button class="view-tab" data-view="map">Map</button></div></div><p id="status" class="status">Loading London pubs…</p><div id="results" class="pub-grid"></div><div id="browse-controls" class="browse-controls"><button id="browse-more" class="view-more-button">View more pubs</button><button id="browse-less" class="view-more-button" disabled>View less</button></div><div id="map" class="map" hidden></div></section>
       </section>
 
       <section id="passport-view" class="view" hidden>
-        <div class="passport-hero"><div><p class="eyebrow">YOUR PASSPORT</p><h1>Every pint<br><em>tells a story.</em></h1><p class="hero-lede">Keep track of the places you’ve made memories in.</p></div><div class="passport-seal">TS<br><small>LONDON</small></div></div>
+        <div class="passport-hero"><div><p class="eyebrow">PASSPORT</p><h1>Your pub<br><em>history.</em></h1><p class="hero-lede">Keep track of the pubs you’ve visited.</p></div><div class="passport-seal">JR<br><small>LONDON</small></div></div>
         <div class="passport-stats"><div><strong id="visited-total">0</strong><span>VISITED</span></div><div><strong id="saved-total">0</strong><span>SAVED</span></div><div><strong id="discovered-total">0</strong><span>DISCOVERED</span></div><div><strong id="passport-percent">0%</strong><span>EXPLORED</span></div></div>
         <div class="progress-wrap"><div class="progress-label"><span>London pub passport</span><strong id="progress-label">0% complete</strong></div><div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div></div>
         <div class="section-heading passport-heading"><div><p class="eyebrow">YOUR STAMPS</p><h2>Places you’ve been</h2></div></div><div id="passport-list" class="pub-grid"></div>
       </section>
 
-      <section id="saved-view" class="view saved-view" hidden><div class="saved-heading"><h1>Your places to<br><em>come back to.</em></h1></div><div id="saved-list" class="pub-grid"></div></section>
+      <section id="saved-view" class="view saved-view" hidden><div class="saved-heading"><p class="eyebrow">SAVED</p><h1>Saved pubs</h1></div><div id="saved-list" class="pub-grid"></div></section>
     </main>
 
     <dialog id="detail-dialog" class="detail-dialog"><button id="close-detail" class="dialog-close" aria-label="Close">×</button><div id="detail-content"></div></dialog>
-    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">YOUR PASSPORT</p><h2 id="review-title">Add your note</h2><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="A good pint, a memorable corner, the atmosphere…"></textarea><button class="primary-button" type="submit">Save review</button></form></dialog>
-    <dialog id="login-dialog" class="detail-dialog"><button id="close-login" class="dialog-close" type="button" aria-label="Close">×</button><form id="login-form" class="review-form"><p class="eyebrow">YOUR THIRD SPACE</p><h2 id="login-title">Sign in to save your rankings</h2><p id="login-copy" class="login-copy">Your ratings, visits and recommendations will follow you between sessions.</p><label for="login-email">Email</label><input id="login-email" type="email" value="admin@admin.com" autocomplete="username" required><label for="login-password">Password</label><input id="login-password" type="password" value="admin" autocomplete="current-password" required><p id="login-message" class="login-message" role="status"></p><button id="login-submit" class="primary-button" type="submit">Sign in</button><button id="logout-button" class="text-button" type="button" hidden>Sign out</button></form></dialog>
-    <footer><span>Third Space · London pub discovery</span><span>Venue data from OpenStreetMap</span></footer>
+    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">PASSPORT</p><h2 id="review-title">Add your note</h2><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="Add a note about this pub"></textarea><button class="primary-button" type="submit">Save review</button></form></dialog>
+    <dialog id="login-dialog" class="detail-dialog"><button id="close-login" class="dialog-close" type="button" aria-label="Close">×</button><form id="login-form" class="review-form"><p class="eyebrow">ACCOUNT</p><h2 id="login-title">Sign in to save your rankings</h2><p id="login-copy" class="login-copy">Your ratings, visits, and recommendations will be saved to this account.</p><label for="login-email">Email</label><input id="login-email" type="email" value="admin@admin.com" autocomplete="username" required><label for="login-password">Password</label><input id="login-password" type="password" value="admin" autocomplete="current-password" required><p id="login-message" class="login-message" role="status"></p><button id="login-submit" class="primary-button" type="submit">Sign in</button><button id="logout-button" class="text-button" type="button" hidden>Sign out</button></form></dialog>
+    <footer><span>Joro · London pub discovery</span><span>Venue data from OpenStreetMap</span></footer>
   </body>
 </html>
