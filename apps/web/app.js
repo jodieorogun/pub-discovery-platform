@@ -5,7 +5,13 @@ const GOOD_MATCH_THRESHOLD = 0.62;
 const MINIMUM_MATCH_THRESHOLD = 0.5;
 
 function persist() { localStorage.setItem('pub-discovery-visited', JSON.stringify([...state.visited])); localStorage.setItem('pub-discovery-saved', JSON.stringify([...state.saved])); localStorage.setItem('pub-discovery-reviews', JSON.stringify(state.reviews)); localStorage.setItem('pub-discovery-ratings', JSON.stringify(state.ratings)); localStorage.setItem('pub-discovery-photos', JSON.stringify(state.photos)); localStorage.setItem('pub-discovery-visit-counts', JSON.stringify(state.visitCounts)); updateCounts(); }
-function updateCounts() { $('#nav-diary-count').textContent = state.visited.size; $('#nav-saved-count').textContent = state.saved.size; }
+function updateCounts() {
+  const knownPubIds = new Set(state.pubs.map((pub) => pub.id));
+  const diaryCount = [...state.visited].filter((id) => knownPubIds.has(id)).length;
+  const savedCount = [...state.saved].filter((id) => knownPubIds.has(id)).length;
+  $('#nav-diary-count').textContent = diaryCount;
+  $('#nav-saved-count').textContent = savedCount;
+}
 function toast() {}
 function safeUrl(value) { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } }
 function normalizedTags(pub) { return Object.entries(pub.tags || {}).filter(([, value]) => value).map(([key, value]) => `${key} ${value}`.toLowerCase()).join(' '); }
