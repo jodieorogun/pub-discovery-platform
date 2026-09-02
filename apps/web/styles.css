@@ -166,6 +166,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .login-form .text-button { align-self: flex-start; padding: 8px 0; }
 .refresh-hours { width: 100%; margin-top: 20px; padding: 11px 14px; border: 1px solid var(--accent); border-radius: 99px; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 800; }
 .refresh-hours:disabled { cursor: wait; opacity: 0.7; }
+.hours-status { margin: 9px 2px 0; color: var(--muted); font-size: 11px; line-height: 1.45; }
 .diary-memory { min-height: 52px; margin: 14px 0 0; padding: 12px 14px; border-left: 3px solid var(--coral); border-radius: 0 12px 12px 0; background: var(--coral-soft); color: var(--ink); font-family: Georgia, serif; font-size: 13px; line-height: 1.45; }
 .photo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 12px; }
 .photo-grid img { width: 100%; aspect-ratio: 1; object-fit: cover; border: 1px solid var(--line); border-radius: 10px; }
