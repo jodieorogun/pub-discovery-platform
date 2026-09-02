@@ -6,9 +6,9 @@
     <meta name="description" content="Find London pubs, get recommendations, and keep a private pub diary.">
     <title>Pub Discovery — London pubs</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-    <link rel="stylesheet" href="styles.css?v=pub-discovery-explore-cleanup-v2">
+    <link rel="stylesheet" href="styles.css?v=pub-discovery-explore-shortcuts">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
-    <script src="app.js?v=pub-discovery-explore-cleanup-v2" defer></script>
+    <script src="app.js?v=pub-discovery-explore-shortcuts" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -30,7 +30,7 @@
         <section class="search-panel" aria-label="Find a pub">
           <div class="search-heading"><div><p class="eyebrow">EXPLORE</p><h2>Where are you heading?</h2></div><button id="map-toggle" class="text-button">Open map ↗</button></div>
           <form id="search-form" class="search-form"><label class="search-box"><span>⌕</span><input id="query" type="search" placeholder="Try “pub with live music” or “historic pub near Westminster”" autocomplete="off"><button id="clear-search" type="button" aria-label="Clear search">×</button></label><button class="primary-button" type="submit">Search</button></form>
-          <div class="quick-chips" aria-label="Popular searches"><button data-query="pub with live music">Live music</button><button data-query="historic pub">Historic interiors</button><button data-query="pub with food and a garden">Food + garden</button><button data-query="quiet cosy pub">Quiet &amp; cosy</button></div>
+          <div class="quick-chips" aria-label="Popular searches"><button data-query="pub with live music">Live music</button><button data-query="pub showing live sport">Live sport</button><button data-query="pub with food and a garden">Food + garden</button><button data-query="quiet cosy pub">Quiet &amp; cosy</button></div>
         </section>
 
         <section class="discover-section"><div class="section-heading"><div><p class="eyebrow">RESULTS</p><h2 id="results-title">Explore London</h2></div><div class="view-tabs"><button class="view-tab active" data-view="list">List</button><button class="view-tab" data-view="map">Map</button></div></div><p id="status" class="status">Loading London pubs…</p><div id="results" class="pub-grid"></div><div id="browse-controls" class="browse-controls"><button id="browse-more" class="view-more-button">View more pubs</button><button id="browse-less" class="view-more-button" disabled>View less</button></div><div id="map" class="map" hidden></div></section>
