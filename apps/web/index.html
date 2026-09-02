@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
     <link rel="stylesheet" href="styles.css?v=booking-redirect">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
-    <script src="app.js?v=name-search" defer></script>
+    <script src="app.js?v=rating-flow-redo" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -47,7 +47,7 @@
     </main>
 
     <dialog id="detail-dialog" class="detail-dialog"><button id="close-detail" class="dialog-close" aria-label="Close">×</button><div id="detail-content"></div></dialog>
-    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">DIARY</p><h2 id="review-title">Add your note</h2><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="Add a note about this pub"></textarea><button class="primary-button" type="submit">Save review</button></form></dialog>
+    <dialog id="review-dialog" class="detail-dialog"><button id="close-review" class="dialog-close" type="button" aria-label="Close" onclick="document.getElementById('review-dialog').close()">×</button><form id="review-form" class="review-form"><p class="eyebrow">DIARY</p><h2 id="review-title">Add your note</h2><label id="rating-label">Your rating</label><div id="rating-picker" class="rating-picker" role="radiogroup" aria-labelledby="rating-label"></div><p id="rating-value" class="rating-value">No rating yet</p><button id="clear-rating" class="text-button clear-rating" type="button">Clear rating</button><label for="review-text">What did you think?</label><textarea id="review-text" rows="5" placeholder="Add a note about this pub"></textarea><button class="primary-button" type="submit">Save rating &amp; review</button></form></dialog>
     <dialog id="login-dialog" class="detail-dialog"><button id="close-login" class="dialog-close" type="button" aria-label="Close">×</button><form id="login-form" class="review-form"><p class="eyebrow">ACCOUNT</p><h2 id="login-title">Sign in to save your rankings</h2><p id="login-copy" class="login-copy">Your ratings, visits, and recommendations will be saved to this account.</p><label for="login-email">Email</label><input id="login-email" type="email" value="admin@admin.com" autocomplete="username" required><label for="login-password">Password</label><input id="login-password" type="password" value="admin" autocomplete="current-password" required><p id="login-message" class="login-message" role="status"></p><button id="login-submit" class="primary-button" type="submit">Sign in</button><button id="logout-button" class="text-button" type="button" hidden>Sign out</button></form></dialog>
     <footer><span>Pub Discovery · London pubs</span><span>Venue data from OpenStreetMap</span></footer>
   </body>

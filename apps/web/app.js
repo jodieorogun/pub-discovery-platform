@@ -121,3 +121,89 @@ void loadAccount();
 
 // Keep Explore empty until the user asks for something. The full venue dataset still loads in the background for search and Diary.
 function renderResults() { const container = $('#results'); container.replaceChildren(); const aiMode = state.aiResults !== null; const hasQuery = Boolean(state.query.trim()); $('#browse-controls').hidden = aiMode || !hasQuery; $('#results-title').textContent = aiMode ? `Your picks for “${state.query}”` : hasQuery ? `Browse results for “${state.query}”` : 'Search for pubs'; if (!hasQuery) { $('#status').textContent = state.pubs.length ? 'Search by area, feature, or preference to see pubs.' : 'Loading pubs…'; return; } if (aiMode) { if (!state.aiResults.length) { const empty = document.createElement('div'); empty.className = 'empty-state'; empty.textContent = state.aiContext?.noResultReasons?.[0] || 'No verified matches for that request yet. Try a broader search.'; container.append(empty); return; } const shown = state.recommendationsExpanded ? Math.min(state.aiVisibleCount, state.aiResults.length) : Math.min(6, state.aiResults.length); state.aiResults.slice(0, shown).forEach((item) => container.append(card(aiPub(item), { recommended: true, reasons: item.reasons }))); $('#status').textContent = `Showing ${shown} of ${state.aiResults.length} pubs`; if (state.aiResults.length > 6) { const more = document.createElement('button'); more.className = 'view-more-button'; container.append(more); } } else { if (!state.filtered.length) { const empty = document.createElement('div'); empty.className = 'empty-state'; empty.textContent = 'No pubs are available to browse yet.'; container.append(empty); return; } const expanded = container.classList.contains('browse-expanded'); state.filtered.slice(0, expanded ? 60 : 12).forEach((pub) => container.append(card(pub))); } decorateCards(); if (state.view === 'map') renderMap(); }
+
+// Keep the rating editor in one place. Older iterations attached several submit
+// handlers to this form, which meant a new pub could inherit the previous pub's
+// draft and a later handler could write the old value back over the new one.
+function renderRatingPicker(value = null) {
+  const picker = $('#rating-picker');
+  const ratingValue = $('#rating-value');
+  if (!picker) return;
+  const numericValue = Number(value);
+  const validValue = Number.isFinite(numericValue) && numericValue >= 0.5 && numericValue <= 5 ? numericValue : null;
+  picker.dataset.value = validValue == null ? '' : String(validValue);
+  picker.querySelectorAll('.rating-star').forEach((button, index) => {
+    const star = index + 1;
+    button.classList.toggle('full', validValue != null && validValue >= star);
+    button.classList.toggle('half', validValue != null && validValue === star - 0.5);
+    button.setAttribute('aria-checked', validValue === star || validValue === star - 0.5 ? 'true' : 'false');
+  });
+  if (ratingValue) ratingValue.textContent = validValue == null ? 'No rating yet' : `${validValue.toFixed(1)} out of 5`;
+}
+
+function buildRatingPicker() {
+  const picker = $('#rating-picker');
+  if (!picker) return;
+  picker.replaceChildren();
+  for (let index = 1; index <= 5; index += 1) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'rating-star';
+    button.dataset.rating = String(index);
+    button.setAttribute('role', 'radio');
+    button.setAttribute('aria-label', `${index} star${index === 1 ? '' : 's'} — click once for a half star, twice for a full star`);
+    button.textContent = '★';
+    button.addEventListener('click', () => {
+      const halfValue = index - 0.5;
+      const currentValue = Number(picker.dataset.value || 0);
+      renderRatingPicker(currentValue === halfValue ? index : halfValue);
+    });
+    picker.append(button);
+  }
+  renderRatingPicker(null);
+}
+
+// Replace the old form node so all of the earlier submit listeners disappear.
+const oldReviewForm = $('#review-form');
+const cleanReviewForm = oldReviewForm?.cloneNode(true);
+if (oldReviewForm && cleanReviewForm) oldReviewForm.replaceWith(cleanReviewForm);
+buildRatingPicker();
+$('#clear-rating')?.addEventListener('click', () => renderRatingPicker(null));
+
+openReviewForm = function (pub) {
+  const dialog = $('#review-dialog');
+  if (!dialog || !pub) return;
+  dialog.dataset.pubId = pub.id;
+  $('#review-title').textContent = pub.name;
+  $('#review-text').value = state.reviews[pub.id] || '';
+  renderRatingPicker(state.ratings[pub.id] || null);
+  if (!dialog.open) dialog.showModal();
+};
+
+renderAll = function () {
+  updateCounts();
+  renderResults();
+  renderDiary();
+  renderSaved();
+  decorateCards();
+};
+
+$('#review-form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const dialog = $('#review-dialog');
+  const pubId = dialog.dataset.pubId;
+  if (!pubId) return;
+  const rating = Number($('#rating-picker')?.dataset.value);
+  const note = $('#review-text').value.trim();
+  if (Number.isFinite(rating) && rating >= 0.5 && rating <= 5) state.ratings[pubId] = rating;
+  else delete state.ratings[pubId];
+  if (note) state.reviews[pubId] = note;
+  else delete state.reviews[pubId];
+  persist();
+  const savedRating = state.ratings[pubId] || null;
+  if (state.account) void syncAccountRating(pubId, { beenHere: state.visited.has(pubId), rating: savedRating, privateNote: state.reviews[pubId] || null });
+  if (savedRating) reportRatingFeedback(pubId, savedRating);
+  dialog.close();
+  renderAll();
+  toast(savedRating ? 'Rating saved to your diary' : 'Review saved to your diary');
+});
