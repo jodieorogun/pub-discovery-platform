@@ -22,6 +22,12 @@ type RefreshResult = WebsitePubData & {
   hoursSource?: HoursSource;
 };
 
+type BookingLinkResult = {
+  bookingUrl: string | null;
+  discovered: boolean;
+  reason?: string;
+};
+
 const dayCodes: Record<string, string> = {
   monday: 'Mo',
   tuesday: 'Tu',
@@ -35,6 +41,26 @@ const orderedDayCodes = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
 
 function normaliseUrl(value: string): string {
   return /^https?:\/\//i.test(value) ? value : `https://${value}`;
+}
+
+function stripMarkup(value: string): string {
+  return value.replace(/<[^>]*>/g, ' ').replace(/&amp;/gi, '&').replace(/&quot;/gi, '"').replace(/&#39;/gi, "'").replace(/\s+/g, ' ').trim();
+}
+
+function bookingLinkFromHtml(html: string, baseUrl: string): string | null {
+  for (const match of html.matchAll(/<a\b([^>]*?)href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    const href = match[2].trim();
+    const text = stripMarkup(match[3]);
+    const signal = `${href} ${text}`.toLowerCase();
+    if (!/book|reserv|reserve|table/.test(signal) || /privacy|cookie|unsubscribe|gift card/.test(signal)) continue;
+    try {
+      const candidate = new URL(href, baseUrl);
+      if (['http:', 'https:'].includes(candidate.protocol)) return candidate.href;
+    } catch {
+      // Ignore malformed links and keep looking for a usable booking link.
+    }
+  }
+  return null;
 }
 
 function asString(value: unknown): string | null {
@@ -149,6 +175,29 @@ export function extractWebsitePubData(html: string, expectedName?: string): Webs
     address ??= addressFromJsonLd(candidate.address);
   }
   return { openingHours, phone, address };
+}
+
+export async function findPubBookingUrl(pubId: string, fallbackWebsite?: string): Promise<BookingLinkResult> {
+  const result = await db.query<{ website: string | null }>('SELECT website FROM pubs WHERE id = $1', [pubId]);
+  const pub = result.rows[0];
+  const websiteValue = pub?.website || fallbackWebsite || null;
+  if (!websiteValue) return { bookingUrl: null, discovered: false, reason: pub ? 'no official website' : `Pub not found: ${pubId}` };
+
+  const website = normaliseUrl(websiteValue);
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
+    const response = await fetch(website, { signal: controller.signal, headers: { Accept: 'text/html,application/xhtml+xml', 'User-Agent': 'pub-discovery-booking/0.1' } });
+    clearTimeout(timeout);
+    if (!response.ok) throw new Error(`website returned ${response.status}`);
+    const bookingUrl = bookingLinkFromHtml(await response.text(), website);
+    return bookingUrl
+      ? { bookingUrl, discovered: true }
+      : { bookingUrl: website, discovered: false, reason: 'no dedicated booking link found' };
+  } catch (error) {
+    console.error('findPubBookingUrl failed', { pubId, website, error: error instanceof Error ? error.message : error });
+    return { bookingUrl: website, discovered: false, reason: 'official website could not be checked' };
+  }
 }
 
 export async function refreshPubOpeningHours(pubId: string): Promise<RefreshResult> {

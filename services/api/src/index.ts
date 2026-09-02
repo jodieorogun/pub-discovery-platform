@@ -3,7 +3,7 @@ import Fastify from 'fastify';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { db } from './db.js';
-import { refreshPubOpeningHours } from './websiteHours.js';
+import { findPubBookingUrl, refreshPubOpeningHours } from './websiteHours.js';
 import { refreshPubAddress } from './address.js';
 
 const app = Fastify({ logger: true });
@@ -149,6 +149,24 @@ app.post<{ Params: { id: string } }>('/pubs/:id/refresh-hours', async (request, 
     return await refreshPubOpeningHours(request.params.id);
   } catch (error) {
     return reply.code(404).send({ error: error instanceof Error ? error.message : 'Unable to refresh pub hours' });
+  }
+});
+
+app.get<{ Params: { id: string }; Querystring: { website?: string } }>('/pubs/:id/booking-url', async (request, reply) => {
+  try {
+    return await findPubBookingUrl(request.params.id, request.query.website);
+  } catch (error) {
+    return reply.code(404).send({ error: error instanceof Error ? error.message : 'Unable to find booking page' });
+  }
+});
+
+app.get<{ Params: { id: string }; Querystring: { website?: string } }>('/pubs/:id/book', async (request, reply) => {
+  try {
+    const result = await findPubBookingUrl(request.params.id, request.query.website);
+    if (!result.bookingUrl) return reply.code(404).send({ error: result.reason || 'No booking page found' });
+    return reply.redirect(result.bookingUrl);
+  } catch (error) {
+    return reply.code(404).send({ error: error instanceof Error ? error.message : 'Unable to open booking page' });
   }
 });
 
