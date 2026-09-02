@@ -47,15 +47,53 @@ function stripMarkup(value: string): string {
   return value.replace(/<[^>]*>/g, ' ').replace(/&amp;/gi, '&').replace(/&quot;/gi, '"').replace(/&#39;/gi, "'").replace(/\s+/g, ' ').trim();
 }
 
+const socialHosts = new Set([
+  'facebook.com',
+  'instagram.com',
+  'linkedin.com',
+  'tiktok.com',
+  'twitter.com',
+  'x.com',
+  'youtube.com',
+]);
+
+const bookingProviderHosts = new Set([
+  'bookatable.co.uk',
+  'designmynight.com',
+  'opentable.com',
+  'opentable.co.uk',
+  'quandoo.co.uk',
+  'quandoo.com',
+  'resdiary.com',
+  'sevenrooms.com',
+  'thefork.co.uk',
+  'thefork.com',
+]);
+
+function hostMatches(hostname: string, hosts: Set<string>): boolean {
+  const host = hostname.toLowerCase().replace(/^www\./, '');
+  return [...hosts].some((knownHost) => host === knownHost || host.endsWith(`.${knownHost}`));
+}
+
+function isSocialUrl(value: URL): boolean {
+  return hostMatches(value.hostname, socialHosts);
+}
+
+function isBookingProviderUrl(value: URL): boolean {
+  return hostMatches(value.hostname, bookingProviderHosts);
+}
+
 function bookingLinkFromHtml(html: string, baseUrl: string): string | null {
   for (const match of html.matchAll(/<a\b([^>]*?)href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     const href = match[2].trim();
     const text = stripMarkup(match[3]);
     const signal = `${href} ${text}`.toLowerCase();
-    if (!/book|reserv|reserve|table/.test(signal) || /privacy|cookie|unsubscribe|gift card/.test(signal)) continue;
     try {
       const candidate = new URL(href, baseUrl);
-      if (['http:', 'https:'].includes(candidate.protocol)) return candidate.href;
+      if (!['http:', 'https:'].includes(candidate.protocol) || isSocialUrl(candidate)) continue;
+      const hasBookingSignal = /book|reserv|reserve|table/.test(signal);
+      if ((!hasBookingSignal && !isBookingProviderUrl(candidate)) || /privacy|cookie|unsubscribe|gift card/.test(signal)) continue;
+      return candidate.href;
     } catch {
       // Ignore malformed links and keep looking for a usable booking link.
     }
@@ -185,6 +223,8 @@ export async function findPubBookingUrl(pubId: string, fallbackWebsite?: string)
 
   const website = normaliseUrl(websiteValue);
   try {
+    const officialUrl = new URL(website);
+    if (isSocialUrl(officialUrl)) return { bookingUrl: null, discovered: false, reason: 'official website is a social profile' };
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
     const response = await fetch(website, { signal: controller.signal, headers: { Accept: 'text/html,application/xhtml+xml', 'User-Agent': 'pub-discovery-booking/0.1' } });
@@ -193,10 +233,10 @@ export async function findPubBookingUrl(pubId: string, fallbackWebsite?: string)
     const bookingUrl = bookingLinkFromHtml(await response.text(), website);
     return bookingUrl
       ? { bookingUrl, discovered: true }
-      : { bookingUrl: website, discovered: false, reason: 'no dedicated booking link found' };
+      : { bookingUrl: null, discovered: false, reason: 'no dedicated booking link found' };
   } catch (error) {
     console.error('findPubBookingUrl failed', { pubId, website, error: error instanceof Error ? error.message : error });
-    return { bookingUrl: website, discovered: false, reason: 'official website could not be checked' };
+    return { bookingUrl: null, discovered: false, reason: 'official website could not be checked' };
   }
 }
 
