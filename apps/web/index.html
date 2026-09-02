@@ -6,9 +6,9 @@
     <meta name="description" content="Find London pubs, get recommendations, and keep a private pub diary.">
     <title>Pub Discovery — London pubs</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-    <link rel="stylesheet" href="styles.css?v=pub-discovery-colour">
+    <link rel="stylesheet" href="styles.css?v=pub-discovery-diary-overview">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
-    <script src="app.js?v=pub-discovery-counts" defer></script>
+    <script src="app.js?v=pub-discovery-diary-overview" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -38,6 +38,7 @@
 
       <section id="diary-view" class="view diary-view" hidden>
         <div class="diary-hero"><p class="eyebrow">DIARY</p><h1>Pub diary</h1><p class="hero-lede">Your visits, ratings, reviews, and photos in one place.</p></div>
+        <section class="diary-overview" aria-labelledby="diary-overview-title"><div><p class="eyebrow">LONDON OVERVIEW</p><h2 id="diary-overview-title">Your pub trail</h2><p id="diary-coverage-copy" class="diary-overview-copy">0% of pubs in London visited</p></div><div class="diary-coverage"><strong id="diary-coverage-percent">0%</strong><div class="diary-progress" role="progressbar" aria-label="Pubs in London visited" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="diary-progress-fill"></span></div><span id="diary-coverage-total">0 of 0 pubs</span></div></section>
         <div class="diary-stats"><div><strong id="diary-visited-total">0</strong><span>VISITED</span></div><div><strong id="diary-rated-total">0</strong><span>RATED</span></div><div><strong id="diary-review-total">0</strong><span>REVIEWS</span></div><div><strong id="diary-photo-total">0</strong><span>PHOTOS</span></div></div>
         <div class="section-heading diary-heading"><div><p class="eyebrow">VISITS</p><h2>Your entries</h2></div></div><p id="diary-status" class="status">No visits yet.</p><div id="diary-list" class="pub-grid"></div>
       </section>
