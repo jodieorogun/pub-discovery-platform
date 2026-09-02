@@ -21,7 +21,7 @@ class RankingWeights:
 
 
 RANKING_WEIGHTS = RankingWeights()
-RANKING_VERSION = "weighted-v3-five-features"
+RANKING_VERSION = "weighted-v3-five-features+personal-v2"
 AREA_CENTRES: dict[str, tuple[float, float]] = {
     "Waterloo": (51.5033, -0.1147),
     "London Bridge": (51.5055, -0.0865),

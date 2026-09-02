@@ -143,7 +143,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .diary-stats strong { color: var(--primary); font-size: 26px; letter-spacing: -0.04em; }
 .diary-stats span { color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: 0.1em; }
 .diary-heading { margin-bottom: 2px; }
-.diary-view .pub-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.diary-view .pub-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.diary-view .pub-card { min-height: 0; }
+.diary-view .pub-card .pub-address, .diary-view .pub-card .pub-facts { min-height: 0; }
+.diary-view .pub-card .pub-facts { margin-bottom: 0; }
+.diary-view .pub-card .diary-memory { min-height: 0; }
+.diary-view .pub-card .card-actions { flex-wrap: wrap; }
 
 .detail-dialog { width: min(560px, calc(100% - 30px)); padding: 0; border: 0; border-radius: 22px; background: var(--surface); color: var(--ink); box-shadow: 0 24px 70px rgba(42, 38, 32, 0.24); }
 .detail-dialog::backdrop { background: rgba(42, 38, 32, 0.42); }

@@ -148,7 +148,7 @@ def _personalise(
     venues: list[Venue],
     userRatings: list[VenueRating | RecommendationRating],
 ) -> list[VenueRecommendation]:
-    """Boost liked vibes and strongly suppress vibes the user rated below two."""
+    """Blend search fit with positive and negative personal similarity signals."""
     ratingsByVenue = {rating.venueId: rating for rating in userRatings}
     venuesById = {venue.venueId: venue for venue in venues}
     liked = [
@@ -170,7 +170,7 @@ def _personalise(
         ownRating = ratingsByVenue.get(recommendation.venueId)
         bestSimilarity = 0.0
         bestName: str | None = None
-        bestRating = 0
+        bestRating: float = 0.0
         candidate = venuesById[recommendation.venueId]
         for likedVenue, likedRating in liked:
             if likedVenue.venueId == candidate.venueId:
@@ -182,6 +182,7 @@ def _personalise(
                 bestRating = likedRating
         bestDislikeSimilarity = 0.0
         bestDislikedName: str | None = None
+        bestDislikedRating: float = 0.0
         for dislikedVenue, dislikedRating in disliked:
             if dislikedVenue.venueId == candidate.venueId:
                 continue
@@ -189,29 +190,56 @@ def _personalise(
             if similarity > bestDislikeSimilarity:
                 bestDislikeSimilarity = similarity
                 bestDislikedName = dislikedVenue.name
-        combinedScore = recommendation.score
-        reason = None
-        if bestDislikedName is not None and bestDislikeSimilarity >= 0.75:
-            combinedScore = recommendation.score * (1.0 - 0.85 * bestDislikeSimilarity)
-            reason = f"Less similar to {bestDislikedName}, which you rated below two"
-        elif bestName is not None and bestSimilarity >= 0.5:
-            personalSignal = bestSimilarity * (bestRating / 5.0)
-            combinedScore = 0.85 * recommendation.score + 0.15 * personalSignal
-            reason = f"Similar vibe to {bestName}, which you rated highly"
-        else:
-            bestName = None
+                bestDislikedRating = dislikedRating
+
+        # Keep the three parts explicit: the base rank answers “does this fit
+        # the search?”, while the two personal signals answer “does it resemble
+        # somewhere the user loved or disliked?”. Negative similarity is always
+        # subtracted; a disliked anchor can never improve a recommendation.
+        positiveSimilarity = (
+            bestSimilarity * (bestRating / 5.0)
+            if bestName is not None and bestSimilarity >= 0.5
+            else 0.0
+        )
+        negativeSimilarity = (
+            bestDislikeSimilarity * max(0.0, 2.0 - bestDislikedRating)
+            if bestDislikedName is not None
+            else 0.0
+        )
+        positiveContribution = 0.20 * positiveSimilarity
+        negativeContribution = 0.35 * negativeSimilarity
+        combinedScore = min(
+            1.0,
+            max(0.0, recommendation.score + positiveContribution - negativeContribution),
+        )
+        reasonParts: list[str] = []
+        if bestName is not None and positiveSimilarity:
+            reasonParts.append(f"Similar to {bestName} · {bestRating:g}★")
+        if bestDislikedName is not None and bestDislikeSimilarity >= 0.5:
+            reasonParts.append(f"Less like {bestDislikedName} · {bestDislikedRating:g}★")
+        reason = " · ".join(reasonParts) or None
+        scoreBreakdown = dict(recommendation.scoreBreakdown)
+        scoreBreakdown.update(
+            {
+                "searchFit": round(recommendation.score, 3),
+                "positiveSimilarity": round(positiveContribution, 3),
+                "negativeSimilarity": round(negativeContribution, 3),
+                "finalMatch": round(combinedScore, 3),
+            }
+        )
         personalised.append(
             recommendation.model_copy(
                 update={
-                    "score": round(min(1.0, combinedScore), 3),
+                    "score": round(combinedScore, 3),
                     "beenHere": ownRating.beenHere if ownRating else False,
                     "userRating": ownRating.rating if ownRating else None,
                     "personalScore": round(
                         max(bestSimilarity, bestDislikeSimilarity), 3
                     )
-                    if bestName or bestDislikedName
+                    if positiveSimilarity or bestDislikeSimilarity >= 0.5
                     else None,
                     "personalReason": reason,
+                    "scoreBreakdown": scoreBreakdown,
                 }
             )
         )

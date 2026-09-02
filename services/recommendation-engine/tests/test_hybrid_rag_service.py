@@ -186,6 +186,7 @@ def test_browser_ratings_boost_similar_pubs_and_suppress_disliked_vibes() -> Non
     liked.hasLiveMusic = True
     similar = liked.model_copy(update={"venueId": "similar", "name": "similar"})
     disliked = venue("disliked", 4.0)
+    disliked.area = "Camden"
     disliked.servesFood = False
     disliked.hasLiveMusic = True
     avoid = disliked.model_copy(update={"venueId": "avoid", "name": "avoid"})
@@ -201,8 +202,10 @@ def test_browser_ratings_boost_similar_pubs_and_suppress_disliked_vibes() -> Non
     )
 
     byId = {item.venueId: item for item in response.recommendations}
-    assert byId["similar"].personalReason == "Similar vibe to liked, which you rated highly"
-    assert byId["avoid"].personalReason == (
-        "Less similar to disliked, which you rated below two"
-    )
+    assert byId["similar"].personalReason == "Similar to liked · 4.5★"
+    assert "Less like disliked · 1★" in (byId["avoid"].personalReason or "")
+    assert byId["avoid"].score < byId["similar"].score
+    assert byId["similar"].scoreBreakdown["positiveSimilarity"] > 0
+    assert byId["avoid"].scoreBreakdown["negativeSimilarity"] > 0
+    assert byId["avoid"].scoreBreakdown["finalMatch"] == byId["avoid"].score
     assert byId["liked"].userRating == 4.5

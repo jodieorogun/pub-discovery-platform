@@ -18,6 +18,7 @@ def testValidRecommendationRequest(client: TestClient) -> None:
     assert response.status_code == 200
     assert body["parsedPreferences"] == {
         "location": "Waterloo",
+        "postcode": None,
         "excludedLocations": [],
         "priceLevel": "cheap",
         "excludedPriceLevels": [],
@@ -47,8 +48,8 @@ def testValidRecommendationRequest(client: TestClient) -> None:
     assert body["recommendations"][0]["venueId"] == "venue-001"
     assert body["recommendations"][0]["distanceKm"] is not None
     assert body["requestId"]
-    assert body["parserVersion"] == "rules-v4-five-features"
-    assert body["rankingVersion"] == "weighted-v3-five-features"
+    assert body["parserVersion"] == "rules-v5-postcodes"
+    assert body["rankingVersion"] == "weighted-v3-five-features+personal-v2"
     assert len(body["datasetVersion"]) == 12
     assert body["recommendations"][0]["scoreBreakdown"]
     assert body["offset"] == 0
