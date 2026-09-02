@@ -70,13 +70,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .search-box button { border: 0; background: transparent; color: var(--muted); font-size: 22px; }
 .primary-button { min-width: 116px; padding: 0 24px; border: 0; border-radius: 99px; background: var(--primary); box-shadow: 0 5px 12px rgba(47, 74, 60, 0.22); color: var(--primary-foreground); font-weight: 800; }
 .primary-button:hover { background: var(--primary-dark); }
-.quick-chips, .suggestion-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 13px; }
-.quick-chips button, .suggestion-chips button, .view-tab { padding: 8px 13px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface-strong); color: var(--muted); font-size: 12px; font-weight: 650; }
+.quick-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 13px; }
+.quick-chips button, .view-tab { padding: 8px 13px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface-strong); color: var(--muted); font-size: 12px; font-weight: 650; }
 .quick-chips button:nth-child(2) { background: #f8edc9; border-color: #e7cf7c; color: #765b18; }
 .quick-chips button:nth-child(3) { background: var(--mint); border-color: #b8cbbd; color: var(--primary); }
 .quick-chips button:nth-child(4) { background: var(--coral-soft); border-color: #e3b3a9; color: #874237; }
-.quick-chips button:hover, .suggestion-chips button:hover, .view-tab.active { border-color: var(--primary); background: var(--primary-soft); color: var(--primary); }
-.suggestion-chips:before { align-self: center; color: var(--muted); content: "Try another angle"; font-size: 11px; font-weight: 750; }
+.quick-chips button:hover, .view-tab.active { border-color: var(--primary); background: var(--primary-soft); color: var(--primary); }
 
 .discover-section { padding-top: 44px; }
 .discover-section .eyebrow { color: var(--muted); }
